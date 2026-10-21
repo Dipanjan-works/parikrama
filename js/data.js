@@ -1,0 +1,5801 @@
+// Master dataset of 151 Kolkata & Howrah Durga Puja Pandals (2026 Edition)
+export const INITIAL_PANDALS = [
+  {
+    "id": "pandal_001",
+    "name": "Sovabazar Sarbojanin",
+    "bengaliName": "শোভাবাজার সর্বজনীন দুর্গোৎসব",
+    "zone": "North Kolkata",
+    "address": "BK Paul Avenue, Sovabazar, Kolkata 700005",
+    "coordinates": {
+      "lat": 22.5962,
+      "lng": 88.3615
+    },
+    "place_id": "pandal_sovabazar_sarbojanin",
+    "image": "src/assets/art/hero.jpg",
+    "themeSummary": "Historic North Kolkata community puja known for traditional Ekchala idol and grand heritage celebrations.",
+    "nearestMetro": "Sovabazar Sutanuti Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1932,
+    "history": "One of the oldest community pujas in North Kolkata, blending traditional architecture with rich cultural heritage.",
+    "artConcept": "Classic traditional daker saaj idol set inside a grand illuminated marquee.",
+    "highlights": [
+      "Traditional Daker Saaj",
+      "Heritage Dhak Performances",
+      "Immersion Carnival"
+    ],
+    "nearbyPandals": [
+      "Ahiritola Jubak Brinda",
+      "Shobhabazar Rajbari (Heritage Family Puja)"
+    ],
+    "foodRadar": [
+      {
+        "name": "Mitra Cafe",
+        "specialty": "Brain Chop & Fish Fry",
+        "distance": "150m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      },
+      {
+        "name": "Nabin Chandra Das",
+        "specialty": "Original Rosogolla",
+        "distance": "200m",
+        "rating": "4.8/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_002",
+    "name": "20 Palli Sarbojanin Durgotsab",
+    "bengaliName": "২০ পল্লী সর্বজনীন দুর্গোৎসব",
+    "zone": "North Kolkata",
+    "address": "Hatibagan, Shyambazar, Kolkata 700004",
+    "coordinates": {
+      "lat": 22.599,
+      "lng": 88.3685
+    },
+    "place_id": "pandal_20_palli",
+    "image": "src/assets/art/kumartuli.jpg",
+    "themeSummary": "Popular Hatibagan neighborhood puja featuring innovative eco-friendly theme installation.",
+    "nearestMetro": "Shyambazar Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1948,
+    "history": "Formed by 20 neighborhood blocks coming together post-independence to celebrate community spirit.",
+    "artConcept": "Eco-conscious artisanal bamboo and clay sculptures with warm lighting.",
+    "highlights": [
+      "Handcrafted Eco Idol",
+      "Neighborhood Cultural Evening",
+      "Illuminated Entrance Gate"
+    ],
+    "nearbyPandals": [
+      "Fariapukur Sarbojanin",
+      "Gouribari Sarbojanin"
+    ],
+    "foodRadar": [
+      {
+        "name": "Hatibagan Street Stall",
+        "specialty": "Egg Rolls & Kathi Rolls",
+        "distance": "80m",
+        "rating": "4.7/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_003",
+    "name": "Ahiritola Jubak Brinda",
+    "bengaliName": "আহিরীটোলা যুবক বৃন্দ",
+    "zone": "North Kolkata",
+    "address": "Ahiritola Street, Sovabazar, Kolkata 700005",
+    "coordinates": {
+      "lat": 22.5935,
+      "lng": 88.3562
+    },
+    "place_id": "pandal_ahiritola_jubak",
+    "image": "src/assets/art/dhunuchi.jpg",
+    "themeSummary": "Famed for award-winning theme concepts and mesmerizing idol craftsmanship near Hooghly river.",
+    "nearestMetro": "Sovabazar Sutanuti Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1960,
+    "history": "Renowned across Bengal for introducing thought-provoking social and artistic themes year after year.",
+    "artConcept": "Massive installation work incorporating folk clay art and dynamic lighting.",
+    "highlights": [
+      "Thought-Provoking Theme",
+      "Riverside View",
+      "Intricate Idol Work"
+    ],
+    "nearbyPandals": [
+      "Sovabazar Sarbojanin",
+      "Shobhabazar Rajbari (Heritage Family Puja)"
+    ],
+    "foodRadar": [
+      {
+        "name": "Ahiritola Ghat Food Stall",
+        "specialty": "Telebhaja & Muri",
+        "distance": "50m",
+        "rating": "4.6/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_004",
+    "name": "Tala Barowari",
+    "bengaliName": "তালা বারোয়ারী দুর্গোৎসব",
+    "zone": "North Kolkata",
+    "address": "Tala Park, BT Road, Belgachia, Kolkata 700037",
+    "coordinates": {
+      "lat": 22.6078,
+      "lng": 88.3754
+    },
+    "place_id": "pandal_tala_barowari",
+    "image": "src/assets/art/sindoor.jpg",
+    "themeSummary": "A heritage North Kolkata puja surrounded by lush green Tala Park grounds.",
+    "nearestMetro": "Belgachia Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1921,
+    "history": "Celebrating over a century of traditional worship and vibrant community gatherings.",
+    "artConcept": "Intricate wooden and cloth decorations highlighting traditional Bengali zamindari heritage.",
+    "highlights": [
+      "Centenary Heritage",
+      "Park Side Setting",
+      "Cultural Programs"
+    ],
+    "nearbyPandals": [
+      "Tala Park Public Durga Puja",
+      "Kabiraj Bagan Sarbojanin"
+    ],
+    "foodRadar": [
+      {
+        "name": "Tala Park Snack Center",
+        "specialty": "Mughlai Paratha",
+        "distance": "100m",
+        "rating": "4.5/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_005",
+    "name": "Aurobindo Setu Sarbojanin",
+    "bengaliName": "অরবিন্দ সেতু সর্বজনীন",
+    "zone": "North Kolkata",
+    "address": "Aurobindo Sarani, Ultadanga, Kolkata 700067",
+    "coordinates": {
+      "lat": 22.5941,
+      "lng": 88.3782
+    },
+    "place_id": "pandal_aurobindo_setu",
+    "image": "src/assets/art/food.jpg",
+    "themeSummary": "Dynamic Ultadanga gateway puja featuring magnificent archways and LED lighting displays.",
+    "nearestMetro": "Shyambazar Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1954,
+    "history": "Situated near the vital Aurobindo Setu connecting Khanna to Ultadanga, a crowd favorite.",
+    "artConcept": "High-tech LED array pandal structure with classical idol sculpting.",
+    "highlights": [
+      "Grand Archways",
+      "LED Illumination",
+      "Vibrant Street Festivities"
+    ],
+    "nearbyPandals": [
+      "Kabiraj Bagan Sarbojanin",
+      "Surir Bagan Sarbojanin"
+    ],
+    "foodRadar": [
+      {
+        "name": "Khanna Fast Food",
+        "specialty": "Chicken Roll & Chowmein",
+        "distance": "120m",
+        "rating": "4.6/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_006",
+    "name": "Kabiraj Bagan Sarbojanin",
+    "bengaliName": "কবিরাজ বাগান সর্বজনীন",
+    "zone": "North Kolkata",
+    "address": "Kabiraj Bagan, Ultadanga, Kolkata 700067",
+    "coordinates": {
+      "lat": 22.5912,
+      "lng": 88.3795
+    },
+    "place_id": "pandal_kabiraj_bagan",
+    "image": "src/assets/art/hero.jpg",
+    "themeSummary": "Charming neighborhood puja famous for rural Bengal theme motifs and artistic idols.",
+    "nearestMetro": "Shyambazar Metro",
+    "crowdLevel": "Moderate",
+    "establishedYear": 1965,
+    "history": "Known for preserving traditional Bengal handicrafts inside modern creative pandals.",
+    "artConcept": "Jute and cane hand-woven structures celebrating Bengal's rural craftsmen.",
+    "highlights": [
+      "Jute Crafting",
+      "Artisanal Idol",
+      "Peaceful Pandal Ambience"
+    ],
+    "nearbyPandals": [
+      "Aurobindo Setu Sarbojanin",
+      "Yuba Brinda Ultadanga"
+    ],
+    "foodRadar": [
+      {
+        "name": "Ultadanga Sweet Home",
+        "specialty": "Kachori & Jalebi",
+        "distance": "90m",
+        "rating": "4.7/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_007",
+    "name": "Yuba Brinda Ultadanga",
+    "bengaliName": "যুব বৃন্দ উল্টোডাঙা",
+    "zone": "North Kolkata",
+    "address": "Ultadanga Main Road, Kolkata 700067",
+    "coordinates": {
+      "lat": 22.593,
+      "lng": 88.384
+    },
+    "place_id": "pandal_yuba_brinda_ultadanga",
+    "image": "src/assets/art/kumartuli.jpg",
+    "themeSummary": "High-energy youth organization puja boasting creative contemporary art installations.",
+    "nearestMetro": "Shyambazar Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1972,
+    "history": "Driven by neighborhood youth initiatives, constantly winning accolades for innovative art.",
+    "artConcept": "Modern abstract architecture paired with traditional clay idol work.",
+    "highlights": [
+      "Modern Metal & Wood Art",
+      "Youth Cultural Night",
+      "Pandal Light Show"
+    ],
+    "nearbyPandals": [
+      "Ultadanga Jagarani Sangha",
+      "Ultadanga Bidhan Sangha"
+    ],
+    "foodRadar": [
+      {
+        "name": "HUDCO Food Plaza",
+        "specialty": "Biryani & Phuchka",
+        "distance": "200m",
+        "rating": "4.6/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_008",
+    "name": "Karbagan Sarbojanin",
+    "bengaliName": "করবাগান সর্বজনীন",
+    "zone": "North Kolkata",
+    "address": "Karbagan, Gouribari, Kolkata 700004",
+    "coordinates": {
+      "lat": 22.596,
+      "lng": 88.377
+    },
+    "place_id": "pandal_karbagan",
+    "image": "src/assets/art/dhunuchi.jpg",
+    "themeSummary": "Heritage North Kolkata corner puja displaying ancient temple-style pandal replicas.",
+    "nearestMetro": "Shyambazar Metro",
+    "crowdLevel": "Moderate",
+    "establishedYear": 1950,
+    "history": "Rooted in traditional values, drawing local families for holy rituals and bhog distribution.",
+    "artConcept": "Ornate terracotta tile finish reminiscent of Bishnupur temples.",
+    "highlights": [
+      "Terracotta Motifs",
+      "Traditional Bhog",
+      "Devotional Atmosphere"
+    ],
+    "nearbyPandals": [
+      "Gouribari Sarbojanin",
+      "Surir Bagan Sarbojanin"
+    ],
+    "foodRadar": [
+      {
+        "name": "Gouribari Snacks",
+        "specialty": "Singara & Telebhaja",
+        "distance": "70m",
+        "rating": "4.5/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_009",
+    "name": "Surir Bagan Sarbojanin",
+    "bengaliName": "শুঁড়ির বাগান সর্বজনীন",
+    "zone": "North Kolkata",
+    "address": "Khanna Crossing, Ultadanga, Kolkata 700006",
+    "coordinates": {
+      "lat": 22.5948,
+      "lng": 88.372
+    },
+    "place_id": "pandal_surir_bagan",
+    "image": "src/assets/art/sindoor.jpg",
+    "themeSummary": "Vibrant Khanna neighborhood festival showcasing eco-friendly handmade art.",
+    "nearestMetro": "Shyambazar Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1956,
+    "history": "A prime stop for pandal-hoppers moving between Hatibagan and Ultadanga.",
+    "artConcept": "Paper-mache and bamboo craft themed after mythological lore.",
+    "highlights": [
+      "Mythological Theme",
+      "Eco Craftsmanship",
+      "Vibrant Street Lighting"
+    ],
+    "nearbyPandals": [
+      "Karbagan Sarbojanin",
+      "Fariapukur Sarbojanin"
+    ],
+    "foodRadar": [
+      {
+        "name": "Khanna Chat Corner",
+        "specialty": "Dahi Phuchka & Papri Chat",
+        "distance": "110m",
+        "rating": "4.8/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_010",
+    "name": "Ultadanga Jagarani Sangha",
+    "bengaliName": "উল্টোডাঙা জাগরণী সংঘ",
+    "zone": "North Kolkata",
+    "address": "HUDCO Crossing, Ultadanga, Kolkata 700067",
+    "coordinates": {
+      "lat": 22.5905,
+      "lng": 88.3865
+    },
+    "place_id": "pandal_ultadanga_jagarani",
+    "image": "src/assets/art/food.jpg",
+    "themeSummary": "Spectacular theme-based puja right at the Ultadanga HUDCO hub.",
+    "nearestMetro": "Shyambazar Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1978,
+    "history": "Famous for large-scale immersive environments depicting historical monuments and epics.",
+    "artConcept": "Grand scale architecture created using brass, copper, and carved wood.",
+    "highlights": [
+      "Immersive Environment",
+      "Monumental Replica",
+      "Intricate Metal Art"
+    ],
+    "nearbyPandals": [
+      "Ultadanga Bidhan Sangha",
+      "United Club (Ultadanga)"
+    ],
+    "foodRadar": [
+      {
+        "name": "HUDCO Biryani Point",
+        "specialty": "Kolkata Mutton Biryani",
+        "distance": "150m",
+        "rating": "4.7/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_011",
+    "name": "Ultadanga Bidhan Sangha",
+    "bengaliName": "উল্টোডাঙা বিধান সংঘ",
+    "zone": "North Kolkata",
+    "address": "Bidhan Nagar Station Road, Ultadanga, Kolkata 700067",
+    "coordinates": {
+      "lat": 22.5925,
+      "lng": 88.388
+    },
+    "place_id": "pandal_ultadanga_bidhan",
+    "image": "src/assets/art/hero.jpg",
+    "themeSummary": "Conveniently located near Bidhannagar station, known for artistically crafted Durga idols.",
+    "nearestMetro": "Shyambazar Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1968,
+    "history": "Serving commuters and residents alike with warm festive cheer for over five decades.",
+    "artConcept": "Traditional clay idol presented with futuristic ambient glowing backdrops.",
+    "highlights": [
+      "Station Proximity",
+      "Glowing Backdrop",
+      "Classic Idol Form"
+    ],
+    "nearbyPandals": [
+      "Ultadanga Jagarani Sangha",
+      "Ultadanga Sangrami"
+    ],
+    "foodRadar": [
+      {
+        "name": "Station Side Stalls",
+        "specialty": "Egg Chicken Roll & Tea",
+        "distance": "40m",
+        "rating": "4.5/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_012",
+    "name": "United Club (Ultadanga)",
+    "bengaliName": "ইউনাইটেড ক্লাব (উল্টোডাঙা)",
+    "zone": "North Kolkata",
+    "address": "United Club Grounds, Ultadanga, Kolkata 700067",
+    "coordinates": {
+      "lat": 22.5918,
+      "lng": 88.3822
+    },
+    "place_id": "pandal_united_club_ultadanga",
+    "image": "src/assets/art/kumartuli.jpg",
+    "themeSummary": "A beloved community hub in Ultadanga delivering artistic excellence every autumn.",
+    "nearestMetro": "Shyambazar Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1962,
+    "history": "Known for promoting traditional Bengali arts, folk music, and community service during Durga Puja.",
+    "artConcept": "Hand-painted scroll art (Patachitra) themed pandal walls and idol ornaments.",
+    "highlights": [
+      "Patachitra Artwork",
+      "Folk Musical Events",
+      "Community Bhog"
+    ],
+    "nearbyPandals": [
+      "Ultadanga Jagarani Sangha",
+      "Yuba Brinda Ultadanga"
+    ],
+    "foodRadar": [
+      {
+        "name": "Bengal Sweet Corner",
+        "specialty": "Rasmalai & Sandesh",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_013",
+    "name": "Ultadanga Sangrami",
+    "bengaliName": "উল্টোডাঙা সংগ্রামী",
+    "zone": "North Kolkata",
+    "address": "Ultadanga Main Road, Kolkata 700067",
+    "coordinates": {
+      "lat": 22.5955,
+      "lng": 88.385
+    },
+    "place_id": "pandal_ultadanga_sangrami",
+    "image": "src/assets/art/dhunuchi.jpg",
+    "themeSummary": "Dynamic theme-based pandal celebrating Bengal's freedom movement and struggle heritage.",
+    "nearestMetro": "Shyambazar Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1958,
+    "history": "Named 'Sangrami' (Fighter), honoring patriot values through artistic installation themes.",
+    "artConcept": "Patriotic murals, historic artifacts, and golden illuminated goddess idol.",
+    "highlights": [
+      "Patriotic Murals",
+      "Historical Theme",
+      "Golden Illumination"
+    ],
+    "nearbyPandals": [
+      "Ultadanga Bidhan Sangha",
+      "Swapnar Bagan Yubak Brinda (Kankurgachi)"
+    ],
+    "foodRadar": [
+      {
+        "name": "Sangrami Food Stalls",
+        "specialty": "Fish Chop & Mughlai",
+        "distance": "60m",
+        "rating": "4.6/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_014",
+    "name": "Jorasanko 7 Palli Sarbojanin",
+    "bengaliName": "জোড়াসাঁকো ৭ পল্লী সর্বজনীন",
+    "zone": "North Kolkata",
+    "address": "Rabindra Sarani, Jorasanko, Kolkata 700007",
+    "coordinates": {
+      "lat": 22.5835,
+      "lng": 88.3582
+    },
+    "place_id": "pandal_jorasanko_7_palli",
+    "image": "src/assets/art/sindoor.jpg",
+    "themeSummary": "Near Tagore's ancestral home, blending heritage culture with artistic pandal design.",
+    "nearestMetro": "Girish Park Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1938,
+    "history": "Deeply connected with the cultural renaissance of Jorasanko and Rabindranath Tagore's memory.",
+    "artConcept": "Literary motifs, classic Bengali calligraphy, and traditional idol design.",
+    "highlights": [
+      "Tagore Heritage Touch",
+      "Calligraphy Art",
+      "Classic Daker Saaj"
+    ],
+    "nearbyPandals": [
+      "Chorbagan Sil's Thakurbari",
+      "Shivakrishna Da Family Puja (Jorasanko)"
+    ],
+    "foodRadar": [
+      {
+        "name": "Jorasanko Sweets",
+        "specialty": "Amriti & Dorbesh",
+        "distance": "120m",
+        "rating": "4.7/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_015",
+    "name": "Shobhabazar Rajbari (Heritage Family Puja)",
+    "bengaliName": "শোভাবাজার রাজবাড়ি দুর্গাপূজা",
+    "zone": "North Kolkata",
+    "address": "33 Raja Nabakrishna Street, Sovabazar, Kolkata 700005",
+    "coordinates": {
+      "lat": 22.5952,
+      "lng": 88.3598
+    },
+    "place_id": "pandal_shobhabazar_rajbari",
+    "image": "src/assets/art/food.jpg",
+    "themeSummary": "The legendary aristocratic family Durga Puja started by Raja Nabakrishna Deb in 1757.",
+    "nearestMetro": "Sovabazar Sutanuti Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1757,
+    "history": "Lord Clive attended this historical puja after the Battle of Plassey; famous for Thakur Dalan rituals.",
+    "artConcept": "Authentic Ekchala idol with real silver foil daker saaj in an open courtyard (Thakur Dalan).",
+    "highlights": [
+      "Historic Thakur Dalan",
+      "Traditional Canon Firing Rituals",
+      "Ekchala Pratima"
+    ],
+    "nearbyPandals": [
+      "Sovabazar Sarbojanin",
+      "Ahiritola Jubak Brinda"
+    ],
+    "foodRadar": [
+      {
+        "name": "Rajbari Heritage Sweets",
+        "specialty": "Mondoh & Mihidana",
+        "distance": "50m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_016",
+    "name": "Savarna Roychowdhury Family Puja",
+    "bengaliName": "সাবর্ণ রায়চৌধুরী পরিবার দুর্গাপূজা",
+    "zone": "South Kolkata",
+    "address": "Diamond Harbour Road, Barisha, Kolkata 700008",
+    "coordinates": {
+      "lat": 22.4811,
+      "lng": 88.3184
+    },
+    "place_id": "pandal_savarna_roychowdhury",
+    "image": "src/assets/art/hero.jpg",
+    "themeSummary": "Kolkata's oldest family Durga Puja started in 1610 by Laksmikanta Roy Choudhury.",
+    "nearestMetro": "Sakher Bazar Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1610,
+    "history": "Predating the city of Kolkata, celebrating 8 distinct family pujas across the ancestral estates.",
+    "artConcept": "Ancient Aatchala and Ekchala idol traditions with specialized bhog offerings.",
+    "highlights": [
+      "Oldest Puja of Kolkata (1610)",
+      "8 Family Houses",
+      "Ancient Bhog Recipes"
+    ],
+    "nearbyPandals": [
+      "Barisha Yugoyatri",
+      "Behala Buroshibtala"
+    ],
+    "foodRadar": [
+      {
+        "name": "Barisha Heritage Sweets",
+        "specialty": "Chhanar Payesh",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_017",
+    "name": "Laha Bari Durgotsava",
+    "bengaliName": "লাহা বাড়ি দুর্গাপূজা",
+    "zone": "Central",
+    "address": "2A Bidhan Sarani, College Street, Kolkata 700006",
+    "coordinates": {
+      "lat": 22.5802,
+      "lng": 88.361
+    },
+    "place_id": "pandal_laha_bari",
+    "image": "src/assets/art/kumartuli.jpg",
+    "themeSummary": "Prestigious aristocratic Bonedi family puja where Durga is worshipped without any weapon (Hara-Gauri form).",
+    "nearestMetro": "MG Road Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1805,
+    "history": "Celebrated by the illustrious Laha family; Maa Durga resides here peacefully on Shiva's lap.",
+    "artConcept": "Hara-Gauri clay idol setup on an ornate marble Thakur Dalan.",
+    "highlights": [
+      "Weaponless Hara-Gauri Idol",
+      "Grand Thakur Dalan",
+      "Strict Family Rituals"
+    ],
+    "nearbyPandals": [
+      "Mallik Bari Durga Festival",
+      "Chorbagan Sil's Thakurbari"
+    ],
+    "foodRadar": [
+      {
+        "name": "College Street Cafe",
+        "specialty": "Cold Coffee & Cutlet",
+        "distance": "150m",
+        "rating": "4.8/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_018",
+    "name": "Mallik Bari Durga Festival",
+    "bengaliName": "মল্লিক বাড়ি দুর্গাপূজা",
+    "zone": "Central",
+    "address": "Ramesh Mitra Lane, Jorasanko, Kolkata 700007",
+    "coordinates": {
+      "lat": 22.582,
+      "lng": 88.3625
+    },
+    "place_id": "pandal_mallik_bari",
+    "image": "src/assets/art/dhunuchi.jpg",
+    "themeSummary": "Famous Bonedi family puja closely associated with cinema legend Ranjit Mallik & Koel Mallik.",
+    "nearestMetro": "Girish Park Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1853,
+    "history": "Rich heritage of devotional fervour where the whole family gathers for traditional rituals.",
+    "artConcept": "Pure Ekchala Durga with traditional gold foil daker saaj.",
+    "highlights": [
+      "Celebrity Heritage House",
+      "Ekchala Pratima",
+      "Traditional Sandhi Puja"
+    ],
+    "nearbyPandals": [
+      "Laha Bari Durgotsava",
+      "Shivakrishna Da Family Puja (Jorasanko)"
+    ],
+    "foodRadar": [
+      {
+        "name": "Jorasanko Sweets",
+        "specialty": "Chhanar Jilipi",
+        "distance": "100m",
+        "rating": "4.7/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_019",
+    "name": "Bholanath Dham Durga Puja",
+    "bengaliName": "ভোলানাথ ধাম দুর্গাপূজা",
+    "zone": "Central",
+    "address": "Beadon Street, Kolkata 700006",
+    "coordinates": {
+      "lat": 22.5845,
+      "lng": 88.364
+    },
+    "place_id": "pandal_bholanath_dham",
+    "image": "src/assets/art/sindoor.jpg",
+    "themeSummary": "Historic mansion puja famous for its serene courtyard rituals and traditional idol.",
+    "nearestMetro": "Girish Park Metro",
+    "crowdLevel": "Moderate",
+    "establishedYear": 1905,
+    "history": "Built by Bholanath Dutt; maintained with original classical zamindari splendour.",
+    "artConcept": "Intricate clay work, antique brass chandeliers, and traditional shola decorations.",
+    "highlights": [
+      "Antique Chandeliers",
+      "Peaceful Courtyard",
+      "Pure Traditional Worship"
+    ],
+    "nearbyPandals": [
+      "Laha Bari Durgotsava",
+      "Gouribari Sarbojanin"
+    ],
+    "foodRadar": [
+      {
+        "name": "Beadon Street Snack Corner",
+        "specialty": "Lucchi & Alur Dom",
+        "distance": "80m",
+        "rating": "4.6/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_020",
+    "name": "Bagbazar Haldarbari Durga Puja",
+    "bengaliName": "বাগবাজার হালদারবাড়ি দুর্গাপূজা",
+    "zone": "North Kolkata",
+    "address": "Bagbazar Street, Near Bagbazar Ghat, Kolkata 700003",
+    "coordinates": {
+      "lat": 22.601,
+      "lng": 88.3645
+    },
+    "place_id": "pandal_bagbazar_haldarbari",
+    "image": "src/assets/art/food.jpg",
+    "themeSummary": "Centuries-old Bonedi family puja featuring an idol made of touchstone (Kosti Pathar).",
+    "nearestMetro": "Shyambazar Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1785,
+    "history": "Unique for worshipping a permanent touchstone idol of Mahishasuramardini alongside clay idols.",
+    "artConcept": "Ancient stone deity adorned with gold jewelry inside an ornate family shrine.",
+    "highlights": [
+      "Touchstone (Kosti Pathar) Idol",
+      "Ancient Heritage",
+      "Bagbazar Riverside"
+    ],
+    "nearbyPandals": [
+      "Bagbazar Tarun Sangha",
+      "Bagbazar Sarbojanin Durga Puja"
+    ],
+    "foodRadar": [
+      {
+        "name": "Bagbazar Tiffin",
+        "specialty": "Radhaballavi",
+        "distance": "90m",
+        "rating": "4.9/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_021",
+    "name": "Badan Chandra Roy Family Puja (Kolutola)",
+    "bengaliName": "বদন চন্দ্র রায় পরিবার দুর্গাপূজা",
+    "zone": "Central",
+    "address": "Colootola Street, Near College Street, Kolkata 700073",
+    "coordinates": {
+      "lat": 22.5745,
+      "lng": 88.359
+    },
+    "place_id": "pandal_badan_chandra_roy",
+    "image": "src/assets/art/hero.jpg",
+    "themeSummary": "A magnificent 160-year-old family puja in Colootola featuring a grand double-pillared Thakur Dalan.",
+    "nearestMetro": "MG Road Metro",
+    "crowdLevel": "Moderate",
+    "establishedYear": 1858,
+    "history": "Founded by Badan Chandra Roy; known for strict Vedic rituals and traditional Shehnai music.",
+    "artConcept": "Classic Ekchala idol with authentic sholar saaj in a majestic colonnaded courtyard.",
+    "highlights": [
+      "Colonnaded Courtyard",
+      "Live Shehnai Recital",
+      "Vedic Chanting"
+    ],
+    "nearbyPandals": [
+      "Laha Bari Durgotsava",
+      "Lebutala Sarbojanin (near Bowbazar)"
+    ],
+    "foodRadar": [
+      {
+        "name": "Colootola Kebabs",
+        "specialty": "Suti Kebab & Paratha",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_022",
+    "name": "Shivakrishna Da Family Puja (Jorasanko)",
+    "bengaliName": "শিবকৃষ্ণ দা পরিবার দুর্গাপূজা",
+    "zone": "Central",
+    "address": "Jorasanko, Kolkata 700007",
+    "coordinates": {
+      "lat": 22.5828,
+      "lng": 88.3575
+    },
+    "place_id": "pandal_shivakrishna_da",
+    "image": "src/assets/art/kumartuli.jpg",
+    "themeSummary": "Renowned 180-year-old Jorasanko Bonedi Bari famous for gold-embroidered garments on the idol.",
+    "nearestMetro": "Girish Park Metro",
+    "crowdLevel": "Moderate",
+    "establishedYear": 1840,
+    "history": "Established by Gokul Chandra Da; famous for brass utensil rituals and family feast.",
+    "artConcept": "Intricate zari work and real gold ornaments adorning the goddess.",
+    "highlights": [
+      "Gold Zari Ornaments",
+      "Brass Puja Artifacts",
+      "Historic Courtyard"
+    ],
+    "nearbyPandals": [
+      "Jorasanko 7 Palli Sarbojanin",
+      "Mallik Bari Durga Festival"
+    ],
+    "foodRadar": [
+      {
+        "name": "Girish Park Sweets",
+        "specialty": "Kachori & Gulab Jamun",
+        "distance": "130m",
+        "rating": "4.7/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_023",
+    "name": "Chorbagan Sil's Thakurbari",
+    "bengaliName": "চোরবাগান শীলদের ঠাকুরবাড়ি",
+    "zone": "Central",
+    "address": "Muktaram Babu Street, Chorbagan, Kolkata 700007",
+    "coordinates": {
+      "lat": 22.5815,
+      "lng": 88.3605
+    },
+    "place_id": "pandal_chorbagan_sil",
+    "image": "src/assets/art/dhunuchi.jpg",
+    "themeSummary": "Historic family shrine of the Sil family showcasing 19th-century zamindari grandeur.",
+    "nearestMetro": "Girish Park Metro",
+    "crowdLevel": "Moderate",
+    "establishedYear": 1860,
+    "history": "A pristine example of 19th-century merchant family pujas in North-Central Kolkata.",
+    "artConcept": "Classic Ekchala idol surrounded by Belgian glass mirrors and antique lamps.",
+    "highlights": [
+      "Belgian Glass Mirrors",
+      "Ekchala Idol",
+      "Historical Mansion"
+    ],
+    "nearbyPandals": [
+      "Laha Bari Durgotsava",
+      "Jorasanko 7 Palli Sarbojanin"
+    ],
+    "foodRadar": [
+      {
+        "name": "Muktaram Babu Street Food",
+        "specialty": "Singara & TELEBHAJA",
+        "distance": "70m",
+        "rating": "4.6/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_024",
+    "name": "Lebutala Sarbojanin (near Bowbazar)",
+    "bengaliName": "লেবুতলা সর্বজনীন",
+    "zone": "Central",
+    "address": "Lebutala Park, Bowbazar, Kolkata 700012",
+    "coordinates": {
+      "lat": 22.5685,
+      "lng": 88.363
+    },
+    "place_id": "pandal_lebutala_sarbojanin",
+    "image": "src/assets/art/sindoor.jpg",
+    "themeSummary": "Vibrant Central Kolkata park puja drawing huge crowds with spectacular light and sound shows.",
+    "nearestMetro": "Central Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1952,
+    "history": "Located at Lebutala Park in Bowbazar, known for artistic pandal themes.",
+    "artConcept": "Illuminated glass and mirror mosaics paired with contemporary idol styling.",
+    "highlights": [
+      "Mirror Mosaic Pandal",
+      "Central Park Location",
+      "Light Show"
+    ],
+    "nearbyPandals": [
+      "Bowbazar Sarbojanin Durga Puja",
+      "Badan Chandra Roy Family Puja (Kolutola)"
+    ],
+    "foodRadar": [
+      {
+        "name": "Bowbazar Biryani House",
+        "specialty": "Kolkata Chicken Biryani",
+        "distance": "110m",
+        "rating": "4.7/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_025",
+    "name": "Mitali Club (North Kolkata)",
+    "bengaliName": "মিতালী ক্লাব (উত্তর কলকাতা)",
+    "zone": "North Kolkata",
+    "address": "Maniktala Main Road, Kankurgachi, Kolkata 700054",
+    "coordinates": {
+      "lat": 22.5862,
+      "lng": 88.379
+    },
+    "place_id": "pandal_mitali_club_north",
+    "image": "src/assets/art/food.jpg",
+    "themeSummary": "Award-winning theme puja near Kankurgachi crossing celebrating classic Bengali art.",
+    "nearestMetro": "Phoolbagan Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1937,
+    "history": "Consistently rated among the top 10 theme pujas in Kolkata for artistic creativity.",
+    "artConcept": "Eclectic fusion of folk pottery, handloom fabrics, and theatrical lighting.",
+    "highlights": [
+      "Handloom Fabric Art",
+      "Pottery Motifs",
+      "Award-Winning Idol"
+    ],
+    "nearbyPandals": [
+      "Manicktala Chaltabagan Durga Puja",
+      "Swapnar Bagan Yubak Brinda (Kankurgachi)"
+    ],
+    "foodRadar": [
+      {
+        "name": "Kankurgachi Sweets",
+        "specialty": "Mishri Bhog & Mihidana",
+        "distance": "150m",
+        "rating": "4.8/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_026",
+    "name": "Fariapukur Sarbojanin",
+    "bengaliName": "ফড়িয়াপুকুর সর্বজনীন",
+    "zone": "North Kolkata",
+    "address": "Fariapukur Street, Shyambazar, Kolkata 700004",
+    "coordinates": {
+      "lat": 22.5975,
+      "lng": 88.3712
+    },
+    "place_id": "pandal_fariapukur",
+    "image": "src/assets/art/hero.jpg",
+    "themeSummary": "Classic Shyambazar neighborhood puja with grand lighting and traditional idol.",
+    "nearestMetro": "Shyambazar Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1945,
+    "history": "Centrally positioned in the heart of Shyambazar's festive shopping district.",
+    "artConcept": "Shining gold & red fabric drapery with traditional clay pratima.",
+    "highlights": [
+      "Shyambazar Festive Hub",
+      "Vibrant Street Lights",
+      "Community Warmth"
+    ],
+    "nearbyPandals": [
+      "Hatibagan Nabin Sangha",
+      "20 Palli Sarbojanin Durgotsab"
+    ],
+    "foodRadar": [
+      {
+        "name": "Fariapukur Snacks",
+        "specialty": "Fish Roll & Mutton Chop",
+        "distance": "60m",
+        "rating": "4.8/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_027",
+    "name": "Kansari Para Sarbojanin",
+    "bengaliName": "কাংসারী পাড়া সর্বজনীন",
+    "zone": "Central",
+    "address": "Kansari Para Road, Bhowanipore, Kolkata 700025",
+    "coordinates": {
+      "lat": 22.5398,
+      "lng": 88.349
+    },
+    "place_id": "pandal_kansari_para",
+    "image": "src/assets/art/kumartuli.jpg",
+    "themeSummary": "Famous for brass metal craftsmanship handed down by local artisan families.",
+    "nearestMetro": "Netaji Bhavan Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1946,
+    "history": "Kansari Para (bell-metal workers' quarter) incorporates intricate brasswork into its pandal every year.",
+    "artConcept": "Hand-embossed brass panels, copper vessels, and gleaming golden idol.",
+    "highlights": [
+      "Hand-Embossed Brasswork",
+      "Artisan Heritage",
+      "Golden Glow"
+    ],
+    "nearbyPandals": [
+      "Bakulbagan Sarbojanin",
+      "Bhowanipur De Bari (Heritage)"
+    ],
+    "foodRadar": [
+      {
+        "name": "Bhowanipore Tiffin",
+        "specialty": "Kachori & Club Kachori",
+        "distance": "90m",
+        "rating": "4.7/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_028",
+    "name": "Gouribari Sarbojanin",
+    "bengaliName": "গৌরীবাড়ী সর্বজনীন",
+    "zone": "North Kolkata",
+    "address": "Gouribari Lane, Ultadanga, Kolkata 700004",
+    "coordinates": {
+      "lat": 22.594,
+      "lng": 88.3755
+    },
+    "place_id": "pandal_gouribari",
+    "image": "src/assets/art/dhunuchi.jpg",
+    "themeSummary": "Historic North Kolkata venue known for magnificent traditional idol sculpts and cultural shows.",
+    "nearestMetro": "Shyambazar Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1929,
+    "history": "One of the earliest organized barowari pujas in the Gouribari-Khanna belt.",
+    "artConcept": "Classic sabeki idol styling set inside a illuminated bamboo architecture.",
+    "highlights": [
+      "Sabeki Pratima",
+      "Traditional Lighting",
+      "Vibrant Dhak Rhythms"
+    ],
+    "nearbyPandals": [
+      "Karbagan Sarbojanin",
+      "Surir Bagan Sarbojanin"
+    ],
+    "foodRadar": [
+      {
+        "name": "Gouribari Sweet Shop",
+        "specialty": "Chamcham & Mishti Doi",
+        "distance": "50m",
+        "rating": "4.8/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_029",
+    "name": "Nivedita Park Sarbojanin",
+    "bengaliName": "নিবেদিতা পার্ক সর্বজনীন",
+    "zone": "North Kolkata",
+    "address": "Nivedita Park, Bagbazar, Kolkata 700003",
+    "coordinates": {
+      "lat": 22.6105,
+      "lng": 88.379
+    },
+    "place_id": "pandal_nivedita_park",
+    "image": "src/assets/art/sindoor.jpg",
+    "themeSummary": "Dedicated to Sister Nivedita's legacy, blending social messages with artistic pandal decor.",
+    "nearestMetro": "Shyambazar Metro",
+    "crowdLevel": "Moderate",
+    "establishedYear": 1968,
+    "history": "Named in honor of Sister Nivedita, emphasizing education, women's empowerment, and community unity.",
+    "artConcept": "Artistic panels depicting Sister Nivedita's life and traditional clay sculpture.",
+    "highlights": [
+      "Inspirational Social Theme",
+      "Community Gathering",
+      "Artistic Panels"
+    ],
+    "nearbyPandals": [
+      "Bagbazar Tarun Sangha",
+      "Tala Barowari"
+    ],
+    "foodRadar": [
+      {
+        "name": "Bagbazar Corner",
+        "specialty": "Phuchka & Telebhaja",
+        "distance": "80m",
+        "rating": "4.6/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_030",
+    "name": "Bagbazar Tarun Sangha",
+    "bengaliName": "বাগবাজার তরুণ সংঘ",
+    "zone": "North Kolkata",
+    "address": "Bagbazar Street, Kolkata 700003",
+    "coordinates": {
+      "lat": 22.603,
+      "lng": 88.367
+    },
+    "place_id": "pandal_bagbazar_tarun_sangha",
+    "image": "src/assets/art/food.jpg",
+    "themeSummary": "Energetic youth-led puja in Bagbazar showcasing creative pandal installations.",
+    "nearestMetro": "Shyambazar Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1955,
+    "history": "A staple stop in Bagbazar during Durga Puja, famous for lively atmosphere and artistic themes.",
+    "artConcept": "Modern clay art, bamboo weaving, and warm gold lighting.",
+    "highlights": [
+      "Youthful Vibe",
+      "Bagbazar Circuit Essential",
+      "Eco-friendly Materials"
+    ],
+    "nearbyPandals": [
+      "Bagbazar Sarbojanin Durga Puja",
+      "Bagbazar Haldarbari Durga Puja"
+    ],
+    "foodRadar": [
+      {
+        "name": "Tarun Sangha Food Stall",
+        "specialty": "Mutton Chop & Fish Fry",
+        "distance": "40m",
+        "rating": "4.8/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_031",
+    "name": "Chetla Agrani Club",
+    "bengaliName": "চেতলা অগ্রণী ক্লাব",
+    "zone": "South Kolkata",
+    "address": "Chetla Park, Chetla, Kolkata 700027",
+    "coordinates": {
+      "lat": 22.5225,
+      "lng": 88.3402
+    },
+    "place_id": "pandal_chetla_agrani",
+    "image": "src/assets/art/hero.jpg",
+    "themeSummary": "Megastardom South Kolkata theme giant known for awe-inspiring installations by master artists.",
+    "nearestMetro": "Kalighat Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1959,
+    "history": "One of South Kolkata's most decorated theme pujas, regularly winning top Sharad Samman awards.",
+    "artConcept": "Bespoke architectural masterpiece crafted from terracotta, wood, and brass.",
+    "highlights": [
+      "Award-Winning Theme",
+      "Master Sculpters",
+      "Illuminated Park Enclosure"
+    ],
+    "nearbyPandals": [
+      "Suruchi Sangha (Alipore)",
+      "Hazra Park Durgotsab"
+    ],
+    "foodRadar": [
+      {
+        "name": "Chetla Roll Corner",
+        "specialty": "Double Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_032",
+    "name": "Santoshpur Lake Pally",
+    "bengaliName": "সন্তোষপুর লেক প্যান্ডেল",
+    "zone": "South Kolkata",
+    "address": "Santoshpur Lake Pally Grounds, Kolkata 700075",
+    "coordinates": {
+      "lat": 22.4925,
+      "lng": 88.3812
+    },
+    "place_id": "pandal_santoshpur_lake_pally",
+    "image": "src/assets/art/kumartuli.jpg",
+    "themeSummary": "Pioneering theme puja in South-East Kolkata set beside the picturesque Santoshpur Lake.",
+    "nearestMetro": "Kavi Subhash Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1958,
+    "history": "Renowned for groundbreaking concepts using unusual materials like glass, threads, and natural seeds.",
+    "artConcept": "Conceptual installation floating over or reflecting on lake waters.",
+    "highlights": [
+      "Lake Reflection Art",
+      "Experimental Materials",
+      "Mesmerizing Ambiance"
+    ],
+    "nearbyPandals": [
+      "Jadavpur Tarun Sangha",
+      "Jadavpur Naba-Bikash"
+    ],
+    "foodRadar": [
+      {
+        "name": "Santoshpur Lake Sweets",
+        "specialty": "Kheer Kadam & Rabri",
+        "distance": "120m",
+        "rating": "4.7/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_033",
+    "name": "Bosepukur Sitala Mandir",
+    "bengaliName": "বোসপুকুর শীতলা মন্দির",
+    "zone": "South Kolkata",
+    "address": "Bosepukur Road, Kasba, Kolkata 700042",
+    "coordinates": {
+      "lat": 22.5165,
+      "lng": 88.3845
+    },
+    "place_id": "pandal_bosepukur_sitala",
+    "image": "src/assets/art/dhunuchi.jpg",
+    "themeSummary": "Legendary theme pioneer that revolutionized Kolkata Durga Puja with earthenware pots (Bhar).",
+    "nearestMetro": "Ballygunge Station / Kalighat Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1950,
+    "history": "Shot to international fame in 2001 with its clay pot pandal, sparking the modern theme puja wave.",
+    "artConcept": "Traditional Bengali folk art, clay models, and rural architectural motifs.",
+    "highlights": [
+      "Historic Theme Pioneer",
+      "Clay & Terracotta Masterpiece",
+      "Immense Cultural Legacy"
+    ],
+    "nearbyPandals": [
+      "Rajdanga Chakraborty Para",
+      "Kasba Arpan"
+    ],
+    "foodRadar": [
+      {
+        "name": "Kasba Food Street",
+        "specialty": "Mutton Biryani & Rolls",
+        "distance": "90m",
+        "rating": "4.8/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_034",
+    "name": "Alipore Sarbojanin",
+    "bengaliName": "আলীপুর সর্বজনীন",
+    "zone": "South Kolkata",
+    "address": "Alipore Road, Near National Library, Kolkata 700027",
+    "coordinates": {
+      "lat": 22.5312,
+      "lng": 88.334
+    },
+    "place_id": "pandal_alipore_sarbojanin",
+    "image": "src/assets/art/sindoor.jpg",
+    "themeSummary": "Elegant South Kolkata puja in upscale Alipore known for royal court theme designs.",
+    "nearestMetro": "Netaji Bhavan Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1951,
+    "history": "Set in Kolkata's premier green neighborhood, drawing aristocratic families and tourists.",
+    "artConcept": "Royal palace facade with crystal chandeliers and golden idol decorations.",
+    "highlights": [
+      "Royal Palace Facade",
+      "Serene Atmosphere",
+      "Greenery Surroundings"
+    ],
+    "nearbyPandals": [
+      "74 Pally Sarbojanin",
+      "Chetla Agrani Club"
+    ],
+    "foodRadar": [
+      {
+        "name": "Alipore Bistro",
+        "specialty": "Sandwiches & Mocktails",
+        "distance": "200m",
+        "rating": "4.6/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_035",
+    "name": "95 Pally (Jodhpur Park)",
+    "bengaliName": "৯৫ পল্লী (যোধপুর পার্ক)",
+    "zone": "South Kolkata",
+    "address": "95 Pally, Jodhpur Park, Kolkata 700068",
+    "coordinates": {
+      "lat": 22.5085,
+      "lng": 88.369
+    },
+    "place_id": "pandal_95_pally_jodhpur_park",
+    "image": "src/assets/art/food.jpg",
+    "themeSummary": "Innovative theme-based South Kolkata landmark in Jodhpur Park.",
+    "nearestMetro": "Rabindra Sarobar Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1969,
+    "history": "A consistent award-winner celebrating Indian heritage, mythology, and environmental themes.",
+    "artConcept": "Handcrafted wooden carvings, natural dyes, and artistic idol representation.",
+    "highlights": [
+      "Jodhpur Park Circuit Key",
+      "Natural Material Art",
+      "Award-Winning Idol"
+    ],
+    "nearbyPandals": [
+      "Jodhpur Park Durga Puja",
+      "Ballygunge 21 Pally"
+    ],
+    "foodRadar": [
+      {
+        "name": "Jodhpur Park Food Hub",
+        "specialty": "Fish Cutlet & Mutton Roll",
+        "distance": "80m",
+        "rating": "4.9/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_036",
+    "name": "Hazra Park Durgotsab",
+    "bengaliName": "হাজরা পার্ক দুর্গোৎসব",
+    "zone": "South Kolkata",
+    "address": "Hazra Road & SP Mukherjee Road Crossing, Kolkata 700026",
+    "coordinates": {
+      "lat": 22.527,
+      "lng": 88.3485
+    },
+    "place_id": "pandal_hazra_park",
+    "image": "src/assets/art/hero.jpg",
+    "themeSummary": "Prime South Kolkata crossroads puja renowned for social justice themes and inclusiveness.",
+    "nearestMetro": "Jatin Das Park Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1943,
+    "history": "Historically involved sanitation workers and community laborers in core puja proceedings.",
+    "artConcept": "Thought-provoking social installations using recycled industrial artifacts.",
+    "highlights": [
+      "Social Equality Focus",
+      "High-Traffic Intersection",
+      "Immersive Lighting"
+    ],
+    "nearbyPandals": [
+      "Kalighat Nepal Bhattacharjee Street",
+      "Bakulbagan Sarbojanin"
+    ],
+    "foodRadar": [
+      {
+        "name": "Hazra Mor Eatery",
+        "specialty": "Kathi Rolls & Mughlai",
+        "distance": "50m",
+        "rating": "4.8/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_037",
+    "name": "Kalighat Nepal Bhattacharjee Street",
+    "bengaliName": "কালীঘাট নেপাল ভট্টাচার্য স্ট্রিট",
+    "zone": "South Kolkata",
+    "address": "Nepal Bhattacharjee Street, Kalighat, Kolkata 700026",
+    "coordinates": {
+      "lat": 22.524,
+      "lng": 88.346
+    },
+    "place_id": "pandal_kalighat_nepal_bhattacharjee",
+    "image": "src/assets/art/kumartuli.jpg",
+    "themeSummary": "Adjacent to sacred Kalighat Temple, combining tantric traditions with creative modern themes.",
+    "nearestMetro": "Kalighat Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1936,
+    "history": "Deeply connected with the historical Kalighat neighborhood, blending folk faith and art.",
+    "artConcept": "Kalighat Patachitra folk painting style integrated into pandal layout.",
+    "highlights": [
+      "Kalighat Pat Art",
+      "Proximity to Shakti Peeth",
+      "Traditional Dhak Beats"
+    ],
+    "nearbyPandals": [
+      "Hazra Park Durgotsab",
+      "Chetla Agrani Club"
+    ],
+    "foodRadar": [
+      {
+        "name": "Kalighat Kachori Shop",
+        "specialty": "Hing Kachori & Alur Dom",
+        "distance": "60m",
+        "rating": "4.9/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_038",
+    "name": "Bakulbagan Sarbojanin",
+    "bengaliName": "বকুলবাগান সর্বজনীন",
+    "zone": "South Kolkata",
+    "address": "Bakulbagan Road, Bhowanipore, Kolkata 700025",
+    "coordinates": {
+      "lat": 22.5335,
+      "lng": 88.348
+    },
+    "place_id": "pandal_bakulbagan",
+    "image": "src/assets/art/dhunuchi.jpg",
+    "themeSummary": "Famous Bhowanipore heritage puja known for temple architectural replicas crafted by fine art masters.",
+    "nearestMetro": "Netaji Bhavan Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1928,
+    "history": "Pioneered commissioning famous fine artists like Jamini Roy and Sarbari Roy Chowdhury for idol design.",
+    "artConcept": "Replica of famous temple architecture (e.g. Konark, Khajuraho) crafted in clay and stone.",
+    "highlights": [
+      "Fine Art Legacy",
+      "Architectural Replica",
+      "Bhowanipore Heritage"
+    ],
+    "nearbyPandals": [
+      "Abasar Sarbojanin",
+      "Kansari Para Sarbojanin"
+    ],
+    "foodRadar": [
+      {
+        "name": "Netaji Bhavan Sweets",
+        "specialty": "Radhaballavi & Mishti Doi",
+        "distance": "110m",
+        "rating": "4.8/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_039",
+    "name": "Rajdanga Chakraborty Para",
+    "bengaliName": "রাজডাঙা চক্রবর্তী পাড়া",
+    "zone": "South Kolkata",
+    "address": "Rajdanga Main Road, Kasba, Kolkata 700107",
+    "coordinates": {
+      "lat": 22.514,
+      "lng": 88.389
+    },
+    "place_id": "pandal_rajdanga_chakraborty_para",
+    "image": "src/assets/art/sindoor.jpg",
+    "themeSummary": "Major EM Bypass / Kasba theme powerhouse famous for colossal decorative structures.",
+    "nearestMetro": "Hemanta Mukhopadhyay (Ruby) Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1971,
+    "history": "A cornerstone of Kasba festive circuit, drawing millions of visitors along the EM Bypass corridor.",
+    "artConcept": "High-level installation art made of eco-textiles, bamboo, and handcrafted clay figures.",
+    "highlights": [
+      "Bypass Circuit Giant",
+      "Textile & Clay Installation",
+      "Illuminated Avenue"
+    ],
+    "nearbyPandals": [
+      "Bosepukur Sitala Mandir",
+      "Kasba Arpan"
+    ],
+    "foodRadar": [
+      {
+        "name": "Ruby Food Court",
+        "specialty": "Kolkata Roll & Chicken Biryani",
+        "distance": "250m",
+        "rating": "4.7/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_040",
+    "name": "Kasba Arpan",
+    "bengaliName": "কসবা অর্পণ",
+    "zone": "South Kolkata",
+    "address": "Kasba Arpan Club, Kasba, Kolkata 700042",
+    "coordinates": {
+      "lat": 22.512,
+      "lng": 88.386
+    },
+    "place_id": "pandal_kasba_arpan",
+    "image": "src/assets/art/food.jpg",
+    "themeSummary": "Creative Kasba neighborhood puja focusing on eco-sustainability and traditional art.",
+    "nearestMetro": "Hemanta Mukhopadhyay (Ruby) Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1982,
+    "history": "Built on strong community participation, recognized for artistic theme decorations.",
+    "artConcept": "Recycled wood, eco-friendly pigments, and expressive clay sculptures.",
+    "highlights": [
+      "Eco-Sustainability",
+      "Kasba Neighborhood Gem",
+      "Expressive Sculptures"
+    ],
+    "nearbyPandals": [
+      "Bosepukur Sitala Mandir",
+      "Rajdanga Chakraborty Para"
+    ],
+    "foodRadar": [
+      {
+        "name": "Kasba Corner",
+        "specialty": "Phuchka & Telebhaja",
+        "distance": "60m",
+        "rating": "4.6/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_041",
+    "name": "Haltu Sarbojanin",
+    "bengaliName": "হালতু সর্বজনীন",
+    "zone": "South Kolkata",
+    "address": "Haltu Main Road, Garfa, Kolkata 700078",
+    "coordinates": {
+      "lat": 22.5065,
+      "lng": 88.3895
+    },
+    "place_id": "pandal_haltu_sarbojanin",
+    "image": "src/assets/art/hero.jpg",
+    "themeSummary": "Beloved Haltu-Garfa neighborhood puja known for intricate artwork and cultural programs.",
+    "nearestMetro": "Kavi Subhash Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1964,
+    "history": "A major cultural gathering spot in Haltu, celebrating Bengal's heritage.",
+    "artConcept": "Wooden frame structures embellished with brass bells and clay pottery.",
+    "highlights": [
+      "Brass Bell Decorations",
+      "Garfa Neighborhood Hub",
+      "Cultural Festivities"
+    ],
+    "nearbyPandals": [
+      "Kasba Arpan",
+      "Santoshpur Lake Pally"
+    ],
+    "foodRadar": [
+      {
+        "name": "Haltu Sweets",
+        "specialty": "Rosogolla & Kacha Golla",
+        "distance": "90m",
+        "rating": "4.7/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_042",
+    "name": "Garia Naba Durga",
+    "bengaliName": "গড়িয়া নব দুর্গা",
+    "zone": "South Kolkata",
+    "address": "Garia Main Road, Kolkata 700084",
+    "coordinates": {
+      "lat": 22.4675,
+      "lng": 88.3855
+    },
+    "place_id": "pandal_garia_naba_durga",
+    "image": "src/assets/art/kumartuli.jpg",
+    "themeSummary": "Famous Garia landmark representing the nine forms of Goddess Durga in artistic splendor.",
+    "nearestMetro": "Kavi Subhash Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1975,
+    "history": "Celebrated in Garia for showcasing nine distinct forms (Navadurga) in artwork and sculpture.",
+    "artConcept": "Nine distinct idol representations illuminated with glowing golden haloes.",
+    "highlights": [
+      "Nine Forms of Durga",
+      "Garia Gateway Puja",
+      "Golden Halo Illumination"
+    ],
+    "nearbyPandals": [
+      "Garia Srirampur Kalyan Samity",
+      "Naktala Pancha Janya"
+    ],
+    "foodRadar": [
+      {
+        "name": "Garia Food Plaza",
+        "specialty": "Mutton Cutlet & Roll",
+        "distance": "100m",
+        "rating": "4.7/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_043",
+    "name": "Putiary Club",
+    "bengaliName": "পুটিয়ারী ক্লাব",
+    "zone": "South Kolkata",
+    "address": "Paschim Putiary, Kudghat, Kolkata 700041",
+    "coordinates": {
+      "lat": 22.4855,
+      "lng": 88.342
+    },
+    "place_id": "pandal_putiary_club",
+    "image": "src/assets/art/dhunuchi.jpg",
+    "themeSummary": "Kudghat area favorite celebrating rural craftsmanship and folk traditions.",
+    "nearestMetro": "Netaji (Kudghat) Metro",
+    "crowdLevel": "Moderate",
+    "establishedYear": 1968,
+    "history": "Rooted in Kudghat community traditions, highlighting Bengal's village life in pandal themes.",
+    "artConcept": "Hut-style bamboo thatched structure with natural terracotta figurines.",
+    "highlights": [
+      "Rural Bengal Hut Theme",
+      "Terracotta Sculptures",
+      "Family-friendly Vibe"
+    ],
+    "nearbyPandals": [
+      "Pally Unnayan Samiti (Paschim Putiary)",
+      "Regent Park Sarbojanin"
+    ],
+    "foodRadar": [
+      {
+        "name": "Kudghat Tiffin",
+        "specialty": "Telebhaja & Muri",
+        "distance": "80m",
+        "rating": "4.6/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_044",
+    "name": "Behala Nutan Sangha",
+    "bengaliName": "বেহালা নতুন সংঘ",
+    "zone": "South Kolkata",
+    "address": "Behala Club Grounds, Behala, Kolkata 700034",
+    "coordinates": {
+      "lat": 22.493,
+      "lng": 88.318
+    },
+    "place_id": "pandal_behala_nutan_sangha",
+    "image": "src/assets/art/sindoor.jpg",
+    "themeSummary": "A giant in the Behala theme belt known for creative installations and artistic idol creation.",
+    "nearestMetro": "Behala Bazar Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1965,
+    "history": "A prime pillar of Behala's Durga Puja parikrama, drawing visitors from across South Kolkata.",
+    "artConcept": "Intricate metal wire work and carved clay figurines in a massive tent.",
+    "highlights": [
+      "Behala Theme Powerhouse",
+      "Wire Art Sculptures",
+      "Dazzling Illumination"
+    ],
+    "nearbyPandals": [
+      "Behala Buroshibtala",
+      "Olabibitala Sarbojanin"
+    ],
+    "foodRadar": [
+      {
+        "name": "Behala Tram Depot Snacks",
+        "specialty": "Kathi Roll & Fish Fry",
+        "distance": "120m",
+        "rating": "4.8/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_045",
+    "name": "Olabibitala Sarbojanin",
+    "bengaliName": "ওলাবিবি তলা সর্বজনীন",
+    "zone": "South Kolkata",
+    "address": "Olabibitala Lane, Behala, Kolkata 700060",
+    "coordinates": {
+      "lat": 22.491,
+      "lng": 88.312
+    },
+    "place_id": "pandal_olabibitala",
+    "image": "src/assets/art/food.jpg",
+    "themeSummary": "Historic Behala neighborhood puja celebrated for traditional idol making and cultural heritage.",
+    "nearestMetro": "Behala Chowrasta Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1940,
+    "history": "Named after the historic Olabibitala locale, retaining classic Bengali festive traditions.",
+    "artConcept": "Traditional daker saaj idol with hand-carved wooden entryway gates.",
+    "highlights": [
+      "Daker Saaj Idol",
+      "Wooden Gate Architecture",
+      "Heritage Rituals"
+    ],
+    "nearbyPandals": [
+      "Behala Nutan Sangha",
+      "Barisha Yugoyatri"
+    ],
+    "foodRadar": [
+      {
+        "name": "Chowrasta Sweets",
+        "specialty": "Shor Bhaja & Rabri",
+        "distance": "70m",
+        "rating": "4.7/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_046",
+    "name": "Ballygunge 21 Pally",
+    "bengaliName": "বালিগঞ্জ ২১ পল্লী",
+    "zone": "South Kolkata",
+    "address": "21 Pally, Ballygunge Place, Kolkata 700019",
+    "coordinates": {
+      "lat": 22.5265,
+      "lng": 88.366
+    },
+    "place_id": "pandal_ballygunge_21_pally",
+    "image": "src/assets/art/hero.jpg",
+    "themeSummary": "Exquisite Ballygunge theme puja featuring artistic hand-woven tapestry and serene ambiance.",
+    "nearestMetro": "Kalighat Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1947,
+    "history": "Set in historic Ballygunge Place, famous for cultural sophistication and artistic themes.",
+    "artConcept": "Textile art, embroidery, and clay idol sculpted with delicate precision.",
+    "highlights": [
+      "Hand-embroidered Tapestry",
+      "Ballygunge Heritage",
+      "Sophisticated Decor"
+    ],
+    "nearbyPandals": [
+      "Ballygunge Cultural Association",
+      "95 Pally (Jodhpur Park)"
+    ],
+    "foodRadar": [
+      {
+        "name": "Ballygunge Place Eatery",
+        "specialty": "Kosha Mangsho & Luchi",
+        "distance": "150m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_047",
+    "name": "Abasar Sarbojanin",
+    "bengaliName": "অবসর সর্বজনীন",
+    "zone": "South Kolkata",
+    "address": "Bhowanipore Abasar Grounds, Kolkata 700025",
+    "coordinates": {
+      "lat": 22.5315,
+      "lng": 88.3465
+    },
+    "place_id": "pandal_abasar_sarbojanin",
+    "image": "src/assets/art/kumartuli.jpg",
+    "themeSummary": "Renowned Bhowanipore theme puja celebrated for aesthetic elegance and artistic lighting.",
+    "nearestMetro": "Netaji Bhavan Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1953,
+    "history": "A prime destination in the Bhowanipore circuit, winning numerous awards for creative layout.",
+    "artConcept": "Clay tile and jute fiber artwork with soft golden spotlights.",
+    "highlights": [
+      "Aesthetic Lighting",
+      "Jute Fiber Craft",
+      "Bhowanipore Circuit Essential"
+    ],
+    "nearbyPandals": [
+      "Bakulbagan Sarbojanin",
+      "Kansari Para Sarbojanin"
+    ],
+    "foodRadar": [
+      {
+        "name": "Bhowanipore Roll Stall",
+        "specialty": "Egg Roll & Mutton Cutlet",
+        "distance": "90m",
+        "rating": "4.7/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_048",
+    "name": "74 Pally Sarbojanin",
+    "bengaliName": "৭৪ পল্লী সর্বজনীন",
+    "zone": "South Kolkata",
+    "address": "74 Pally, Kidderpore / Alipore Border, Kolkata 700023",
+    "coordinates": {
+      "lat": 22.535,
+      "lng": 88.331
+    },
+    "place_id": "pandal_74_pally",
+    "image": "src/assets/art/dhunuchi.jpg",
+    "themeSummary": "Vibrant community puja on the Alipore-Kidderpore border known for grand entrance gates.",
+    "nearestMetro": "Netaji Bhavan Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1960,
+    "history": "Promotes cross-community harmony and cultural unity with festive pomp.",
+    "artConcept": "Multi-tiered illuminated gate structure with classic Durga deity.",
+    "highlights": [
+      "Multi-tiered Gates",
+      "Community Harmony",
+      "Grand Illumination"
+    ],
+    "nearbyPandals": [
+      "Alipore Sarbojanin",
+      "Bhukailash Rajbari Durgotsava (Khidirpur)"
+    ],
+    "foodRadar": [
+      {
+        "name": "Kidderpore Mughlai Hut",
+        "specialty": "Mutton Biryani & Kebab",
+        "distance": "120m",
+        "rating": "4.8/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_049",
+    "name": "Jadavpur Tarun Sangha",
+    "bengaliName": "যাদবপুর তরুণ সংঘ",
+    "zone": "South Kolkata",
+    "address": "Jadavpur Central Road, Kolkata 700032",
+    "coordinates": {
+      "lat": 22.498,
+      "lng": 88.3685
+    },
+    "place_id": "pandal_jadavpur_tarun_sangha",
+    "image": "src/assets/art/sindoor.jpg",
+    "themeSummary": "Famous Jadavpur neighborhood puja known for student energy, literature themes, and art.",
+    "nearestMetro": "Rabindra Sarobar / Kavi Subhash Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1963,
+    "history": "Located near Jadavpur University campus, reflecting academic and artistic creative influences.",
+    "artConcept": "Sculptural book motifs, poetic calligraphy, and clay idol artwork.",
+    "highlights": [
+      "Literary Art Motifs",
+      "Campus Vibe",
+      "Intricate Claywork"
+    ],
+    "nearbyPandals": [
+      "Jadavpur Naba-Bikash",
+      "Santoshpur Lake Pally"
+    ],
+    "foodRadar": [
+      {
+        "name": "Jadavpur 8B Food Hub",
+        "specialty": "Phuchka & Chicken Roll",
+        "distance": "150m",
+        "rating": "4.9/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_050",
+    "name": "Regent Park Sarbojanin",
+    "bengaliName": "রিজেন্ট পার্ক সর্বজনীন",
+    "zone": "South Kolkata",
+    "address": "Regent Park, Tollygunge, Kolkata 700040",
+    "coordinates": {
+      "lat": 22.476,
+      "lng": 88.354
+    },
+    "place_id": "pandal_regent_park",
+    "image": "src/assets/art/food.jpg",
+    "themeSummary": "Peaceful Tollygunge area puja celebrating nature and classical Indian music themes.",
+    "nearestMetro": "Masterda Surya Sen (Bansdroni) Metro",
+    "crowdLevel": "Moderate",
+    "establishedYear": 1957,
+    "history": "A serene neighborhood sanctuary offering quiet worship and rich musical performances.",
+    "artConcept": "Musical instrument sculptures (Sitar, Tabla) integrated into pandal architecture.",
+    "highlights": [
+      "Musical Instrument Motifs",
+      "Classical Concerts",
+      "Spacious Park Setting"
+    ],
+    "nearbyPandals": [
+      "Bansdroni Pally Unnayan",
+      "Tollygunge Udayan Sangha"
+    ],
+    "foodRadar": [
+      {
+        "name": "Tollygunge Sweets",
+        "specialty": "Shor Bhaja & Pantua",
+        "distance": "100m",
+        "rating": "4.7/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_051",
+    "name": "Bansdroni Pally Unnayan",
+    "bengaliName": "বাঁশদ্রোণী পল্লী উন্নয়ন",
+    "zone": "South Kolkata",
+    "address": "Bansdroni Park, Kolkata 700070",
+    "coordinates": {
+      "lat": 22.472,
+      "lng": 88.357
+    },
+    "place_id": "pandal_bansdroni_pally_unnayan",
+    "image": "src/assets/art/hero.jpg",
+    "themeSummary": "Key Metro-corridor puja in Bansdroni featuring creative bamboo structure work.",
+    "nearestMetro": "Masterda Surya Sen (Bansdroni) Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1966,
+    "history": "Serving the growing Bansdroni suburb with festive enthusiasm and charitable drives.",
+    "artConcept": "Eco-bamboo lattice work with colorful silk fabric drapes.",
+    "highlights": [
+      "Bamboo Lattice Art",
+      "Metro Accessibility",
+      "Warm Community Reception"
+    ],
+    "nearbyPandals": [
+      "Regent Park Sarbojanin",
+      "Naktala Pancha Janya"
+    ],
+    "foodRadar": [
+      {
+        "name": "Bansdroni Corner",
+        "specialty": "Alu Chop & Telebhaja",
+        "distance": "50m",
+        "rating": "4.6/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_052",
+    "name": "Narendrapur Green Park",
+    "bengaliName": "নরেন্দ্রপুর গ্রীন পার্ক",
+    "zone": "South Kolkata",
+    "address": "Green Park, Narendrapur, Kolkata 700103",
+    "coordinates": {
+      "lat": 22.441,
+      "lng": 88.397
+    },
+    "place_id": "pandal_narendrapur_green_park",
+    "image": "src/assets/art/kumartuli.jpg",
+    "themeSummary": "Southernmost South Kolkata powerhouse with expansive green park installations.",
+    "nearestMetro": "Kavi Subhash Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1980,
+    "history": "Located near Ramakrishna Mission Narendrapur, known for clean, disciplined, family-friendly organization.",
+    "artConcept": "Spacious eco-friendly village layout with traditional straw and clay sculptures.",
+    "highlights": [
+      "Spacious Park Setting",
+      "Disciplined Crowd Management",
+      "Eco-village Theme"
+    ],
+    "nearbyPandals": [
+      "Garia Naba Durga",
+      "Garia Srirampur Kalyan Samity"
+    ],
+    "foodRadar": [
+      {
+        "name": "Narendrapur Sweets",
+        "specialty": "Chhanar Payesh & Lengcha",
+        "distance": "110m",
+        "rating": "4.8/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_053",
+    "name": "Bhowanipur De Bari (Heritage)",
+    "bengaliName": "ভবানীপুর দে বাড়ি দুর্গাপূজা",
+    "zone": "South Kolkata",
+    "address": "De Bari, Bhowanipore, Kolkata 700025",
+    "coordinates": {
+      "lat": 22.537,
+      "lng": 88.3485
+    },
+    "place_id": "pandal_bhowanipur_de_bari",
+    "image": "src/assets/art/dhunuchi.jpg",
+    "themeSummary": "Historic 150-year-old Bhowanipore family puja preserving traditional Thakur Dalan customs.",
+    "nearestMetro": "Netaji Bhavan Metro",
+    "crowdLevel": "Moderate",
+    "establishedYear": 1872,
+    "history": "Aristocratic family puja of Bhowanipore where generations gather for traditional Sandhi Puja.",
+    "artConcept": "Classic Ekchala idol with authentic sholar saaj in a marble courtyard.",
+    "highlights": [
+      "150+ Years Heritage",
+      "Marble Thakur Dalan",
+      "Authentic Sandhi Puja"
+    ],
+    "nearbyPandals": [
+      "Bakulbagan Sarbojanin",
+      "Kansari Para Sarbojanin"
+    ],
+    "foodRadar": [
+      {
+        "name": "Bhowanipore Sweet Hub",
+        "specialty": "Kachori & Sandesh",
+        "distance": "70m",
+        "rating": "4.9/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_054",
+    "name": "Bhukailash Rajbari Durgotsava (Khidirpur)",
+    "bengaliName": "ভূকৈলাশ রাজবাড়ি দুর্গাপূজা",
+    "zone": "South Kolkata",
+    "address": "Bhukailash Road, Khidirpur, Kolkata 700023",
+    "coordinates": {
+      "lat": 22.5385,
+      "lng": 88.324
+    },
+    "place_id": "pandal_bhukailash_rajbari",
+    "image": "src/assets/art/sindoor.jpg",
+    "themeSummary": "Ancient royal estate puja started by Maharajah Joy Narayan Ghoshal in 1782.",
+    "nearestMetro": "Netaji Bhavan / Jatin Das Park Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1782,
+    "history": "Home to twin massive Shiva temples (Raktakaleshwar & Chandreshwar) alongside the royal Durga Puja.",
+    "artConcept": "Royal court deity set inside historical palace ruins and ancient temples.",
+    "highlights": [
+      "Ancient Royal Palace",
+      "Twin Massive Shiva Temples",
+      "Vedic Chanting"
+    ],
+    "nearbyPandals": [
+      "74 Pally Sarbojanin",
+      "Alipore Sarbojanin"
+    ],
+    "foodRadar": [
+      {
+        "name": "Khidirpur Royal Mughlai",
+        "specialty": "Mutton Biryani & Rezala",
+        "distance": "150m",
+        "rating": "4.8/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_055",
+    "name": "Thakurpukur Vivekananda Youth Club",
+    "bengaliName": "ঠাকুরপুকুর বিবেকানন্দ যুব ক্লাব",
+    "zone": "South Kolkata",
+    "address": "James Long Sarani, Thakurpukur, Kolkata 700063",
+    "coordinates": {
+      "lat": 22.463,
+      "lng": 88.305
+    },
+    "place_id": "pandal_thakurpukur_vyc",
+    "image": "src/assets/art/food.jpg",
+    "themeSummary": "Major South-West Kolkata landmark on James Long Sarani known for grand scale theme work.",
+    "nearestMetro": "Thakurpukur Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1970,
+    "history": "A prime attraction on the Thakurpukur-Joka stretch, drawing thousands of festive visitors.",
+    "artConcept": "Terracotta tiles, carved wood pillars, and artistic clay idol.",
+    "highlights": [
+      "James Long Sarani Landmark",
+      "Terracotta Pillar Art",
+      "Festive Carnival"
+    ],
+    "nearbyPandals": [
+      "Barisha Yugoyatri",
+      "Savarna Roychowdhury Family Puja"
+    ],
+    "foodRadar": [
+      {
+        "name": "James Long Food Stalls",
+        "specialty": "Rolls & Chowmein",
+        "distance": "80m",
+        "rating": "4.6/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_056",
+    "name": "Pally Unnayan Samiti (Paschim Putiary)",
+    "bengaliName": "পল্লী উন্নয়ন সমিতি (পশ্চিম পুটিয়ারী)",
+    "zone": "South Kolkata",
+    "address": "Paschim Putiary Main Road, Kudghat, Kolkata 700041",
+    "coordinates": {
+      "lat": 22.482,
+      "lng": 88.3395
+    },
+    "place_id": "pandal_paschim_putiary_pally_unnayan",
+    "image": "src/assets/art/hero.jpg",
+    "themeSummary": "Warm neighborhood community puja in Paschim Putiary focused on traditional idol art.",
+    "nearestMetro": "Netaji Metro",
+    "crowdLevel": "Moderate",
+    "establishedYear": 1962,
+    "history": "Deep-seated community traditions with active youth involvement and social service.",
+    "artConcept": "Handcrafted shola (pith) decorations with classic golden idol.",
+    "highlights": [
+      "Shola Handicrafts",
+      "Neighborhood Atmosphere",
+      "Traditional Rituals"
+    ],
+    "nearbyPandals": [
+      "Putiary Club",
+      "Behala Buroshibtala"
+    ],
+    "foodRadar": [
+      {
+        "name": "Putiary Corner Sweets",
+        "specialty": "Rosogolla & Kachoori",
+        "distance": "60m",
+        "rating": "4.6/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_057",
+    "name": "Barisha Yugoyatri",
+    "bengaliName": "বড়িশা যুগযাত্রী",
+    "zone": "South Kolkata",
+    "address": "Sakher Bazar, Barisha, Kolkata 700008",
+    "coordinates": {
+      "lat": 22.478,
+      "lng": 88.315
+    },
+    "place_id": "pandal_barisha_yugoyatri",
+    "image": "src/assets/art/kumartuli.jpg",
+    "themeSummary": "Famous Sakher Bazar theme club presenting thought-provoking contemporary social art.",
+    "nearestMetro": "Sakher Bazar Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1967,
+    "history": "Consistently wins awards in the Barisha puja circuit for artistic innovation.",
+    "artConcept": "Surrealist installation art using bamboo, jute, and hand-painted canvases.",
+    "highlights": [
+      "Sakher Bazar Circuit Star",
+      "Surrealist Art Installation",
+      "Vibrant Street Lighting"
+    ],
+    "nearbyPandals": [
+      "Barisha Club Durga Puja",
+      "Savarna Roychowdhury Family Puja"
+    ],
+    "foodRadar": [
+      {
+        "name": "Sakher Bazar Fast Food",
+        "specialty": "Mutton Cutlet & Egg Roll",
+        "distance": "90m",
+        "rating": "4.8/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_058",
+    "name": "Behala Buroshibtala",
+    "bengaliName": "বেহালা বুড়োশিবতলা",
+    "zone": "South Kolkata",
+    "address": "Buroshibtala Main Road, Behala, Kolkata 700038",
+    "coordinates": {
+      "lat": 22.4965,
+      "lng": 88.314
+    },
+    "place_id": "pandal_behala_buroshibtala",
+    "image": "src/assets/art/dhunuchi.jpg",
+    "themeSummary": "Historic Behala venue famous for blending temple folklore with modern theme art.",
+    "nearestMetro": "Behala Bazar Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1952,
+    "history": "Centered around the ancient Buroshib (Lord Shiva) temple compound in Behala.",
+    "artConcept": "Stone-carved replica pandal architecture with classic clay pratima.",
+    "highlights": [
+      "Ancient Temple Connection",
+      "Stone Replica Architecture",
+      "Devotional Ambiance"
+    ],
+    "nearbyPandals": [
+      "Behala Nutan Sangha",
+      "Olabibitala Sarbojanin"
+    ],
+    "foodRadar": [
+      {
+        "name": "Buroshibtala Snacks",
+        "specialty": "Singara & TELEBHAJA",
+        "distance": "50m",
+        "rating": "4.6/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_059",
+    "name": "New Alipore Suruchi Sangha",
+    "bengaliName": "নিউ আলিপুর সুরুচি সংঘ",
+    "zone": "South Kolkata",
+    "address": "Block M, New Alipore, Kolkata 700053",
+    "coordinates": {
+      "lat": 22.5158,
+      "lng": 88.3305
+    },
+    "place_id": "pandal_new_alipore_suruchi_sangha",
+    "image": "src/assets/art/sindoor.jpg",
+    "themeSummary": "World-famous South Kolkata theme giant depicting cultural heritage of Indian states.",
+    "nearestMetro": "Rabindra Sarobar Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1954,
+    "history": "Renowned globally for choosing a different Indian state's art and culture as its theme every year.",
+    "artConcept": "Full scale cultural village replica with authentic folk artists and artisans from across India.",
+    "highlights": [
+      "Indian State Cultural Theme",
+      "State Folk Dancers",
+      "Mega Illuminated Gateway"
+    ],
+    "nearbyPandals": [
+      "Chetla Agrani Club",
+      "Alipore Sarbojanin"
+    ],
+    "foodRadar": [
+      {
+        "name": "Suruchi Food Plaza",
+        "specialty": "Kolkata Roll & Ice Cream",
+        "distance": "80m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_060",
+    "name": "Southern Avenue Sarbojanin",
+    "bengaliName": "সাউদার্ন অ্যাভিনিউ সর্বজনীন",
+    "zone": "South Kolkata",
+    "address": "Southern Avenue, Near Rabindra Sarobar, Kolkata 700029",
+    "coordinates": {
+      "lat": 22.5125,
+      "lng": 88.358
+    },
+    "place_id": "pandal_southern_avenue",
+    "image": "src/assets/art/food.jpg",
+    "themeSummary": "Picturesque Southern Avenue puja set along the lush tree-lined boulevard.",
+    "nearestMetro": "Rabindra Sarobar Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1961,
+    "history": "A favorite for serene evening walks along the lake avenue during festive nights.",
+    "artConcept": "Floral motifs, greenery integrated design, and elegant clay idol.",
+    "highlights": [
+      "Tree-lined Boulevard",
+      "Lake Proximity",
+      "Floral Artistry"
+    ],
+    "nearbyPandals": [
+      "Maddox Square Durga Puja",
+      "Ballygunge Cultural Association"
+    ],
+    "foodRadar": [
+      {
+        "name": "Southern Avenue Cafe",
+        "specialty": "Cold Coffee & Pastries",
+        "distance": "120m",
+        "rating": "4.7/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_061",
+    "name": "Tollygunge Udayan Sangha",
+    "bengaliName": "টালিগঞ্জ উদয়ন সংঘ",
+    "zone": "South Kolkata",
+    "address": "Tollygunge Phoolbagan, Kolkata 700033",
+    "coordinates": {
+      "lat": 22.487,
+      "lng": 88.349
+    },
+    "place_id": "pandal_tollygunge_udayan",
+    "image": "src/assets/art/hero.jpg",
+    "themeSummary": "Tollygunge heartland puja celebrated for movie-industry artistic flair and grand lighting.",
+    "nearestMetro": "Mahanayak Uttam Kumar (Tollygunge) Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1963,
+    "history": "Located near Cinema Paradise Tollygunge, often visited by film stars and technicians.",
+    "artConcept": "Cinematic set designing techniques applied to traditional Durga idol worship.",
+    "highlights": [
+      "Cinematic Set Design",
+      "Tollywood Celebrity Visits",
+      "Vibrant Atmosphere"
+    ],
+    "nearbyPandals": [
+      "Regent Park Sarbojanin",
+      "Naktala Udayan Sangha"
+    ],
+    "foodRadar": [
+      {
+        "name": "Tollygunge Metro Corner",
+        "specialty": "Chicken Biryani & Kathi Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_062",
+    "name": "Dhakuria Sarbojanin",
+    "bengaliName": "ঢাকুরিয়া সর্বজনীন",
+    "zone": "South Kolkata",
+    "address": "Dhakuria Station Road, Kolkata 700031",
+    "coordinates": {
+      "lat": 22.5045,
+      "lng": 88.368
+    },
+    "place_id": "pandal_dhakuria_sarbojanin",
+    "image": "src/assets/art/kumartuli.jpg",
+    "themeSummary": "Historic Dhakuria neighborhood puja known for classic clay idols and community solidarity.",
+    "nearestMetro": "Rabindra Sarobar Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1948,
+    "history": "A pillar of Dhakuria's cultural life, uniting residents across all age groups.",
+    "artConcept": "Traditional sabeki sculpture with golden foil ornaments and red silk backdrop.",
+    "highlights": [
+      "Sabeki Idol Art",
+      "Dhakuria Station Hub",
+      "Warm Hospitality"
+    ],
+    "nearbyPandals": [
+      "95 Pally (Jodhpur Park)",
+      "Selimpur Club Durga Puja"
+    ],
+    "foodRadar": [
+      {
+        "name": "Dhakuria Sweet Shop",
+        "specialty": "Baked Rosogolla & Pantua",
+        "distance": "70m",
+        "rating": "4.8/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_063",
+    "name": "Jadavpur Naba-Bikash",
+    "bengaliName": "যাদবপুর নব-বিকাশ",
+    "zone": "South Kolkata",
+    "address": "Bikash Guha Sarani, Jadavpur, Kolkata 700032",
+    "coordinates": {
+      "lat": 22.494,
+      "lng": 88.371
+    },
+    "place_id": "pandal_jadavpur_naba_bikash",
+    "image": "src/assets/art/dhunuchi.jpg",
+    "themeSummary": "Creative Jadavpur neighborhood puja presenting modern art motifs and lighting.",
+    "nearestMetro": "Kavi Subhash Metro",
+    "crowdLevel": "Moderate",
+    "establishedYear": 1975,
+    "history": "Known for innovative designs created by young local painters and sculptors.",
+    "artConcept": "Hand-painted clay tiles and canvas scrolls showcasing suburban Bengal history.",
+    "highlights": [
+      "Hand-Painted Scrolls",
+      "Local Sculptor Focus",
+      "Cozy Pandal Ambiance"
+    ],
+    "nearbyPandals": [
+      "Jadavpur Tarun Sangha",
+      "Santoshpur Lake Pally"
+    ],
+    "foodRadar": [
+      {
+        "name": "Jadavpur Snack Shack",
+        "specialty": "Phuchka & Chowmein",
+        "distance": "50m",
+        "rating": "4.6/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_064",
+    "name": "Garia Srirampur Kalyan Samity",
+    "bengaliName": "গড়িয়া শ্রীরামপুর কল্যাণ সমিতি",
+    "zone": "South Kolkata",
+    "address": "Srirampur, Garia, Kolkata 700084",
+    "coordinates": {
+      "lat": 22.464,
+      "lng": 88.379
+    },
+    "place_id": "pandal_garia_srirampur",
+    "image": "src/assets/art/sindoor.jpg",
+    "themeSummary": "Celebrated Garia community venue known for family-friendly events and grand illumination.",
+    "nearestMetro": "Kavi Subhash Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1969,
+    "history": "Serving Garia residents with traditional pujas, medical camps, and festive feasts.",
+    "artConcept": "Classic daker saaj idol set in an ornate illuminated hall.",
+    "highlights": [
+      "Grand Hall Setting",
+      "Daker Saaj Idol",
+      "Community Feast"
+    ],
+    "nearbyPandals": [
+      "Garia Naba Durga",
+      "Narendrapur Green Park"
+    ],
+    "foodRadar": [
+      {
+        "name": "Garia Sweet Hub",
+        "specialty": "Kachori & Mishti Doi",
+        "distance": "80m",
+        "rating": "4.7/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_065",
+    "name": "Naktala Pancha Janya",
+    "bengaliName": "নাকতলা পঞ্চ জন্য",
+    "zone": "South Kolkata",
+    "address": "Naktala Main Road, Kolkata 700047",
+    "coordinates": {
+      "lat": 22.474,
+      "lng": 88.368
+    },
+    "place_id": "pandal_naktala_pancha_janya",
+    "image": "src/assets/art/food.jpg",
+    "themeSummary": "Vibrant Naktala neighbor to Naktala Udayan Sangha, known for creative wooden artwork.",
+    "nearestMetro": "Gitanjali (Naktala) Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1973,
+    "history": "A prime stop on the Naktala-Garia metro line route during festive nights.",
+    "artConcept": "Intricate wooden lattice carving with glowing warm spotlights.",
+    "highlights": [
+      "Wood Lattice Carvings",
+      "Metro Route Convenience",
+      "Festive Atmosphere"
+    ],
+    "nearbyPandals": [
+      "Naktala Udayan Sangha",
+      "Bansdroni Pally Unnayan"
+    ],
+    "foodRadar": [
+      {
+        "name": "Naktala Metro Snacks",
+        "specialty": "Mutton Chop & Fish Fry",
+        "distance": "90m",
+        "rating": "4.8/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_066",
+    "name": "Swapnar Bagan Yubak Brinda (Kankurgachi)",
+    "bengaliName": "স্বপ্নের বাগান যুবক বৃন্দ (কাঁকুড়গাছি)",
+    "zone": "Salt Lake/East",
+    "address": "Swapnar Bagan, Kankurgachi, Kolkata 700054",
+    "coordinates": {
+      "lat": 22.583,
+      "lng": 88.384
+    },
+    "place_id": "pandal_swapnar_bagan",
+    "image": "src/assets/art/hero.jpg",
+    "themeSummary": "Whimsical Kankurgachi theme puja famed for dreamlike installations and fairytale motifs.",
+    "nearestMetro": "Phoolbagan Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1961,
+    "history": "Living up to its name 'Swapnar Bagan' (Garden of Dreams), creating magical thematic universes.",
+    "artConcept": "Illuminated glass beads, suspended sculptures, and surrealist lighting.",
+    "highlights": [
+      "Fairytale Theme",
+      "Glass Bead Installations",
+      "Phoolbagan Circuit Star"
+    ],
+    "nearbyPandals": [
+      "Kankurgachi Mitali Sangha",
+      "Kankurgachi Chalantika"
+    ],
+    "foodRadar": [
+      {
+        "name": "Kankurgachi Food Street",
+        "specialty": "Pav Bhaji & Kulfi",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_067",
+    "name": "Kankurgachi Chalantika",
+    "bengaliName": "কাঁকুড়গাছি চলন্তিকা",
+    "zone": "Salt Lake/East",
+    "address": "Kankurgachi Market Area, Kolkata 700054",
+    "coordinates": {
+      "lat": 22.5795,
+      "lng": 88.386
+    },
+    "place_id": "pandal_kankurgachi_chalantika",
+    "image": "src/assets/art/kumartuli.jpg",
+    "themeSummary": "Dynamic Kankurgachi market puja featuring kinetic art moving installations.",
+    "nearestMetro": "Phoolbagan Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1974,
+    "history": "Pioneered moving motorized sculptures integrated with traditional puja elements.",
+    "artConcept": "Kinetic mechanical structures synced with musical soundscapes.",
+    "highlights": [
+      "Kinetic Moving Art",
+      "Phoolbagan Metro Proximity",
+      "Dynamic Lights"
+    ],
+    "nearbyPandals": [
+      "Swapnar Bagan Yubak Brinda (Kankurgachi)",
+      "Phoolbagan Sarbojanin"
+    ],
+    "foodRadar": [
+      {
+        "name": "VIP Sweet Corner",
+        "specialty": "Rabri & Jalebi",
+        "distance": "70m",
+        "rating": "4.7/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_068",
+    "name": "Beliaghata Sandhani",
+    "bengaliName": "বেলেঘাটা সংধানী",
+    "zone": "Salt Lake/East",
+    "address": "CIT Road, Beliaghata, Kolkata 700010",
+    "coordinates": {
+      "lat": 22.569,
+      "lng": 88.388
+    },
+    "place_id": "pandal_beliaghata_sandhani",
+    "image": "src/assets/art/dhunuchi.jpg",
+    "themeSummary": "Major Beliaghata CIT road theme powerhouse known for grand heritage replicas.",
+    "nearestMetro": "Sealdah / Phoolbagan Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1968,
+    "history": "A highlight of East Kolkata's festive route, attracting massive crowds along CIT road.",
+    "artConcept": "Replication of ancient Indian temple structures using terracotta and stone-textured clay.",
+    "highlights": [
+      "Temple Architecture Replica",
+      "CIT Road Hub",
+      "Dazzling Gate Lighting"
+    ],
+    "nearbyPandals": [
+      "Beliaghata Nabamilan",
+      "Phoolbagan Sarbojanin"
+    ],
+    "foodRadar": [
+      {
+        "name": "Beliaghata Biryani Corner",
+        "specialty": "Kolkata Biryani & Chicken Chaap",
+        "distance": "120m",
+        "rating": "4.8/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_069",
+    "name": "Beliaghata Nabamilan",
+    "bengaliName": "বেলেঘাটা নবমিলন",
+    "zone": "Salt Lake/East",
+    "address": "Beliaghata Main Road, Kolkata 700010",
+    "coordinates": {
+      "lat": 22.5655,
+      "lng": 88.391
+    },
+    "place_id": "pandal_beliaghata_nabamilan",
+    "image": "src/assets/art/sindoor.jpg",
+    "themeSummary": "Lively East Kolkata venue showcasing traditional clay art with modern flair.",
+    "nearestMetro": "Sealdah Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1972,
+    "history": "Celebrated for neighborhood hospitality, community feasts, and vibrant immersion processions.",
+    "artConcept": "Hand-painted terracotta tiles with warm ambient yellow lamps.",
+    "highlights": [
+      "Hand-painted Tiles",
+      "Warm Ambiance",
+      "Community Feast"
+    ],
+    "nearbyPandals": [
+      "Beliaghata Sandhani",
+      "Swapnar Bagan Yubak Brinda (Kankurgachi)"
+    ],
+    "foodRadar": [
+      {
+        "name": "Beliaghata Sweets",
+        "specialty": "Rasgulla & Mihidana",
+        "distance": "80m",
+        "rating": "4.6/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_070",
+    "name": "CJ Block (Salt Lake)",
+    "bengaliName": "সিজে ব্লক (সল্টলেক)",
+    "zone": "Salt Lake/East",
+    "address": "CJ Block Park, Sector II, Salt Lake, Kolkata 700091",
+    "coordinates": {
+      "lat": 22.5855,
+      "lng": 88.409
+    },
+    "place_id": "pandal_cj_block_salt_lake",
+    "image": "src/assets/art/food.jpg",
+    "themeSummary": "Elite Salt Lake Sector II block puja famous for creative theme architecture.",
+    "nearestMetro": "Karunamoyee / Salt Lake Stadium Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1981,
+    "history": "One of Sector II's most popular block pujas, consistently winning township awards.",
+    "artConcept": "Innovative eco-structures made of bamboo, cane, and handloom textiles.",
+    "highlights": [
+      "Sector II Highlight",
+      "Park Layout",
+      "Township Cultural Stage"
+    ],
+    "nearbyPandals": [
+      "HA Block (Salt Lake)",
+      "CF Block (Salt Lake)"
+    ],
+    "foodRadar": [
+      {
+        "name": "Karunamoyee Food Stalls",
+        "specialty": "Momos & Kathi Roll",
+        "distance": "150m",
+        "rating": "4.7/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_071",
+    "name": "HA Block (Salt Lake)",
+    "bengaliName": "এইচএ ব্লক (সল্টলেক)",
+    "zone": "Salt Lake/East",
+    "address": "HA Block Community Center, Sector III, Salt Lake, Kolkata 700097",
+    "coordinates": {
+      "lat": 22.589,
+      "lng": 88.412
+    },
+    "place_id": "pandal_ha_block_salt_lake",
+    "image": "src/assets/art/hero.jpg",
+    "themeSummary": "Sophisticated Sector III Salt Lake puja featuring artistic idols and eco-themes.",
+    "nearestMetro": "Central Park Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1984,
+    "history": "Known for elegant lighting, serene park environment, and active resident participation.",
+    "artConcept": "Artisanal clay relief work with subtle pastel illumination.",
+    "highlights": [
+      "Central Park Proximity",
+      "Pastel Illumination",
+      "Serene Atmosphere"
+    ],
+    "nearbyPandals": [
+      "HB Block (Salt Lake)",
+      "CJ Block (Salt Lake)"
+    ],
+    "foodRadar": [
+      {
+        "name": "HA Block Cafe",
+        "specialty": "Coffee & Pastries",
+        "distance": "100m",
+        "rating": "4.6/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_072",
+    "name": "GD Block (Salt Lake)",
+    "bengaliName": "জিডি ব্লক (সল্টলেক)",
+    "zone": "Salt Lake/East",
+    "address": "GD Block Park, Sector III, Salt Lake, Kolkata 700106",
+    "coordinates": {
+      "lat": 22.582,
+      "lng": 88.414
+    },
+    "place_id": "pandal_gd_block_salt_lake",
+    "image": "src/assets/art/kumartuli.jpg",
+    "themeSummary": "Flagship Salt Lake Sector III puja famous for monumental pandal installations.",
+    "nearestMetro": "Karunamoyee Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1985,
+    "history": "A major crowdsurging destination in Salt Lake, often recreating foreign heritage structures.",
+    "artConcept": "Grand architectural replica using fiber, wood, and elaborate chandeliers.",
+    "highlights": [
+      "Monumental Facade",
+      "Karunamoyee Hub",
+      "Chandeliers & Light Canopy"
+    ],
+    "nearbyPandals": [
+      "Salt Lake FD Block Durga Puja",
+      "HB Block (Salt Lake)"
+    ],
+    "foodRadar": [
+      {
+        "name": "GD Block Snack Hub",
+        "specialty": "Pav Bhaji & Rolls",
+        "distance": "90m",
+        "rating": "4.8/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_073",
+    "name": "HB Block (Salt Lake)",
+    "bengaliName": "এইচবি ব্লক (সল্টলেক)",
+    "zone": "Salt Lake/East",
+    "address": "HB Block Park, Sector III, Salt Lake, Kolkata 700106",
+    "coordinates": {
+      "lat": 22.5875,
+      "lng": 88.4155
+    },
+    "place_id": "pandal_hb_block_salt_lake",
+    "image": "src/assets/art/dhunuchi.jpg",
+    "themeSummary": "Vibrant Salt Lake Block puja featuring artistic terracotta work and traditional music.",
+    "nearestMetro": "Central Park Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1986,
+    "history": "Celebrates Bengal's traditional art heritage while incorporating modern township community events.",
+    "artConcept": "Terracotta tiles and shola artwork enclosing an elegant clay goddess.",
+    "highlights": [
+      "Terracotta & Shola Art",
+      "Central Park Vicinity",
+      "Community Spirit"
+    ],
+    "nearbyPandals": [
+      "HA Block (Salt Lake)",
+      "GD Block (Salt Lake)"
+    ],
+    "foodRadar": [
+      {
+        "name": "Salt Lake Sweet Hut",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "110m",
+        "rating": "4.7/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_074",
+    "name": "Labony Estate (Salt Lake)",
+    "bengaliName": "লাবণী এস্টেট (সল্টলেক)",
+    "zone": "Salt Lake/East",
+    "address": "Labony Estate Cultural Ground, Sector I, Salt Lake, Kolkata 700064",
+    "coordinates": {
+      "lat": 22.591,
+      "lng": 88.4075
+    },
+    "place_id": "pandal_labony_estate",
+    "image": "src/assets/art/sindoor.jpg",
+    "themeSummary": "Historic Salt Lake housing estate puja known for high cultural standard and community involvement.",
+    "nearestMetro": "City Centre Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1975,
+    "history": "One of the earliest residential estate pujas in Salt Lake, famed for Rabindra Sangeet & drama performances.",
+    "artConcept": "Classic traditional pandal with graceful clay idol.",
+    "highlights": [
+      "Estate Cultural Dramas",
+      "City Centre Proximity",
+      "Family Festival Vibe"
+    ],
+    "nearbyPandals": [
+      "DB Block (Salt Lake)",
+      "CF Block (Salt Lake)"
+    ],
+    "foodRadar": [
+      {
+        "name": "Labony Food Stall",
+        "specialty": "Chowmein & Fish Fry",
+        "distance": "60m",
+        "rating": "4.6/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_075",
+    "name": "DB Block (Salt Lake)",
+    "bengaliName": "ডিবি ব্লক (সল্টলেক)",
+    "zone": "Salt Lake/East",
+    "address": "DB Block Park, Sector I, Salt Lake, Kolkata 700064",
+    "coordinates": {
+      "lat": 22.594,
+      "lng": 88.404
+    },
+    "place_id": "pandal_db_block_salt_lake",
+    "image": "src/assets/art/food.jpg",
+    "themeSummary": "Sector I favorite situated near City Centre Mall, combining modern themes with traditional rituals.",
+    "nearestMetro": "City Centre Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1978,
+    "history": "Conveniently located near City Centre 1, a top venue for township shoppers and festive revelers.",
+    "artConcept": "Glass fiber panel decorations with glowing LED motifs.",
+    "highlights": [
+      "Near City Centre Mall",
+      "Glass Fiber Art",
+      "Vibrant Evening Crowds"
+    ],
+    "nearbyPandals": [
+      "Labony Estate (Salt Lake)",
+      "CF Block (Salt Lake)"
+    ],
+    "foodRadar": [
+      {
+        "name": "City Centre Food Court",
+        "specialty": "Kolkata Rolls & Biryani",
+        "distance": "180m",
+        "rating": "4.8/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_076",
+    "name": "CF Block (Salt Lake)",
+    "bengaliName": "সিএফ ব্লক (সল্টলেক)",
+    "zone": "Salt Lake/East",
+    "address": "CF Block Park, Sector I, Salt Lake, Kolkata 700064",
+    "coordinates": {
+      "lat": 22.5885,
+      "lng": 88.405
+    },
+    "place_id": "pandal_cf_block_salt_lake",
+    "image": "src/assets/art/hero.jpg",
+    "themeSummary": "Aesthetic Sector I block puja featuring eco-friendly handcrafted decorations.",
+    "nearestMetro": "City Centre Metro",
+    "crowdLevel": "Moderate",
+    "establishedYear": 1979,
+    "history": "Renowned for neighborhood warmth, artistic excellence, and eco-friendly commitments.",
+    "artConcept": "Burlap, jute, and wooden craft motifs with warm yellow lighting.",
+    "highlights": [
+      "Eco-friendly Jute Art",
+      "Serene Block Park",
+      "Warm Community"
+    ],
+    "nearbyPandals": [
+      "CJ Block (Salt Lake)",
+      "DB Block (Salt Lake)"
+    ],
+    "foodRadar": [
+      {
+        "name": "CF Block Corner",
+        "specialty": "Phuchka & Chat",
+        "distance": "50m",
+        "rating": "4.6/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_077",
+    "name": "Balaka Sarbojanin (New Town)",
+    "bengaliName": "বলাকা সর্বজনীন (নিউ টাউন)",
+    "zone": "Salt Lake/East",
+    "address": "Balaka Abasan, Action Area I, New Town, Kolkata 700156",
+    "coordinates": {
+      "lat": 22.5765,
+      "lng": 88.461
+    },
+    "place_id": "pandal_balaka_new_town",
+    "image": "src/assets/art/kumartuli.jpg",
+    "themeSummary": "Pioneer community puja in New Town Action Area I known for grand theme installations.",
+    "nearestMetro": "Nazrul Tirtha / Salt Lake Sector V Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 2004,
+    "history": "The earliest mega-puja in New Town, setting the standard for suburban smart city festivities.",
+    "artConcept": "Futuristic architecture combined with traditional Bengali clay sculpture.",
+    "highlights": [
+      "New Town Pioneer",
+      "Nazrul Tirtha Proximity",
+      "Futuristic Architecture"
+    ],
+    "nearbyPandals": [
+      "New Town Sarbojanin",
+      "Balaka Sarbojanin (New Town)"
+    ],
+    "foodRadar": [
+      {
+        "name": "New Town Hub",
+        "specialty": "Kebab & Rolls",
+        "distance": "120m",
+        "rating": "4.7/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_078",
+    "name": "New Town Sarbojanin",
+    "bengaliName": "নিউ টাউন সর্বজনীন",
+    "zone": "Salt Lake/East",
+    "address": "New Town Clock Tower Grounds, Action Area I, New Town, Kolkata 700156",
+    "coordinates": {
+      "lat": 22.5895,
+      "lng": 88.468
+    },
+    "place_id": "pandal_new_town_sarbojanin",
+    "image": "src/assets/art/dhunuchi.jpg",
+    "themeSummary": "The mega flagship Durga Puja of New Town, hosted near the landmark Clock Tower.",
+    "nearestMetro": "Sector V / New Town Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 2020,
+    "history": "Conceived as a grand community gathering for all tech parks and high-rise residents of New Town.",
+    "artConcept": "Massive open-air pavilion showcasing Bengal's handicraft heritage.",
+    "highlights": [
+      "Clock Tower Landmark",
+      "Spacious Megastructure",
+      "Cultural Concerts"
+    ],
+    "nearbyPandals": [
+      "Balaka Sarbojanin (New Town)",
+      "Salt Lake AK Block Durga Puja"
+    ],
+    "foodRadar": [
+      {
+        "name": "Clock Tower Food Court",
+        "specialty": "Kolkata Biryani & Pizza",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_079",
+    "name": "Kestopur Prafulla Kanan",
+    "bengaliName": "কেষ্টপুর প্রফুল্ল কানন",
+    "zone": "Salt Lake/East",
+    "address": "Prafulla Kanan West, Kestopur, VIP Road, Kolkata 700101",
+    "coordinates": {
+      "lat": 22.606,
+      "lng": 88.423
+    },
+    "place_id": "pandal_kestopur_prafulla_kanan",
+    "image": "src/assets/art/sindoor.jpg",
+    "themeSummary": "Major VIP Road attraction in Kestopur, famous for magnificent lighting and theme craft.",
+    "nearestMetro": "VIP Road / Dum Dum Cantonment Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1978,
+    "history": "A prime highlight along the airport corridor (VIP Road), drawing millions of motorists.",
+    "artConcept": "Enormous illuminated arches, brass relief panels, and traditional idol styling.",
+    "highlights": [
+      "VIP Road Gateway",
+      "Brass Relief Panels",
+      "Spectacular Street Lighting"
+    ],
+    "nearbyPandals": [
+      "Baguiati Arjunpur Amra Sabai",
+      "Sreebhumi Sporting Club"
+    ],
+    "foodRadar": [
+      {
+        "name": "VIP Road Food Street",
+        "specialty": "Mutton Biryani & Rolls",
+        "distance": "90m",
+        "rating": "4.7/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_080",
+    "name": "Baguiati Arjunpur Amra Sabai",
+    "bengaliName": "বাগুইআটি অর্জুনপুর আমরা সবাই",
+    "zone": "Salt Lake/East",
+    "address": "Arjunpur Main Road, Baguiati, Kolkata 700059",
+    "coordinates": {
+      "lat": 22.6185,
+      "lng": 88.428
+    },
+    "place_id": "pandal_arjunpur_amra_sabai",
+    "image": "src/assets/art/food.jpg",
+    "themeSummary": "Multi-award-winning theme giant in Baguiati known for conceptual art brilliance.",
+    "nearestMetro": "VIP Road / Dum Dum Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1972,
+    "history": "Renowned across Eastern India for groundbreaking thematic art using eco-friendly materials.",
+    "artConcept": "High-level installation art depicting global harmony and ancient Indian philosophy.",
+    "highlights": [
+      "Award-Winning Conceptual Art",
+      "VIP Road Circuit Key",
+      "Intricate Idol Design"
+    ],
+    "nearbyPandals": [
+      "Kestopur Prafulla Kanan",
+      "Dum Dum Tarun Dal"
+    ],
+    "foodRadar": [
+      {
+        "name": "Baguiati Corner",
+        "specialty": "Kathi Roll & Fish Cutlet",
+        "distance": "80m",
+        "rating": "4.8/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_081",
+    "name": "Dum Dum Tarun Dal",
+    "bengaliName": "দমদম তরুণ দল",
+    "zone": "Salt Lake/East",
+    "address": "Dum Dum Park, Kolkata 700055",
+    "coordinates": {
+      "lat": 22.624,
+      "lng": 88.411
+    },
+    "place_id": "pandal_dum_dum_tarun_dal",
+    "image": "src/assets/art/hero.jpg",
+    "themeSummary": "A titan of the Dum Dum Park theme triumvirate, celebrated for artistic daring.",
+    "nearestMetro": "Belgachia / Dum Dum Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1978,
+    "history": "A consistent contender for top awards in Kolkata, creating immersive interactive themes.",
+    "artConcept": "Hand-crafted clay figurines, intricate bamboo framing, and ambient soundscapes.",
+    "highlights": [
+      "Dum Dum Park Triumvirate",
+      "Soundscape & Art",
+      "Master Idol Sculptor"
+    ],
+    "nearbyPandals": [
+      "Dum Dum Park Bharat Chakra",
+      "Dum Dum Park Tarun Sangha"
+    ],
+    "foodRadar": [
+      {
+        "name": "Dum Dum Park Food Zone",
+        "specialty": "Phuchka & Biryani",
+        "distance": "100m",
+        "rating": "4.9/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_082",
+    "name": "Sreebhumi Sporting (New Town Extensions/Outreaches)",
+    "bengaliName": "শ্রীভূমি স্পোর্টিং (নিউ টাউন এক্সটেনশন)",
+    "zone": "Salt Lake/East",
+    "address": "Lake Town / New Town Outreach, Kolkata 700089",
+    "coordinates": {
+      "lat": 22.601,
+      "lng": 88.405
+    },
+    "place_id": "pandal_sreebhumi_outreach",
+    "image": "src/assets/art/kumartuli.jpg",
+    "themeSummary": "Extension / Outreach exhibits associated with the iconic Sreebhumi Sporting experience.",
+    "nearestMetro": "Belgachia Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1980,
+    "history": "Displaying secondary light gates and cultural pavilions connecting Lake Town to Bypass.",
+    "artConcept": "Dazzling LED replicas and golden filigree gates.",
+    "highlights": [
+      "Illuminated Sky Walkway",
+      "Golden Filigree",
+      "Bypass Connectivity"
+    ],
+    "nearbyPandals": [
+      "Sreebhumi Sporting Club",
+      "Lake Town Sarbojanin"
+    ],
+    "foodRadar": [
+      {
+        "name": "Lake Town Food Alley",
+        "specialty": "Kashundi Phuchka & Mutton Roll",
+        "distance": "120m",
+        "rating": "4.8/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_083",
+    "name": "Lake Town Sarbojanin",
+    "bengaliName": "লেক টাউন সর্বজনীন",
+    "zone": "Salt Lake/East",
+    "address": "Lake Town Block B, Kolkata 700089",
+    "coordinates": {
+      "lat": 22.6035,
+      "lng": 88.3995
+    },
+    "place_id": "pandal_lake_town_sarbojanin",
+    "image": "src/assets/art/dhunuchi.jpg",
+    "themeSummary": "Classic Lake Town neighborhood puja featuring elegant idol work and cultural shows.",
+    "nearestMetro": "Belgachia Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1964,
+    "history": "Serving Lake Town residents with festive grandeur and traditional warmth.",
+    "artConcept": "Traditional daker saaj idol with hand-carved wooden entryway arches.",
+    "highlights": [
+      "Lake Town Neighborhood Gem",
+      "Daker Saaj Idol",
+      "Cultural Stage"
+    ],
+    "nearbyPandals": [
+      "Sreebhumi Sporting Club",
+      "Lake Town Adhibasi Vrinda"
+    ],
+    "foodRadar": [
+      {
+        "name": "Lake Town Sweets",
+        "specialty": "Mondoh & Rasgulla",
+        "distance": "80m",
+        "rating": "4.7/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_084",
+    "name": "Phoolbagan Sarbojanin",
+    "bengaliName": "ফুলবাগান সর্বজনীন",
+    "zone": "Salt Lake/East",
+    "address": "Phoolbagan Crossing, EM Bypass Link, Kolkata 700054",
+    "coordinates": {
+      "lat": 22.572,
+      "lng": 88.383
+    },
+    "place_id": "pandal_phoolbagan_sarbojanin",
+    "image": "src/assets/art/sindoor.jpg",
+    "themeSummary": "High-visibility Metro junction puja at Phoolbagan crossing, celebrated for floral artwork.",
+    "nearestMetro": "Phoolbagan Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1958,
+    "history": "Directly connected to Phoolbagan Metro station, a major hub for east-bound pandal-hoppers.",
+    "artConcept": "Exquisite artificial & natural flower decor integrated with clay sculptures.",
+    "highlights": [
+      "Metro Station Direct Access",
+      "Floral Pandal Theme",
+      "Vibrant Street Fair"
+    ],
+    "nearbyPandals": [
+      "Kankurgachi Mitali Sangha",
+      "Beliaghata Sandhani"
+    ],
+    "foodRadar": [
+      {
+        "name": "Phoolbagan Tiffin Corner",
+        "specialty": "Kachori & Gulab Jamun",
+        "distance": "40m",
+        "rating": "4.8/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_085",
+    "name": "Dum Dum Park Bharat Mitra Club",
+    "bengaliName": "দমদম পার্ক ভারত মিত্র ক্লাব",
+    "zone": "Salt Lake/East",
+    "address": "Dum Dum Park, Sector 2, Kolkata 700055",
+    "coordinates": {
+      "lat": 22.6215,
+      "lng": 88.4085
+    },
+    "place_id": "pandal_bharat_mitra_club",
+    "image": "src/assets/art/food.jpg",
+    "themeSummary": "A key cornerstone of Dum Dum Park's festive belt showcasing traditional clay art.",
+    "nearestMetro": "Belgachia Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1970,
+    "history": "Known for promoting traditional Bengali culture, handicrafts, and community feasts.",
+    "artConcept": "Hand-molded terracotta figures and illuminated paper lanterns.",
+    "highlights": [
+      "Terracotta Handicrafts",
+      "Dum Dum Park Circuit",
+      "Warm Illumination"
+    ],
+    "nearbyPandals": [
+      "Dum Dum Tarun Dal",
+      "Dum Dum Park Bharat Chakra"
+    ],
+    "foodRadar": [
+      {
+        "name": "Bharat Mitra Snack Shack",
+        "specialty": "Fish Fry & Egg Roll",
+        "distance": "60m",
+        "rating": "4.7/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_086",
+    "name": "Salkia Durgotsav Barowari",
+    "bengaliName": "সালকিয়া দুর্গোৎসব বারোয়ারী",
+    "zone": "Howrah",
+    "address": "Salkia School Road, Salkia, Howrah 711106",
+    "coordinates": {
+      "lat": 22.604,
+      "lng": 88.348
+    },
+    "place_id": "pandal_salkia_durgotsav",
+    "image": "src/assets/art/hero.jpg",
+    "themeSummary": "Historic Salkia community puja celebrating over 90 years of tradition across the Hooghly.",
+    "nearestMetro": "Howrah Railway Station Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1930,
+    "history": "One of Howrah's oldest and most prestigious barowari pujas, drawing riverfront crowds.",
+    "artConcept": "Grand traditional pandal structure with classical gold-leaf daker saaj idol.",
+    "highlights": [
+      "90+ Years Heritage",
+      "Grand Salkia Gateway",
+      "Traditional Daker Saaj"
+    ],
+    "nearbyPandals": [
+      "Pally Mangal Club, Salkia",
+      "Salkia Sadharan Durga Puja (Jatadhari Park)"
+    ],
+    "foodRadar": [
+      {
+        "name": "Salkia Sweet Hub",
+        "specialty": "Kachori & Mihidana",
+        "distance": "90m",
+        "rating": "4.8/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_087",
+    "name": "Pally Mangal Club, Salkia",
+    "bengaliName": "পল্লী মঙ্গল ক্লাব, সালকিয়া",
+    "zone": "Howrah",
+    "address": "Salkia Main Road, Howrah 711106",
+    "coordinates": {
+      "lat": 22.6015,
+      "lng": 88.351
+    },
+    "place_id": "pandal_pally_mangal_salkia",
+    "image": "src/assets/art/kumartuli.jpg",
+    "themeSummary": "Renowned Salkia theme puja known for creative clay and bamboo installations.",
+    "nearestMetro": "Howrah Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1952,
+    "history": "Consistently recognized as one of Howrah's finest theme pujas with active social welfare work.",
+    "artConcept": "Artisanal clay relief and bamboo woven lattice work.",
+    "highlights": [
+      "Salkia Theme Pioneer",
+      "Eco-friendly Materials",
+      "Vibrant Illumination"
+    ],
+    "nearbyPandals": [
+      "Salkia Durgotsav Barowari",
+      "Salkia Sadharan Durga Puja (Jatadhari Park)"
+    ],
+    "foodRadar": [
+      {
+        "name": "Pally Mangal Fast Food",
+        "specialty": "Mutton Chop & Fish Fry",
+        "distance": "70m",
+        "rating": "4.7/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_088",
+    "name": "Salkia Sadharan Durga Puja (Jatadhari Park)",
+    "bengaliName": "সালকিয়া সাধারণ দুর্গাপূজা (জটাধারী পার্ক)",
+    "zone": "Howrah",
+    "address": "Jatadhari Park, Salkia, Howrah 711106",
+    "coordinates": {
+      "lat": 22.5985,
+      "lng": 88.3495
+    },
+    "place_id": "pandal_jatadhari_park_salkia",
+    "image": "src/assets/art/dhunuchi.jpg",
+    "themeSummary": "Centrally located at Jatadhari Park, famous for grand temple replicas and light shows.",
+    "nearestMetro": "Howrah Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1945,
+    "history": "A prime evening attraction in North Howrah, providing a spacious park atmosphere.",
+    "artConcept": "Temple replica facade created from plaster-of-paris and fiber glass.",
+    "highlights": [
+      "Jatadhari Park Location",
+      "Temple Replica Facade",
+      "Spacious Fairgrounds"
+    ],
+    "nearbyPandals": [
+      "Salkia Durgotsav Barowari",
+      "Pally Mangal Club, Salkia"
+    ],
+    "foodRadar": [
+      {
+        "name": "Jatadhari Food Corner",
+        "specialty": "Phuchka & Pav Bhaji",
+        "distance": "50m",
+        "rating": "4.6/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_089",
+    "name": "Santragachi Sporting Club",
+    "bengaliName": "সাঁতরাগাছি স্পোর্টিং ক্লাব",
+    "zone": "Howrah",
+    "address": "Santragachi, Howrah 711104",
+    "coordinates": {
+      "lat": 22.578,
+      "lng": 88.282
+    },
+    "place_id": "pandal_santragachi_sporting",
+    "image": "src/assets/art/sindoor.jpg",
+    "themeSummary": "Flagship puja near Santragachi lake junction, famous for ecological themes.",
+    "nearestMetro": "Howrah / Santragachi Railway Station",
+    "crowdLevel": "High",
+    "establishedYear": 1960,
+    "history": "Situated near the migratory bird sanctuary of Santragachi Jheel, emphasizing nature conservation.",
+    "artConcept": "Bird & nature motifs carved from wood, jute, and recycled clay.",
+    "highlights": [
+      "Ecological Nature Theme",
+      "Jheel Proximity",
+      "Artistic Wood Carvings"
+    ],
+    "nearbyPandals": [
+      "Kamardanga Sitalatala Barowari Puja",
+      "Bantra Nabin Sangha"
+    ],
+    "foodRadar": [
+      {
+        "name": "Santragachi Station Tiffin",
+        "specialty": "Egg Roll & Mughlai",
+        "distance": "110m",
+        "rating": "4.7/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_090",
+    "name": "Kamardanga Sitalatala Barowari Puja",
+    "bengaliName": "কামারডাঙ্গা শীতলাতলা বারোয়ারী পূজা",
+    "zone": "Howrah",
+    "address": "Kamardanga, Ichapur, Howrah 711101",
+    "coordinates": {
+      "lat": 22.581,
+      "lng": 88.308
+    },
+    "place_id": "pandal_kamardanga_sitalatala",
+    "image": "src/assets/art/food.jpg",
+    "themeSummary": "Heritage Central Howrah puja known for traditional Ekchala idols and devotional music.",
+    "nearestMetro": "Howrah Metro",
+    "crowdLevel": "Moderate",
+    "establishedYear": 1938,
+    "history": "Centered around Kamardanga's historic Sitalatala shrine, maintaining authentic rituals.",
+    "artConcept": "Ekchala pratima embellished with shola artwork and traditional lamps.",
+    "highlights": [
+      "Historic Sitalatala Shrine",
+      "Ekchala Idol",
+      "Devotional Atmosphere"
+    ],
+    "nearbyPandals": [
+      "Bantra Nabin Sangha",
+      "Howrah Saraswati Club"
+    ],
+    "foodRadar": [
+      {
+        "name": "Kamardanga Sweets",
+        "specialty": "Singara & Chhanar Jilipi",
+        "distance": "80m",
+        "rating": "4.6/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_091",
+    "name": "Bantra Nabin Sangha",
+    "bengaliName": "বাঁটরা নবীন সংঘ",
+    "zone": "Howrah",
+    "address": "Bantra, Kadamtala, Howrah 711101",
+    "coordinates": {
+      "lat": 22.5835,
+      "lng": 88.324
+    },
+    "place_id": "pandal_bantra_nabin_sangha",
+    "image": "src/assets/art/hero.jpg",
+    "themeSummary": "Vibrant Kadamtala-Bantra theme venue showcasing handmade Bengal crafts.",
+    "nearestMetro": "Howrah Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1955,
+    "history": "A major highlight in Kadamtala, attracting Howrah residents with innovative artistic themes.",
+    "artConcept": "Hand-crafted pottery and clay tiles woven into dynamic archways.",
+    "highlights": [
+      "Kadamtala Circuit Star",
+      "Handmade Pottery",
+      "Vibrant Street Lights"
+    ],
+    "nearbyPandals": [
+      "Howrah Saraswati Club",
+      "Kamardanga Sitalatala Barowari Puja"
+    ],
+    "foodRadar": [
+      {
+        "name": "Kadamtala Sweet Market",
+        "specialty": "Kachori & Rabri",
+        "distance": "90m",
+        "rating": "4.8/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_092",
+    "name": "Howrah Saraswati Club",
+    "bengaliName": "হাওড়া সরস্বতী ক্লাব",
+    "zone": "Howrah",
+    "address": "Howrah Maidan Area, Howrah 711101",
+    "coordinates": {
+      "lat": 22.585,
+      "lng": 88.331
+    },
+    "place_id": "pandal_howrah_saraswati_club",
+    "image": "src/assets/art/kumartuli.jpg",
+    "themeSummary": "Located near Howrah Maidan Metro station, famed for high-tech light displays.",
+    "nearestMetro": "Howrah Maidan Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1949,
+    "history": "Directly adjacent to the Howrah Maidan transit hub, drawing commuter crowds all day.",
+    "artConcept": "High-tech LED light arches and traditional clay sculpture.",
+    "highlights": [
+      "Howrah Maidan Metro Access",
+      "LED Light Arches",
+      "Busy Transit Hub"
+    ],
+    "nearbyPandals": [
+      "59 No. Howrah Maidan Sarbojanin",
+      "Howrah Sarat Sadan"
+    ],
+    "foodRadar": [
+      {
+        "name": "Maidan Snack Corner",
+        "specialty": "Egg Chicken Roll & Tea",
+        "distance": "40m",
+        "rating": "4.7/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_093",
+    "name": "Shibpur Bati Sangha",
+    "bengaliName": "শিবপুর বাটি সংঘ",
+    "zone": "Howrah",
+    "address": "Shibpur Road, Shibpur, Howrah 711102",
+    "coordinates": {
+      "lat": 22.569,
+      "lng": 88.322
+    },
+    "place_id": "pandal_shibpur_bati_sangha",
+    "image": "src/assets/art/dhunuchi.jpg",
+    "themeSummary": "Historic South Howrah / Shibpur puja celebrated for exquisite traditional deity idols.",
+    "nearestMetro": "Howrah Maidan Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1935,
+    "history": "Set in the traditional Shibpur locality, preserving century-old puja customs.",
+    "artConcept": "Classic daker saaj idol with hand-carved wooden backdrop.",
+    "highlights": [
+      "Shibpur Heritage",
+      "Classic Daker Saaj",
+      "Devotional Rituals"
+    ],
+    "nearbyPandals": [
+      "Shibpur Shrirampur Sarbojanin",
+      "Howrah Sarat Sadan"
+    ],
+    "foodRadar": [
+      {
+        "name": "Shibpur Tiffin Hut",
+        "specialty": "Fish Chop & Mutton Cutlet",
+        "distance": "80m",
+        "rating": "4.7/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_094",
+    "name": "Shibpur Shrirampur Sarbojanin",
+    "bengaliName": "শিবপুর শ্রীরামপুর সর্বজনীন",
+    "zone": "Howrah",
+    "address": "Shrirampur Lane, Shibpur, Howrah 711102",
+    "coordinates": {
+      "lat": 22.565,
+      "lng": 88.325
+    },
+    "place_id": "pandal_shibpur_shrirampur",
+    "image": "src/assets/art/sindoor.jpg",
+    "themeSummary": "Charming Shibpur neighborhood puja featuring traditional clay idols and community feasts.",
+    "nearestMetro": "Howrah Maidan Metro",
+    "crowdLevel": "Moderate",
+    "establishedYear": 1950,
+    "history": "A community stronghold in Shibpur, famous for grand community lunch (Bhog) on Ashtami.",
+    "artConcept": "Terracotta tilework and traditional clay pratima.",
+    "highlights": [
+      "Ashtami Community Bhog",
+      "Shibpur Circuit",
+      "Traditional Clay Art"
+    ],
+    "nearbyPandals": [
+      "Shibpur Bati Sangha",
+      "Howrah Maidan Udayan Sangha"
+    ],
+    "foodRadar": [
+      {
+        "name": "Shibpur Sweet Corner",
+        "specialty": "Rosogolla & Pantua",
+        "distance": "60m",
+        "rating": "4.6/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_095",
+    "name": "Howrah Sarat Sadan",
+    "bengaliName": "হাওড়া শরৎ সদন দুর্গোৎসব",
+    "zone": "Howrah",
+    "address": "Sarat Sadan Complex, Howrah Maidan, Howrah 711101",
+    "coordinates": {
+      "lat": 22.584,
+      "lng": 88.328
+    },
+    "place_id": "pandal_howrah_sarat_sadan",
+    "image": "src/assets/art/food.jpg",
+    "themeSummary": "Cultural festival hosted at Sarat Sadan auditorium grounds celebrating literary heritage.",
+    "nearestMetro": "Howrah Maidan Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1972,
+    "history": "Named in honor of novelist Sarat Chandra Chattopadhyay, hosting premier drama & music events.",
+    "artConcept": "Literary motifs, manuscript art walls, and classic clay idol.",
+    "highlights": [
+      "Sarat Chandra Literary Theme",
+      "Cultural Auditorium Events",
+      "Maidan Proximity"
+    ],
+    "nearbyPandals": [
+      "59 No. Howrah Maidan Sarbojanin",
+      "Howrah Saraswati Club"
+    ],
+    "foodRadar": [
+      {
+        "name": "Sarat Sadan Cafe",
+        "specialty": "Cold Coffee & Cutlets",
+        "distance": "50m",
+        "rating": "4.7/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_096",
+    "name": "59 No. Howrah Maidan Sarbojanin",
+    "bengaliName": "৫৯ নং হাওড়া ময়দান সর্বজনীন",
+    "zone": "Howrah",
+    "address": "Ward No. 59, Howrah Maidan, Howrah 711101",
+    "coordinates": {
+      "lat": 22.586,
+      "lng": 88.329
+    },
+    "place_id": "pandal_59_no_howrah_maidan",
+    "image": "src/assets/art/hero.jpg",
+    "themeSummary": "Popular Ward 59 community puja known for colorful light structures and warm hospitality.",
+    "nearestMetro": "Howrah Maidan Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1965,
+    "history": "A centerpiece of the Howrah Maidan ward celebrations.",
+    "artConcept": "Multi-colored fabric canopy with golden glowing clay idol.",
+    "highlights": [
+      "Ward 59 Flagship",
+      "Fabric Canopy Art",
+      "Maidan Circuit Essential"
+    ],
+    "nearbyPandals": [
+      "Howrah Maidan Kalibari Durga Puja",
+      "Howrah Maidan Young Boys Club"
+    ],
+    "foodRadar": [
+      {
+        "name": "Ward 59 Food Corner",
+        "specialty": "Telebhaja & Phuchka",
+        "distance": "60m",
+        "rating": "4.6/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_097",
+    "name": "Howrah Maidan Kalibari Durga Puja",
+    "bengaliName": "হাওড়া ময়দান কালীবাড়ী দুর্গাপূজা",
+    "zone": "Howrah",
+    "address": "Kalibari Road, Howrah Maidan, Howrah 711101",
+    "coordinates": {
+      "lat": 22.5855,
+      "lng": 88.3305
+    },
+    "place_id": "pandal_howrah_maidan_kalibari",
+    "image": "src/assets/art/kumartuli.jpg",
+    "themeSummary": "Sacred Durga Puja celebrated inside the revered Howrah Maidan Kalibari premises.",
+    "nearestMetro": "Howrah Maidan Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1925,
+    "history": "Combines Shakti temple rituals with century-old Durga Puja celebrations.",
+    "artConcept": "Traditional Ekchala idol with authentic sholar saaj in a temple courtyard.",
+    "highlights": [
+      "Historic Kalighat-style Temple",
+      "Sacred Rituals",
+      "Ekchala Goddess"
+    ],
+    "nearbyPandals": [
+      "Howrah Maidan Young Boys Club",
+      "Howrah Maidan Mitra Mandir"
+    ],
+    "foodRadar": [
+      {
+        "name": "Kalibari Bhog & Sweets",
+        "specialty": "Kachori & Chhanar Payesh",
+        "distance": "30m",
+        "rating": "4.9/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_098",
+    "name": "Howrah Maidan Young Boys Club",
+    "bengaliName": "হাওড়া ময়দান ইয়ং বয়েজ ক্লাব",
+    "zone": "Howrah",
+    "address": "Young Boys Club Ground, Howrah Maidan, Howrah 711101",
+    "coordinates": {
+      "lat": 22.587,
+      "lng": 88.3315
+    },
+    "place_id": "pandal_howrah_maidan_young_boys",
+    "image": "src/assets/art/dhunuchi.jpg",
+    "themeSummary": "High-energy Howrah Maidan theme venue created by local youth artists.",
+    "nearestMetro": "Howrah Maidan Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1976,
+    "history": "Known for dynamic youth sports events leading up to the autumn festival.",
+    "artConcept": "Modern metal framework with artistic clay relief carvings.",
+    "highlights": [
+      "Youthful Creativity",
+      "Metal & Clay Fusion",
+      "Howrah Maidan Hub"
+    ],
+    "nearbyPandals": [
+      "Howrah Maidan Mitra Mandir",
+      "Howrah Maidan Udayan Sangha"
+    ],
+    "foodRadar": [
+      {
+        "name": "Young Boys Snack Bar",
+        "specialty": "Chicken Roll & Chowmein",
+        "distance": "50m",
+        "rating": "4.7/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_099",
+    "name": "Howrah Maidan Mitra Mandir",
+    "bengaliName": "হাওড়া ময়দান মিত্র মন্দির",
+    "zone": "Howrah",
+    "address": "Mitra Mandir Lane, Howrah Maidan, Howrah 711101",
+    "coordinates": {
+      "lat": 22.5845,
+      "lng": 88.3325
+    },
+    "place_id": "pandal_howrah_maidan_mitra_mandir",
+    "image": "src/assets/art/sindoor.jpg",
+    "themeSummary": "Beloved neighborhood venue in Howrah Maidan celebrating traditional family values.",
+    "nearestMetro": "Howrah Maidan Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1958,
+    "history": "Emphasizes community solidarity ('Mitra' - Friendship) and cultural unity.",
+    "artConcept": "Warm golden lighting, paper-mache lanterns, and traditional clay idol.",
+    "highlights": [
+      "Friendship & Community Theme",
+      "Paper Lanterns",
+      "Classic Idol Form"
+    ],
+    "nearbyPandals": [
+      "Howrah Maidan Udayan Sangha",
+      "Howrah Maidan Kalibari Durga Puja"
+    ],
+    "foodRadar": [
+      {
+        "name": "Mitra Mandir Sweets",
+        "specialty": "Dorbesh & Rosogolla",
+        "distance": "60m",
+        "rating": "4.7/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_100",
+    "name": "Howrah Maidan Udayan Sangha",
+    "bengaliName": "হাওড়া ময়দান উদয়ন সংঘ",
+    "zone": "Howrah",
+    "address": "Udayan Sangha Ground, Howrah Maidan, Howrah 711101",
+    "coordinates": {
+      "lat": 22.588,
+      "lng": 88.333
+    },
+    "place_id": "pandal_howrah_maidan_udayan_sangha",
+    "image": "src/assets/art/food.jpg",
+    "themeSummary": "Grand finale venue of the Howrah Maidan circuit, famous for magnificent LED archways.",
+    "nearestMetro": "Howrah Maidan Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1968,
+    "history": "Marks the culmination of the Howrah Maidan pandal hop circuit, drawing massive crowds.",
+    "artConcept": "Spectacular illuminated LED archways leading to a majestic goddess idol.",
+    "highlights": [
+      "Howrah Maidan Grand Finale",
+      "Illuminated LED Arches",
+      "Vibrant Carnivalesque Atmosphere"
+    ],
+    "nearbyPandals": [
+      "Howrah Maidan Mitra Mandir",
+      "Howrah Maidan Young Boys Club"
+    ],
+    "foodRadar": [
+      {
+        "name": "Udayan Food Street",
+        "specialty": "Kolkata Biryani & Kathi Roll",
+        "distance": "70m",
+        "rating": "4.8/5",
+        "price": "₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_101",
+    "name": "Sreebhumi Sporting Club",
+    "zone": "North Kolkata",
+    "address": "Sreebhumi Sporting club, Lake Town, South Dumdum, Kolkata Metropolitan Area, Barrackpur - II, North 24 Parganas, West Bengal, India",
+    "coordinates": {
+      "lat": 22.6003,
+      "lng": 88.4026
+    },
+    "place_id": "osm_250427676",
+    "image": "src/assets/art/hero.jpg",
+    "themeSummary": "Sreebhumi Sporting Club is renowned in North Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Sreebhumi Sporting Club শারদোৎসব",
+    "nearestMetro": "Shyambazar / Sovabazar Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1930,
+    "history": "Sreebhumi Sporting Club has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_102",
+    "name": "Bagbazar Sarbojanin Durga Puja",
+    "zone": "North Kolkata",
+    "address": "Bagbazar Ghat Road, Bagbazar, Kolkata 700003",
+    "coordinates": {
+      "lat": 22.6025,
+      "lng": 88.3664
+    },
+    "place_id": "ChIJ4x7P25BwAjoRQfV0m98Z6sM",
+    "image": "src/assets/art/kumartuli.jpg",
+    "themeSummary": "Bagbazar Sarbojanin Durga Puja is renowned in North Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Bagbazar Sarbojanin Durga Puja শারদোৎসব",
+    "nearestMetro": "Shyambazar / Sovabazar Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1932,
+    "history": "Bagbazar Sarbojanin Durga Puja has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_103",
+    "name": "Kumartuli Park Durga Puja",
+    "zone": "North Kolkata",
+    "address": "8B Abhay Charan Mitra Street, Sovabazar, Kolkata 700005",
+    "coordinates": {
+      "lat": 22.5976,
+      "lng": 88.3667
+    },
+    "place_id": "ChIJc4d0_5BwAjoR7vX8n98Z6sM",
+    "image": "src/assets/art/dhunuchi.jpg",
+    "themeSummary": "Kumartuli Park Durga Puja is renowned in North Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Kumartuli Park Durga Puja শারদোৎসব",
+    "nearestMetro": "Shyambazar / Sovabazar Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1934,
+    "history": "Kumartuli Park Durga Puja has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_104",
+    "name": "Ahiritola Sarbojanin Durga Puja",
+    "zone": "North Kolkata",
+    "address": "1/1 BK Paul Avenue, Ahiritola, Sovabazar, Kolkata 700005",
+    "coordinates": {
+      "lat": 22.5938,
+      "lng": 88.3619
+    },
+    "place_id": "ChIJa7bE_5BwAjoR3vX8n98Z6sM",
+    "image": "src/assets/art/sindoor.jpg",
+    "themeSummary": "Ahiritola Sarbojanin Durga Puja is renowned in North Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Ahiritola Sarbojanin Durga Puja শারদোৎসব",
+    "nearestMetro": "Shyambazar / Sovabazar Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1936,
+    "history": "Ahiritola Sarbojanin Durga Puja has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_105",
+    "name": "Sovabazar Rajbari Durga Puja",
+    "zone": "North Kolkata",
+    "address": "36 Raja Nabakrishna Street, Sovabazar, Kolkata 700005",
+    "coordinates": {
+      "lat": 22.5964,
+      "lng": 88.3645
+    },
+    "place_id": "ChIJv7bE_5BwAjoR3vX8n98Z6sM",
+    "image": "src/assets/art/food.jpg",
+    "themeSummary": "Sovabazar Rajbari Durga Puja is renowned in North Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Sovabazar Rajbari Durga Puja শারদোৎসব",
+    "nearestMetro": "Shyambazar / Sovabazar Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1938,
+    "history": "Sovabazar Rajbari Durga Puja has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_106",
+    "name": "Beniatola Sarbojanin Durga Puja",
+    "zone": "North Kolkata",
+    "address": "Beniatola Lane, Sovabazar, Kolkata 700005",
+    "coordinates": {
+      "lat": 22.5921,
+      "lng": 88.363
+    },
+    "place_id": "ChIJ97bE_5BwAjoR3vX8n98Z6sM",
+    "image": "src/assets/art/hero.jpg",
+    "themeSummary": "Beniatola Sarbojanin Durga Puja is renowned in North Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Beniatola Sarbojanin Durga Puja শারদোৎসব",
+    "nearestMetro": "Shyambazar / Sovabazar Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1940,
+    "history": "Beniatola Sarbojanin Durga Puja has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_107",
+    "name": "Kashi Bose Lane Durga Puja",
+    "zone": "North Kolkata",
+    "address": "Kashi Bose Lane, Manicktala, Kolkata 700006",
+    "coordinates": {
+      "lat": 22.5872,
+      "lng": 88.3712
+    },
+    "place_id": "ChIJd8cE_5BwAjoR5vX8n98Z6sM",
+    "image": "src/assets/art/kumartuli.jpg",
+    "themeSummary": "Kashi Bose Lane Durga Puja is renowned in North Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Kashi Bose Lane Durga Puja শারদোৎসব",
+    "nearestMetro": "Shyambazar / Sovabazar Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1942,
+    "history": "Kashi Bose Lane Durga Puja has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_108",
+    "name": "Hatibagan Nabin Sangha",
+    "zone": "North Kolkata",
+    "address": "Nalin Sarkar Street, Hatibagan, Kolkata 700004",
+    "coordinates": {
+      "lat": 22.5945,
+      "lng": 88.3725
+    },
+    "place_id": "ChIJe8cE_5BwAjoR6vX8n98Z6sM",
+    "image": "src/assets/art/dhunuchi.jpg",
+    "themeSummary": "Hatibagan Nabin Sangha is renowned in North Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Hatibagan Nabin Sangha শারদোৎসব",
+    "nearestMetro": "Shyambazar / Sovabazar Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1944,
+    "history": "Hatibagan Nabin Sangha has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_109",
+    "name": "Sikdar Bagan Sadharan Durga Puja",
+    "zone": "North Kolkata",
+    "address": "Sikdar Bagan Street, Shyambazar, Kolkata 700004",
+    "coordinates": {
+      "lat": 22.596,
+      "lng": 88.371
+    },
+    "place_id": "ChIJf8cE_5BwAjoR7vX8n98Z6sM",
+    "image": "src/assets/art/sindoor.jpg",
+    "themeSummary": "Sikdar Bagan Sadharan Durga Puja is renowned in North Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Sikdar Bagan Sadharan Durga Puja শারদোৎসব",
+    "nearestMetro": "Shyambazar / Sovabazar Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1946,
+    "history": "Sikdar Bagan Sadharan Durga Puja has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_110",
+    "name": "Telengabagan Durga Puja",
+    "zone": "North Kolkata",
+    "address": "Telenga Bagan, Ultadanga Main Road, Kolkata 700067",
+    "coordinates": {
+      "lat": 22.5898,
+      "lng": 88.3845
+    },
+    "place_id": "ChIJg8cE_5BwAjoR8vX8n98Z6sM",
+    "image": "src/assets/art/food.jpg",
+    "themeSummary": "Telengabagan Durga Puja is renowned in North Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Telengabagan Durga Puja শারদোৎসব",
+    "nearestMetro": "Shyambazar / Sovabazar Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1948,
+    "history": "Telengabagan Durga Puja has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_111",
+    "name": "Manicktala Chaltabagan Durga Puja",
+    "zone": "North Kolkata",
+    "address": "Chaltabagan Lane, Manicktala, Kolkata 700006",
+    "coordinates": {
+      "lat": 22.5834,
+      "lng": 88.3731
+    },
+    "place_id": "ChIJh8cE_5BwAjoR9vX8n98Z6sM",
+    "image": "src/assets/art/hero.jpg",
+    "themeSummary": "Manicktala Chaltabagan Durga Puja is renowned in North Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Manicktala Chaltabagan Durga Puja শারদোৎসব",
+    "nearestMetro": "Shyambazar / Sovabazar Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1950,
+    "history": "Manicktala Chaltabagan Durga Puja has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_112",
+    "name": "College Square Durga Puja",
+    "zone": "North Kolkata",
+    "address": "53 College Street, Bowbazar, Kolkata 700073",
+    "coordinates": {
+      "lat": 22.5742,
+      "lng": 88.3636
+    },
+    "place_id": "ChIJi8cE_5BwAjoR0vX8n98Z6sM",
+    "image": "src/assets/art/kumartuli.jpg",
+    "themeSummary": "College Square Durga Puja is renowned in North Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "College Square Durga Puja শারদোৎসব",
+    "nearestMetro": "Shyambazar / Sovabazar Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1952,
+    "history": "College Square Durga Puja has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_113",
+    "name": "Mohammad Ali Park Durga Puja",
+    "zone": "North Kolkata",
+    "address": "Mohammad Ali Park, Chittaranjan Avenue, Kolkata 700073",
+    "coordinates": {
+      "lat": 22.5786,
+      "lng": 88.3602
+    },
+    "place_id": "ChIJj8cE_5BwAjoR1vX8n98Z6sM",
+    "image": "src/assets/art/dhunuchi.jpg",
+    "themeSummary": "Mohammad Ali Park Durga Puja is renowned in North Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Mohammad Ali Park Durga Puja শারদোৎসব",
+    "nearestMetro": "Shyambazar / Sovabazar Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1954,
+    "history": "Mohammad Ali Park Durga Puja has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_114",
+    "name": "Pathuriaghata Pancher Pally",
+    "zone": "North Kolkata",
+    "address": "Pathuriaghata Street, Jorabagan, Kolkata 700006",
+    "coordinates": {
+      "lat": 22.588,
+      "lng": 88.358
+    },
+    "place_id": "ChIJk8cE_5BwAjoR2vX8n98Z6sM",
+    "image": "src/assets/art/sindoor.jpg",
+    "themeSummary": "Pathuriaghata Pancher Pally is renowned in North Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Pathuriaghata Pancher Pally শারদোৎসব",
+    "nearestMetro": "Shyambazar / Sovabazar Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1956,
+    "history": "Pathuriaghata Pancher Pally has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_115",
+    "name": "Simla Vyayam Samiti",
+    "zone": "North Kolkata",
+    "address": "Simla Vyayam Samiti, Vivekananda Road, Kolkata 700006",
+    "coordinates": {
+      "lat": 22.585,
+      "lng": 88.365
+    },
+    "place_id": "ChIJl8cE_5BwAjoR3vX8n98Z6sM",
+    "image": "src/assets/art/food.jpg",
+    "themeSummary": "Simla Vyayam Samiti is renowned in North Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Simla Vyayam Samiti শারদোৎসব",
+    "nearestMetro": "Shyambazar / Sovabazar Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1958,
+    "history": "Simla Vyayam Samiti has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_116",
+    "name": "Nalin Sarkar Street Durga Puja",
+    "zone": "North Kolkata",
+    "address": "16 Nalin Sarkar Street, Fariapukur, Kolkata 700004",
+    "coordinates": {
+      "lat": 22.5932,
+      "lng": 88.3718
+    },
+    "place_id": "ChIJm8cE_5BwAjoR4vX8n98Z6sM",
+    "image": "src/assets/art/hero.jpg",
+    "themeSummary": "Nalin Sarkar Street Durga Puja is renowned in North Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Nalin Sarkar Street Durga Puja শারদোৎসব",
+    "nearestMetro": "Shyambazar / Sovabazar Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1960,
+    "history": "Nalin Sarkar Street Durga Puja has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_117",
+    "name": "Ultadanga Sangree Durga Puja",
+    "zone": "North Kolkata",
+    "address": "Canal East Road, Ultadanga, Kolkata 700067",
+    "coordinates": {
+      "lat": 22.591,
+      "lng": 88.388
+    },
+    "place_id": "ChIJn8cE_5BwAjoR5vX8n98Z6sM",
+    "image": "src/assets/art/kumartuli.jpg",
+    "themeSummary": "Ultadanga Sangree Durga Puja is renowned in North Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Ultadanga Sangree Durga Puja শারদোৎসব",
+    "nearestMetro": "Shyambazar / Sovabazar Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1962,
+    "history": "Ultadanga Sangree Durga Puja has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_118",
+    "name": "Dum Dum Park Bharat Chakra",
+    "zone": "North Kolkata",
+    "address": "Dum Dum Park, Shyamnagar, Kolkata 700055",
+    "coordinates": {
+      "lat": 22.6085,
+      "lng": 88.4082
+    },
+    "place_id": "ChIJo8cE_5BwAjoR6vX8n98Z6sM",
+    "image": "src/assets/art/dhunuchi.jpg",
+    "themeSummary": "Dum Dum Park Bharat Chakra is renowned in North Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Dum Dum Park Bharat Chakra শারদোৎসব",
+    "nearestMetro": "Shyambazar / Sovabazar Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1964,
+    "history": "Dum Dum Park Bharat Chakra has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_119",
+    "name": "Dum Dum Park Tarun Sangha",
+    "zone": "North Kolkata",
+    "address": "Dum Dum Park, Lake Town, Bangur Avenue, Kolkata 700055",
+    "coordinates": {
+      "lat": 22.6071,
+      "lng": 88.4068
+    },
+    "place_id": "ChIJp8cE_5BwAjoR7vX8n98Z6sM",
+    "image": "src/assets/art/sindoor.jpg",
+    "themeSummary": "Dum Dum Park Tarun Sangha is renowned in North Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Dum Dum Park Tarun Sangha শারদোৎসব",
+    "nearestMetro": "Shyambazar / Sovabazar Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1966,
+    "history": "Dum Dum Park Tarun Sangha has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_120",
+    "name": "Lake Town Adhibasi Vrinda",
+    "zone": "North Kolkata",
+    "address": "Block B, Lake Town, Kolkata 700089",
+    "coordinates": {
+      "lat": 22.6015,
+      "lng": 88.4012
+    },
+    "place_id": "ChIJq8cE_5BwAjoR8vX8n98Z6sM",
+    "image": "src/assets/art/food.jpg",
+    "themeSummary": "Lake Town Adhibasi Vrinda is renowned in North Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Lake Town Adhibasi Vrinda শারদোৎসব",
+    "nearestMetro": "Shyambazar / Sovabazar Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1968,
+    "history": "Lake Town Adhibasi Vrinda has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_121",
+    "name": "Tala Park Public Durga Puja",
+    "zone": "North Kolkata",
+    "address": "Tala Park, Tarashankar Sarani, Kolkata 700037",
+    "coordinates": {
+      "lat": 22.6105,
+      "lng": 88.3752
+    },
+    "place_id": "ChIJr8cE_5BwAjoR9vX8n98Z6sM",
+    "image": "src/assets/art/hero.jpg",
+    "themeSummary": "Tala Park Public Durga Puja is renowned in North Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Tala Park Public Durga Puja শারদোৎসব",
+    "nearestMetro": "Shyambazar / Sovabazar Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1970,
+    "history": "Tala Park Public Durga Puja has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_122",
+    "name": "Ekdalia Evergreen Club",
+    "zone": "South Kolkata",
+    "address": "15 Ekdalia Road, Gariahat, Ballygunge, Kolkata 700019",
+    "coordinates": {
+      "lat": 22.5186,
+      "lng": 88.3685
+    },
+    "place_id": "ChIJs8cE_5BwAjoR0vX8n98Z6sM",
+    "image": "src/assets/art/kumartuli.jpg",
+    "themeSummary": "Ekdalia Evergreen Club is renowned in South Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Ekdalia Evergreen Club শারদোৎসব",
+    "nearestMetro": "Kalighat / Jatin Das Park Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1972,
+    "history": "Ekdalia Evergreen Club has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_123",
+    "name": "Singhi Park Durga Puja",
+    "zone": "South Kolkata",
+    "address": "Singhi Park, Dover Lane, Ballygunge, Kolkata 700019",
+    "coordinates": {
+      "lat": 22.5198,
+      "lng": 88.3698
+    },
+    "place_id": "ChIJt8cE_5BwAjoR1vX8n98Z6sM",
+    "image": "src/assets/art/dhunuchi.jpg",
+    "themeSummary": "Singhi Park Durga Puja is renowned in South Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Singhi Park Durga Puja শারদোৎসব",
+    "nearestMetro": "Kalighat / Jatin Das Park Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1974,
+    "history": "Singhi Park Durga Puja has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_124",
+    "name": "Ballygunge Cultural Association",
+    "zone": "South Kolkata",
+    "address": "Jamir Lane, Ballygunge Cultural, Kolkata 700019",
+    "coordinates": {
+      "lat": 22.5225,
+      "lng": 88.3665
+    },
+    "place_id": "ChIJu8cE_5BwAjoR2vX8n98Z6sM",
+    "image": "src/assets/art/sindoor.jpg",
+    "themeSummary": "Ballygunge Cultural Association is renowned in South Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Ballygunge Cultural Association শারদোৎসব",
+    "nearestMetro": "Kalighat / Jatin Das Park Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1976,
+    "history": "Ballygunge Cultural Association has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_125",
+    "name": "Maddox Square Durga Puja",
+    "zone": "South Kolkata",
+    "address": "Maddox Square Park, Ritchie Road, Ballygunge, Kolkata 700019",
+    "coordinates": {
+      "lat": 22.5312,
+      "lng": 88.3582
+    },
+    "place_id": "ChIJv8cE_5BwAjoR3vX8n98Z6sM",
+    "image": "src/assets/art/food.jpg",
+    "themeSummary": "Maddox Square Durga Puja is renowned in South Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Maddox Square Durga Puja শারদোৎসব",
+    "nearestMetro": "Kalighat / Jatin Das Park Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1978,
+    "history": "Maddox Square Durga Puja has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_126",
+    "name": "Mudiali Club Durga Puja",
+    "zone": "South Kolkata",
+    "address": "Southern Avenue, Mudiali, Kalighat, Kolkata 700029",
+    "coordinates": {
+      "lat": 22.5123,
+      "lng": 88.3541
+    },
+    "place_id": "ChIJw8cE_5BwAjoR4vX8n98Z6sM",
+    "image": "src/assets/art/hero.jpg",
+    "themeSummary": "Mudiali Club Durga Puja is renowned in South Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Mudiali Club Durga Puja শারদোৎসব",
+    "nearestMetro": "Kalighat / Jatin Das Park Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1980,
+    "history": "Mudiali Club Durga Puja has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_127",
+    "name": "Shiv Mandir Durga Puja",
+    "zone": "South Kolkata",
+    "address": "Lake Temple Road, Menoka Cinema, Kalighat, Kolkata 700029",
+    "coordinates": {
+      "lat": 22.5135,
+      "lng": 88.3556
+    },
+    "place_id": "ChIJx8cE_5BwAjoR5vX8n98Z6sM",
+    "image": "src/assets/art/kumartuli.jpg",
+    "themeSummary": "Shiv Mandir Durga Puja is renowned in South Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Shiv Mandir Durga Puja শারদোৎসব",
+    "nearestMetro": "Kalighat / Jatin Das Park Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1982,
+    "history": "Shiv Mandir Durga Puja has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_128",
+    "name": "Badamtala Ashar Sangha",
+    "zone": "South Kolkata",
+    "address": "Nepal Bhattacharjee Street, Kalighat, Kolkata 700026",
+    "coordinates": {
+      "lat": 22.5208,
+      "lng": 88.3496
+    },
+    "place_id": "ChIJy8cE_5BwAjoR6vX8n98Z6sM",
+    "image": "src/assets/art/dhunuchi.jpg",
+    "themeSummary": "Badamtala Ashar Sangha is renowned in South Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Badamtala Ashar Sangha শারদোৎসব",
+    "nearestMetro": "Kalighat / Jatin Das Park Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1984,
+    "history": "Badamtala Ashar Sangha has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_129",
+    "name": "Suruchi Sangha (Alipore)",
+    "zone": "South Kolkata",
+    "address": "Block M, New Alipore, Kolkata 700053",
+    "coordinates": {
+      "lat": 22.5276,
+      "lng": 88.3341
+    },
+    "place_id": "ChIJ08cE_5BwAjoR8vX8n98Z6sM",
+    "image": "src/assets/art/sindoor.jpg",
+    "themeSummary": "Suruchi Sangha (Alipore) is renowned in South Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Suruchi Sangha (Alipore) শারদোৎসব",
+    "nearestMetro": "Kalighat / Jatin Das Park Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1988,
+    "history": "Suruchi Sangha (Alipore) has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_130",
+    "name": "Deshapriya Park Durga Puja",
+    "zone": "South Kolkata",
+    "address": "Deshapriya Park, Rashbehari Avenue, Kolkata 700026",
+    "coordinates": {
+      "lat": 22.5201,
+      "lng": 88.3538
+    },
+    "place_id": "ChIJ18cE_5BwAjoR9vX8n98Z6sM",
+    "image": "src/assets/art/food.jpg",
+    "themeSummary": "Deshapriya Park Durga Puja is renowned in South Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Deshapriya Park Durga Puja শারদোৎসব",
+    "nearestMetro": "Kalighat / Jatin Das Park Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1990,
+    "history": "Deshapriya Park Durga Puja has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_131",
+    "name": "Tridhara Sammilani",
+    "zone": "South Kolkata",
+    "address": "Manoharpukur Road, Rashbehari Avenue, Kolkata 700029",
+    "coordinates": {
+      "lat": 22.5189,
+      "lng": 88.3562
+    },
+    "place_id": "ChIJ28cE_5BwAjoR0vX8n98Z6sM",
+    "image": "src/assets/art/hero.jpg",
+    "themeSummary": "Tridhara Sammilani is renowned in South Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Tridhara Sammilani শারদোৎসব",
+    "nearestMetro": "Kalighat / Jatin Das Park Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1992,
+    "history": "Tridhara Sammilani has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_132",
+    "name": "66 Pally Durga Puja",
+    "zone": "South Kolkata",
+    "address": "66 Pally, Kalighat, Kolkata 700026",
+    "coordinates": {
+      "lat": 22.5212,
+      "lng": 88.3488
+    },
+    "place_id": "ChIJ38cE_5BwAjoR1vX8n98Z6sM",
+    "image": "src/assets/art/kumartuli.jpg",
+    "themeSummary": "66 Pally Durga Puja is renowned in South Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "66 Pally Durga Puja শারদোৎসব",
+    "nearestMetro": "Kalighat / Jatin Das Park Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1994,
+    "history": "66 Pally Durga Puja has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_133",
+    "name": "Babubagan Sarbojanin Durga Puja",
+    "zone": "South Kolkata",
+    "address": "Babubagan Lane, Dhakuria, Kolkata 700031",
+    "coordinates": {
+      "lat": 22.5085,
+      "lng": 88.3672
+    },
+    "place_id": "ChIJ48cE_5BwAjoR2vX8n98Z6sM",
+    "image": "src/assets/art/dhunuchi.jpg",
+    "themeSummary": "Babubagan Sarbojanin Durga Puja is renowned in South Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Babubagan Sarbojanin Durga Puja শারদোৎসব",
+    "nearestMetro": "Kalighat / Jatin Das Park Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1996,
+    "history": "Babubagan Sarbojanin Durga Puja has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_134",
+    "name": "Selimpur Club Durga Puja",
+    "zone": "South Kolkata",
+    "address": "Selimpur Road, Dhakuria, Kolkata 700031",
+    "coordinates": {
+      "lat": 22.5072,
+      "lng": 88.3695
+    },
+    "place_id": "ChIJ58cE_5BwAjoR3vX8n98Z6sM",
+    "image": "src/assets/art/sindoor.jpg",
+    "themeSummary": "Selimpur Club Durga Puja is renowned in South Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Selimpur Club Durga Puja শারদোৎসব",
+    "nearestMetro": "Kalighat / Jatin Das Park Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1998,
+    "history": "Selimpur Club Durga Puja has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_135",
+    "name": "Jodhpur Park Durga Puja",
+    "zone": "South Kolkata",
+    "address": "Jodhpur Park Main Road, Kolkata 700068",
+    "coordinates": {
+      "lat": 22.5028,
+      "lng": 88.3648
+    },
+    "place_id": "ChIJ68cE_5BwAjoR4vX8n98Z6sM",
+    "image": "src/assets/art/food.jpg",
+    "themeSummary": "Jodhpur Park Durga Puja is renowned in South Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Jodhpur Park Durga Puja শারদোৎসব",
+    "nearestMetro": "Kalighat / Jatin Das Park Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1930,
+    "history": "Jodhpur Park Durga Puja has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_136",
+    "name": "Naktala Udayan Sangha",
+    "zone": "South Kolkata",
+    "address": "Naktala Main Road, Garia, Kolkata 700047",
+    "coordinates": {
+      "lat": 22.4789,
+      "lng": 88.3756
+    },
+    "place_id": "ChIJ78cE_5BwAjoR5vX8n98Z6sM",
+    "image": "src/assets/art/hero.jpg",
+    "themeSummary": "Naktala Udayan Sangha is renowned in South Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Naktala Udayan Sangha শারদোৎসব",
+    "nearestMetro": "Kalighat / Jatin Das Park Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1932,
+    "history": "Naktala Udayan Sangha has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_137",
+    "name": "Samaj Sebi Sangha",
+    "zone": "South Kolkata",
+    "address": "Lake View Road, Ballygunge, Kolkata 700029",
+    "coordinates": {
+      "lat": 22.5178,
+      "lng": 88.358
+    },
+    "place_id": "ChIJ88cE_5BwAjoR6vX8n98Z6sM",
+    "image": "src/assets/art/kumartuli.jpg",
+    "themeSummary": "Samaj Sebi Sangha is renowned in South Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Samaj Sebi Sangha শারদোৎসব",
+    "nearestMetro": "Kalighat / Jatin Das Park Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1934,
+    "history": "Samaj Sebi Sangha has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_138",
+    "name": "Bosepukur Sreetalta Durga Puja",
+    "zone": "South Kolkata",
+    "address": "Bosepukur Sreetalta, Kasba, Kolkata 700042",
+    "coordinates": {
+      "lat": 22.5132,
+      "lng": 88.3842
+    },
+    "place_id": "ChIJ98cE_5BwAjoR7vX8n98Z6sM",
+    "image": "src/assets/art/dhunuchi.jpg",
+    "themeSummary": "Bosepukur Sreetalta Durga Puja is renowned in South Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Bosepukur Sreetalta Durga Puja শারদোৎসব",
+    "nearestMetro": "Kalighat / Jatin Das Park Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1936,
+    "history": "Bosepukur Sreetalta Durga Puja has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_139",
+    "name": "Haridevpur 41 Pally",
+    "zone": "South Kolkata",
+    "address": "Haridevpur 41 Pally, MG Road, Haridevpur, Kolkata 700082",
+    "coordinates": {
+      "lat": 22.4712,
+      "lng": 88.3325
+    },
+    "place_id": "ChIJa9cE_5BwAjoR8vX8n98Z6sM",
+    "image": "src/assets/art/sindoor.jpg",
+    "themeSummary": "Haridevpur 41 Pally is renowned in South Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Haridevpur 41 Pally শারদোৎসব",
+    "nearestMetro": "Kalighat / Jatin Das Park Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1938,
+    "history": "Haridevpur 41 Pally has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_140",
+    "name": "Barisha Club Durga Puja",
+    "zone": "South Kolkata",
+    "address": "Barisha Club, Diamond Harbour Road, Behala, Kolkata 700008",
+    "coordinates": {
+      "lat": 22.4823,
+      "lng": 88.3189
+    },
+    "place_id": "ChIJb9cE_5BwAjoR9vX8n98Z6sM",
+    "image": "src/assets/art/food.jpg",
+    "themeSummary": "Barisha Club Durga Puja is renowned in South Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Barisha Club Durga Puja শারদোৎসব",
+    "nearestMetro": "Kalighat / Jatin Das Park Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1940,
+    "history": "Barisha Club Durga Puja has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_141",
+    "name": "Behala Friends Durga Puja",
+    "zone": "South Kolkata",
+    "address": "Banamali Naskar Road, Behala Friends, Kolkata 700034",
+    "coordinates": {
+      "lat": 22.4935,
+      "lng": 88.321
+    },
+    "place_id": "ChIJc9cE_5BwAjoR0vX8n98Z6sM",
+    "image": "src/assets/art/hero.jpg",
+    "themeSummary": "Behala Friends Durga Puja is renowned in South Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Behala Friends Durga Puja শারদোৎসব",
+    "nearestMetro": "Kalighat / Jatin Das Park Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1942,
+    "history": "Behala Friends Durga Puja has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_142",
+    "name": "Hindustan Park Durga Puja",
+    "zone": "South Kolkata",
+    "address": "Hindustan Park, Gariahat, Kolkata 700029",
+    "coordinates": {
+      "lat": 22.5175,
+      "lng": 88.3615
+    },
+    "place_id": "ChIJd9cE_5BwAjoR1vX8n98Z6sM",
+    "image": "src/assets/art/kumartuli.jpg",
+    "themeSummary": "Hindustan Park Durga Puja is renowned in South Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Hindustan Park Durga Puja শারদোৎসব",
+    "nearestMetro": "Kalighat / Jatin Das Park Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1944,
+    "history": "Hindustan Park Durga Puja has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_143",
+    "name": "Lake Youth Corner",
+    "zone": "South Kolkata",
+    "address": "Sarat Bose Road, Lake Market, Kolkata 700029",
+    "coordinates": {
+      "lat": 22.514,
+      "lng": 88.351
+    },
+    "place_id": "ChIJe9cE_5BwAjoR2vX8n98Z6sM",
+    "image": "src/assets/art/dhunuchi.jpg",
+    "themeSummary": "Lake Youth Corner is renowned in South Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Lake Youth Corner শারদোৎসব",
+    "nearestMetro": "Kalighat / Jatin Das Park Metro",
+    "crowdLevel": "High",
+    "establishedYear": 1946,
+    "history": "Lake Youth Corner has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_144",
+    "name": "Santosh Mitra Square Durga Puja",
+    "zone": "Central",
+    "address": "Santosh Mitra Square, Lebutala, Bowbazar, Kolkata 700012",
+    "coordinates": {
+      "lat": 22.5695,
+      "lng": 88.3648
+    },
+    "place_id": "ChIJf9cE_5BwAjoR3vX8n98Z6sM",
+    "image": "src/assets/art/sindoor.jpg",
+    "themeSummary": "Santosh Mitra Square Durga Puja is renowned in Central Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Santosh Mitra Square Durga Puja শারদোৎসব",
+    "nearestMetro": "MG Road / Central Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1948,
+    "history": "Santosh Mitra Square Durga Puja has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_145",
+    "name": "Bowbazar Sarbojanin Durga Puja",
+    "zone": "Central",
+    "address": "Bowbazar Sarbojanin, Bowbazar, Kolkata 700012",
+    "coordinates": {
+      "lat": 22.5678,
+      "lng": 88.362
+    },
+    "place_id": "ChIJg9cE_5BwAjoR4vX8n98Z6sM",
+    "image": "src/assets/art/food.jpg",
+    "themeSummary": "Bowbazar Sarbojanin Durga Puja is renowned in Central Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Bowbazar Sarbojanin Durga Puja শারদোৎসব",
+    "nearestMetro": "MG Road / Central Metro",
+    "crowdLevel": "Very High",
+    "establishedYear": 1950,
+    "history": "Bowbazar Sarbojanin Durga Puja has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_146",
+    "name": "Kankurgachi Mitali Sangha",
+    "zone": "East/Salt Lake",
+    "address": "Mitali Sangha, Kankurgachi, Kolkata 700054",
+    "coordinates": {
+      "lat": 22.5765,
+      "lng": 88.3892
+    },
+    "place_id": "ChIJh9cE_5BwAjoR5vX8n98Z6sM",
+    "image": "src/assets/art/hero.jpg",
+    "themeSummary": "Kankurgachi Mitali Sangha is renowned in East/Salt Lake Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Kankurgachi Mitali Sangha শারদোৎসব",
+    "nearestMetro": "Salt Lake Stadium / Karunamoyee Metro",
+    "crowdLevel": "Moderate",
+    "establishedYear": 1952,
+    "history": "Kankurgachi Mitali Sangha has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_147",
+    "name": "Rajdanga Naba Uday Sangha",
+    "zone": "East/Salt Lake",
+    "address": "Rajdanga Naba Uday Sangha, Kasba, Kolkata 700107",
+    "coordinates": {
+      "lat": 22.5115,
+      "lng": 88.3889
+    },
+    "place_id": "ChIJi9cE_5BwAjoR6vX8n98Z6sM",
+    "image": "src/assets/art/kumartuli.jpg",
+    "themeSummary": "Rajdanga Naba Uday Sangha is renowned in East/Salt Lake Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Rajdanga Naba Uday Sangha শারদোৎসব",
+    "nearestMetro": "Salt Lake Stadium / Karunamoyee Metro",
+    "crowdLevel": "Moderate",
+    "establishedYear": 1954,
+    "history": "Rajdanga Naba Uday Sangha has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_148",
+    "name": "Salt Lake FD Block Durga Puja",
+    "zone": "East/Salt Lake",
+    "address": "FD Block Park, Sector III, Salt Lake, Kolkata 700106",
+    "coordinates": {
+      "lat": 22.5792,
+      "lng": 88.4112
+    },
+    "place_id": "ChIJj9cE_5BwAjoR7vX8n98Z6sM",
+    "image": "src/assets/art/dhunuchi.jpg",
+    "themeSummary": "Salt Lake FD Block Durga Puja is renowned in East/Salt Lake Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Salt Lake FD Block Durga Puja শারদোৎসব",
+    "nearestMetro": "Salt Lake Stadium / Karunamoyee Metro",
+    "crowdLevel": "Moderate",
+    "establishedYear": 1956,
+    "history": "Salt Lake FD Block Durga Puja has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_149",
+    "name": "Salt Lake BJ Block Durga Puja",
+    "zone": "East/Salt Lake",
+    "address": "BJ Block Community Centre, BJ Park Footpath, BJ Block, Sector II, Bidhannagar, Kolkata Metropolitan Area, Rajarhat, North 24 Parganas, West Bengal, 700101, India",
+    "coordinates": {
+      "lat": 22.5911,
+      "lng": 88.4259
+    },
+    "place_id": "osm_249019205",
+    "image": "src/assets/art/sindoor.jpg",
+    "themeSummary": "Salt Lake BJ Block Durga Puja is renowned in East/Salt Lake Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Salt Lake BJ Block Durga Puja শারদোৎসব",
+    "nearestMetro": "Salt Lake Stadium / Karunamoyee Metro",
+    "crowdLevel": "Moderate",
+    "establishedYear": 1958,
+    "history": "Salt Lake BJ Block Durga Puja has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_150",
+    "name": "Salt Lake AK Block Durga Puja",
+    "zone": "East/Salt Lake",
+    "address": "AK Block Association Park, Sector II, Salt Lake, Kolkata 700091",
+    "coordinates": {
+      "lat": 22.5852,
+      "lng": 88.4189
+    },
+    "place_id": "ChIJl9cE_5BwAjoR9vX8n98Z6sM",
+    "image": "src/assets/art/food.jpg",
+    "themeSummary": "Salt Lake AK Block Durga Puja is renowned in East/Salt Lake Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Salt Lake AK Block Durga Puja শারদোৎসব",
+    "nearestMetro": "Salt Lake Stadium / Karunamoyee Metro",
+    "crowdLevel": "Moderate",
+    "establishedYear": 1960,
+    "history": "Salt Lake AK Block Durga Puja has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  },
+  {
+    "id": "pandal_151",
+    "name": "Salt Lake AJ Block Durga Puja",
+    "zone": "East/Salt Lake",
+    "address": "AJ Block Park, Sector II, Salt Lake, Kolkata 700091",
+    "coordinates": {
+      "lat": 22.5868,
+      "lng": 88.4215
+    },
+    "place_id": "ChIJm9cE_5BwAjoR0vX8n98Z6sM",
+    "image": "src/assets/art/hero.jpg",
+    "themeSummary": "Salt Lake AJ Block Durga Puja is renowned in East/Salt Lake Kolkata for its artistic excellence and cultural grandeur.",
+    "bengaliName": "Salt Lake AJ Block Durga Puja শারদোৎসব",
+    "nearestMetro": "Salt Lake Stadium / Karunamoyee Metro",
+    "crowdLevel": "Moderate",
+    "establishedYear": 1962,
+    "history": "Salt Lake AJ Block Durga Puja has been one of Kolkata's most celebrated Durga Puja destinations, drawing thousands of pandal-hoppers every festive evening.",
+    "artConcept": "Crafted by master artisans using eco-friendly materials, intricate terracotta work, and warm ambient lighting.",
+    "highlights": [
+      "Iconic Pandal Artistry",
+      "Handcrafted Idol",
+      "Festive Illumination"
+    ],
+    "nearbyPandals": [],
+    "foodRadar": [
+      {
+        "name": "Local Phuchka & Roll Corner",
+        "specialty": "Kashundi Phuchka & Egg Chicken Roll",
+        "distance": "100m",
+        "rating": "4.8/5",
+        "price": "₹"
+      },
+      {
+        "name": "Traditional Mishti Hub",
+        "specialty": "Baked Rosogolla & Mishti Doi",
+        "distance": "250m",
+        "rating": "4.9/5",
+        "price": "₹₹"
+      }
+    ]
+  }
+];

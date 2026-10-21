@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kolkata Puja Parikrama — Durga Puja 2026 | পূজো পরিক্রমা</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="A modern, interactive, editorial digital magazine and official guide to Kolkata Durga Puja 2026. Explore pandal art, food haunts, and generate optimized parikrama itineraries.">
+  <meta name="keywords" content="Durga Puja 2026, Kolkata Puja Parikrama, Pandal Hopping Guide, Kolkata Metro Puja Route, Sovabazar, Sree Bhumi, Bagbazar, Kumartuli">
+  
+  <!-- Embedded Trinetra Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><path d='M50 15 C20 45 10 50 10 50 C10 50 20 55 50 85 C80 55 90 50 90 50 C90 50 80 45 50 15 Z' fill='%23D84430' stroke='%23E5B344' stroke-width='4'/><circle cx='50' cy='50' r='14' fill='%23E5B344'/><circle cx='50' cy='50' r='6' fill='%231D211D'/></svg>">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            paper: {
+              DEFAULT: '#F6F0E5',
+              dark: '#EBE2D3',
+              light: '#FAF7F0'
+            },
+            ink: {
+              DEFAULT: '#1D211D',
+              light: '#2E352E',
+              muted: '#5A625A'
+            },
+            vermilion: {
+              DEFAULT: '#D84430',
+              dark: '#B53321',
+              light: '#E5604E'
+            },
+            mustard: {
+              DEFAULT: '#E5B344',
+              dark: '#C79728',
+              light: '#F2CD72'
+            },
+            leaf: {
+              DEFAULT: '#405D47',
+              dark: '#2B4030',
+              light: '#5B7E63'
+            },
+            cobalt: {
+              DEFAULT: '#315BC4',
+              dark: '#224396',
+              light: '#587FE3'
+            },
+            blush: {
+              DEFAULT: '#E8B7A8',
+              light: '#F4D6CD'
+            }
+          },
+          fontFamily: {
+            syne: ['"Syne"', 'sans-serif'],
+            space: ['"Space Grotesk"', 'sans-serif'],
+            sans: ['"Instrument Sans"', 'sans-serif'],
+            serif: ['"Cormorant Garamond"', 'serif'],
+            bengali: ['"Noto Serif Bengali"', 'serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Fonts: Syne, Space Grotesk, Instrument Sans, Cormorant Garamond, Noto Serif Bengali -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,400&family=Instrument+Sans:wght@400;500;600;700&family=Noto+Serif+Bengali:wght@600;700&family=Space+Grotesk:wght@500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+
+  <!-- Leaflet.js CDN -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" />
+
+  <!-- Custom Modern Motion & Editorial CSS -->
+  <style>
+    /* Infinite Horizontal Marquee Ticker */
+    @keyframes marquee {
+      0% { transform: translateX(0%); }
+      100% { transform: translateX(-50%); }
+    }
+    .animate-marquee {
+      display: flex;
+      width: 200%;
+      animation: marquee 22s linear infinite;
+    }
+    .animate-marquee:hover {
+      animation-play-state: paused;
+    }
+
+    /* Custom Leaflet Marker Styling */
+    .custom-leaflet-marker {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: radial-gradient(circle, #E5B344 0%, #D84430 100%);
+      color: #F6F0E5;
+      border: 2px solid #F2CD72;
+      border-radius: 50%;
+      font-weight: 800;
+      box-shadow: 0 0 12px rgba(229, 179, 68, 0.8), 0 4px 6px rgba(0,0,0,0.4);
+      transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    .custom-leaflet-marker:hover {
+      transform: scale(1.25) translateY(-3px);
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #1D211D;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #D84430;
+      border-radius: 3px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #E5B344;
+    }
+
+    /* Leaflet Overrides */
+    .leaflet-popup-content-wrapper {
+      background: #1D211D;
+      color: #F6F0E5;
+      border: 1px solid #E5B344;
+      border-radius: 6px;
+      font-family: 'Space Grotesk', sans-serif;
+    }
+    .leaflet-popup-tip {
+      background: #1D211D;
+    }
+
+    /* Modern Editorial Cards */
+    .editorial-card-dark {
+      background-color: rgba(29, 33, 29, 0.92);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(229, 179, 68, 0.25);
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .editorial-card-dark:hover {
+      border-color: #E5B344;
+      transform: translateY(-3px);
+    }
+
+    .editorial-card-paper {
+      background-color: #F6F0E5;
+      border: 1px solid rgba(29, 33, 29, 0.2);
+      color: #1D211D;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    /* Full-Site Atmospheric Painterly Graphic Backdrop */
+    .site-bg-graphic {
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      pointer-events: none;
+      overflow: hidden;
+    }
+  </style>
+</head>
+
+<body class="bg-ink text-paper font-sans min-h-screen selection:bg-vermilion selection:text-paper relative">
+
+  <!-- ========================================== -->
+  <!-- FULL SITE ATMOSPHERIC BACKGROUND GRAPHIC -->
+  <!-- ========================================== -->
+  <div class="site-bg-graphic">
+    <img 
+      src="assets/art/hero.jpg" 
+      alt="Kolkata Durga Puja Painting Background Graphic" 
+      class="w-full h-full object-cover object-center opacity-25 filter brightness-90 contrast-110 scale-105"
+    >
+    <div class="absolute inset-0 bg-gradient-to-b from-ink/80 via-ink/85 to-ink/95"></div>
+    <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-transparent via-ink/40 to-ink"></div>
+  </div>
+
+  <!-- ========================================== -->
+  <!-- 1. TOP EDITORIAL ANNOUNCEMENT & DHAK BAR -->
+  <!-- ========================================== -->
+  <div class="relative z-10 bg-ink-light/95 border-b border-mustard/30 text-paper text-xs py-2.5 px-4 font-space">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-3">
+      
+      <div class="flex items-center gap-2">
+        <span class="inline-flex items-center px-2.5 py-0.5 rounded text-[11px] font-mono font-bold bg-vermilion text-paper border border-mustard/40 uppercase tracking-widest">
+          SHARODOTSAV 2026
+        </span>
+        <span class="hidden sm:inline text-paper/80">Kolkata's Official Digital Durga Puja Parikrama & Route Guide</span>
+      </div>
+      
+      <!-- Countdown -->
+      <div class="flex items-center gap-2 text-xs font-mono font-bold bg-ink px-3 py-1 rounded border border-mustard/30">
+        <span class="text-mustard">COUNTDOWN:</span>
+        <span id="puja-countdown-timer" class="text-white">Loading...</span>
+      </div>
+
+      <!-- Dhak Audio & Firebase Controls -->
+      <div class="flex items-center gap-2">
+        <button id="dhak-sound-btn" title="Play Traditional Festive Dhak Rhythm" class="flex items-center gap-1.5 px-3 py-1 rounded text-xs bg-vermilion hover:bg-vermilion-dark text-paper transition font-bold shadow">
+          <i class="fa-solid fa-drum text-mustard"></i>
+          <span id="dhak-btn-label">Dhak Beats</span>
+        </button>
+
+        <button id="firebase-status-badge" title="View cloud sync info" class="flex items-center gap-1.5 px-2.5 py-1 rounded text-xs bg-ink text-emerald-400 border border-emerald-500/40">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+          <span id="sync-status-text">Local Store</span>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ========================================== -->
+  <!-- 2. DISTINCTIVE MODERN NAVIGATION HEADER -->
+  <!-- ========================================== -->
+  <header class="sticky top-0 z-40 bg-ink/95 backdrop-blur-md border-b border-mustard/20 shadow-xl">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20 gap-4">
+        
+        <!-- Brand Emblem & Title -->
+        <a href="#" class="flex items-center gap-3 group">
+          <div class="w-11 h-11 rounded bg-vermilion flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform border border-mustard">
+            <svg class="w-7 h-7 text-paper" viewBox="0 0 100 100" fill="currentColor">
+              <path d="M50 20 C20 45 10 50 10 50 C10 50 20 55 50 80 C80 55 90 50 90 50 C90 50 80 45 50 20 Z" fill="none" stroke="#FFF" stroke-width="4"/>
+              <circle cx="50" cy="50" r="14" fill="#E5B344"/>
+              <circle cx="50" cy="50" r="6" fill="#D84430"/>
+            </svg>
+          </div>
+          <div>
+            <span class="font-syne font-extrabold text-2xl tracking-tight text-paper group-hover:text-mustard transition">PUJA PARIKRAMA</span>
+            <p class="font-bengali text-xs text-mustard/90 -mt-1">পূজো পরিক্রমা • ২০২৬</p>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="hidden lg:flex items-center gap-1 xl:gap-4 font-space text-xs font-semibold uppercase tracking-wider">
+          <a href="#pandals-directory" class="px-3 py-2 rounded text-paper/90 hover:text-mustard hover:bg-ink-light transition">
+            Directory
+          </a>
+          <a href="#smart-planner" class="px-3 py-2 rounded text-paper/90 hover:text-mustard hover:bg-indigo-800 transition">
+            Route Planner
+          </a>
+          <a href="#cultural-stories" class="px-3 py-2 rounded text-paper/90 hover:text-mustard hover:bg-indigo-800 transition">
+            Stories
+          </a>
+          <a href="#food-radar-highlights" class="px-3 py-2 rounded text-paper/90 hover:text-mustard hover:bg-indigo-800 transition">
+            Food Radar
+          </a>
+          <a href="#city-map-section" class="px-3 py-2 rounded text-paper/90 hover:text-mustard hover:bg-indigo-800 transition">
+            City Map
+          </a>
+          <button id="admin-panel-nav-btn" class="hidden admin-only-ui px-3 py-1.5 rounded text-xs font-mono font-bold text-mustard bg-ink-light border border-mustard/50 hover:bg-vermilion">
+            <i class="fa-solid fa-crown mr-1"></i> Admin
+          </button>
+        </nav>
+
+        <!-- Navigation Right Controls -->
+        <div class="flex items-center gap-3">
+          
+          <button id="open-add-pandal-btn" class="hidden admin-only-ui sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded text-xs font-mono font-bold text-ink bg-mustard hover:bg-mustard-light transition">
+            <i class="fa-solid fa-plus"></i> Add Pandal
+          </button>
+
+          <!-- Auth Button -->
+          <button id="auth-btn" class="px-3.5 py-1.5 rounded bg-ink-light hover:bg-ink border border-mustard/30 text-paper text-xs font-mono font-semibold transition flex items-center gap-1.5">
+            <i class="fa-solid fa-user-circle text-mustard" id="auth-btn-icon"></i>
+            <span id="auth-btn-label">Sign In</span>
+          </button>
+
+          <!-- Bookmarks Drawer Button -->
+          <button id="itinerary-quick-drawer-btn" title="Saved Route Pandals" class="relative p-2.5 rounded bg-ink-light hover:bg-ink border border-mustard/40 text-mustard transition">
+            <i class="fa-solid fa-bookmark text-sm"></i>
+            <span id="saved-pandal-count-badge" class="absolute -top-1.5 -right-1.5 w-5 h-5 rounded-full bg-vermilion text-paper text-[10px] font-mono font-bold flex items-center justify-center border border-mustard">0</span>
+          </button>
+
+          <!-- Mobile Toggle -->
+          <button id="mobile-menu-toggle" class="lg:hidden p-2 rounded bg-ink-light text-paper border border-mustard/30">
+            <i class="fa-solid fa-bars text-base"></i>
+          </button>
+        </div>
+
+      </div>
+
+      <!-- Mobile Dropdown -->
+      <div id="mobile-menu" class="hidden lg:hidden py-4 border-t border-mustard/20 space-y-2 font-space text-xs uppercase tracking-wider">
+        <a href="#pandals-directory" class="block px-3 py-2 rounded text-paper hover:bg-ink-light">Directory</a>
+        <a href="#smart-planner" class="block px-3 py-2 rounded text-paper hover:bg-ink-light">Route Planner</a>
+        <a href="#cultural-stories" class="block px-3 py-2 rounded text-paper hover:bg-ink-light">Stories</a>
+        <a href="#food-radar-highlights" class="block px-3 py-2 rounded text-paper hover:bg-ink-light">Food Radar</a>
+        <a href="#city-map-section" class="block px-3 py-2 rounded text-paper hover:bg-ink-light">City Map</a>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ========================================== -->
+  <!-- 3. HERO SECTION — MAGAZINE SPLIT COMPOSITION -->
+  <!-- ========================================== -->
+  <section class="relative min-h-[90vh] flex items-center justify-center bg-paper text-ink overflow-hidden py-16 lg:py-24">
+    
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left Side: Oversized Expressive Typography -->
+        <div class="lg:col-span-7 space-y-6">
+          
+          <div class="flex flex-wrap items-center gap-3">
+            <span class="px-3 py-1 rounded bg-vermilion text-paper text-xs font-mono font-bold uppercase tracking-widest">
+              AUTUMN 2026 EDITION
+            </span>
+            <span class="text-xs font-mono uppercase text-ink/70 font-semibold tracking-wider">
+              UNESCO Intangible Cultural Heritage
+            </span>
+          </div>
+
+          <!-- Oversized Headline -->
+          <h1 class="text-5xl sm:text-7xl lg:text-8xl font-syne font-extrabold text-ink leading-[0.92] tracking-tight uppercase">
+            PUJA IN <br/>
+            <span class="text-vermilion italic font-serif lowercase">every</span> STREET.
+          </h1>
+
+          <p class="font-sans text-base sm:text-lg text-ink/80 max-w-xl leading-relaxed">
+            Kolkata in motion — an interactive digital magazine exploring 151+ pandal art spectacles, master sculptors, street food rituals, and algorithm-optimized parikrama routes.
+          </p>
+
+          <div class="flex flex-wrap items-center gap-4 pt-4">
+            <a href="#pandals-directory" class="px-8 py-4 rounded bg-vermilion hover:bg-vermilion-dark text-paper font-syne font-bold text-sm uppercase tracking-wider shadow-xl transition flex items-center gap-2">
+              <span>Explore Directory</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+            <a href="#smart-planner" class="px-8 py-4 rounded bg-ink hover:bg-ink-light text-paper font-syne font-bold text-sm uppercase tracking-wider transition flex items-center gap-2">
+              <i class="fa-solid fa-wand-magic-sparkles text-mustard"></i>
+              <span>Smart Planner</span>
+            </a>
+          </div>
+
+          <!-- Quick Stats Row -->
+          <div class="grid grid-cols-3 gap-4 pt-6 border-t border-ink/15 max-w-md">
+            <div>
+              <div id="stat-total-pandals" class="text-3xl font-syne font-extrabold text-vermilion">151+</div>
+              <div class="text-[11px] font-mono uppercase text-ink/60 font-semibold">Pandals</div>
+            </div>
+            <div>
+              <div class="text-3xl font-syne font-extrabold text-cobalt">5</div>
+              <div class="text-[11px] font-mono uppercase text-ink/60 font-semibold">City Zones</div>
+            </div>
+            <div>
+              <div class="text-3xl font-syne font-extrabold text-leaf">36+</div>
+              <div class="text-[11px] font-mono uppercase text-ink/60 font-semibold">Food Radar</div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right Side: Hero Visual & Signature Rotating Text Ring -->
+        <div class="lg:col-span-5 relative">
+          
+          <div class="relative rounded-lg overflow-hidden border-2 border-ink shadow-2xl group">
+            <img 
+              src="assets/art/hero.jpg" 
+              alt="Kolkata Durga Puja Morning Pandal Hopping Illustration" 
+              class="w-full h-[450px] lg:h-[550px] object-cover group-hover:scale-105 transition-transform duration-1000"
+            >
+            <div class="absolute inset-0 bg-gradient-to-t from-ink/80 via-transparent to-transparent"></div>
+            
+            <div class="absolute bottom-6 left-6 right-6 text-paper space-y-1">
+              <span class="text-xs font-mono uppercase text-mustard font-bold">MORNING PARIKRAMA</span>
+              <h3 class="font-syne font-bold text-2xl">Sovabazar & North Kolkata Streets</h3>
+            </div>
+          </div>
+
+          <!-- 02. SIGNATURE ROTATING CIRCULAR TEXT RING -->
+          <div class="absolute -top-8 -right-8 z-20 w-36 h-36 flex items-center justify-center group pointer-events-auto cursor-pointer">
+            <svg class="w-full h-full animate-[spin_14s_linear_infinite] group-hover:[animation-duration:4s]" viewBox="0 0 100 100">
+              <path id="textPath" d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" fill="none" />
+              <text class="text-[9px] font-mono font-bold tracking-[0.22em] fill-vermilion uppercase">
+                <textPath href="#textPath">
+                  KOLKATA • PUJA • PARIKRAMA • 2026 • 
+                </textPath>
+              </text>
+            </svg>
+            <div class="absolute w-12 h-12 rounded-full bg-vermilion text-paper flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform border border-mustard">
+              <i class="fa-solid fa-eye text-sm text-mustard"></i>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ========================================== -->
+  <!-- 4. HORIZONTAL MARQUEE TICKER BANNER -->
+  <!-- ========================================== -->
+  <div class="bg-vermilion text-paper py-3 overflow-hidden border-y border-mustard/40 font-syne font-bold text-sm uppercase tracking-widest relative z-20">
+    <div class="animate-marquee whitespace-nowrap flex gap-8">
+      <span>KOLKATA • SHARODIYA 2026 • PANDAL HOPPING • DHAK BEATS • KUMARTULI ARTISANS • DHUNUCHI NAACH • BIJOYA DASHAMI •</span>
+      <span>KOLKATA • SHARODIYA 2026 • PANDAL HOPPING • DHAK BEATS • KUMARTULI ARTISANS • DHUNUCHI NAACH • BIJOYA DASHAMI •</span>
+    </div>
+  </div>
+
+  <!-- ========================================== -->
+  <!-- 5. MAIN CONTENT CONTAINER -->
+  <!-- ========================================== -->
+  <main class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-24">
+
+    <!-- PANDAL DIRECTORY SECTION -->
+    <section id="pandals-directory" class="space-y-8 scroll-mt-28">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 border-b border-mustard/20 pb-6">
+        <div>
+          <span class="text-xs font-mono uppercase font-bold text-mustard tracking-widest">
+            EXPLORE THE ARCHIVE
+          </span>
+          <h2 class="text-4xl sm:text-6xl font-syne font-extrabold text-paper uppercase mt-1">
+            Pandal Directory
+          </h2>
+        </div>
+
+        <!-- Locality Text Filters -->
+        <div class="flex items-center overflow-x-auto gap-2 pb-2 md:pb-0 scrollbar-none font-space text-xs font-bold uppercase tracking-wider" id="zone-filter-tabs">
+          <button data-zone="All" class="zone-tab-btn active px-3.5 py-1.5 rounded bg-vermilion text-paper border border-mustard">
+            All
+          </button>
+          <button data-zone="North Kolkata" class="zone-tab-btn px-3.5 py-1.5 rounded bg-ink-light text-paper/70 hover:text-mustard border border-mustard/20">
+            North
+          </button>
+          <button data-zone="South Kolkata" class="zone-tab-btn px-3.5 py-1.5 rounded bg-ink-light text-paper/70 hover:text-mustard border border-mustard/20">
+            South
+          </button>
+          <button data-zone="Central" class="zone-tab-btn px-3.5 py-1.5 rounded bg-ink-light text-paper/70 hover:text-mustard border border-mustard/20">
+            Central
+          </button>
+          <button data-zone="Salt Lake/East" class="zone-tab-btn px-3.5 py-1.5 rounded bg-ink-light text-paper/70 hover:text-mustard border border-mustard/20">
+            East
+          </button>
+          <button data-zone="Howrah" class="zone-tab-btn px-3.5 py-1.5 rounded bg-ink-light text-paper/70 hover:text-mustard border border-mustard/20">
+            Howrah
+          </button>
+        </div>
+      </div>
+
+      <!-- Search & Sorting Toolbar -->
+      <div class="flex flex-col sm:flex-row gap-4 items-center justify-between bg-ink-light p-4 rounded border border-mustard/30">
+        <div class="relative flex-1 w-full">
+          <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-3 text-mustard"></i>
+          <input 
+            type="text" 
+            id="pandal-search-input" 
+            placeholder="Search pandals, artists, theme art, or metro lines..." 
+            class="w-full pl-10 pr-10 py-2 bg-ink border border-mustard/30 rounded text-sm text-paper placeholder-paper/40 focus:outline-none focus:border-mustard font-sans"
+          >
+          <button id="clear-search-btn" class="hidden absolute right-3 top-2.5 text-mustard">
+            <i class="fa-solid fa-circle-xmark"></i>
+          </button>
+        </div>
+
+        <div class="flex items-center gap-2 text-xs font-mono self-end sm:self-center">
+          <span class="text-paper/60 uppercase">Count:</span>
+          <span id="displayed-pandals-count" class="font-bold text-mustard">151</span>
+          <span class="text-paper/60 uppercase ml-2">Sort:</span>
+          <select id="pandal-sort-select" class="bg-ink border border-mustard/30 text-paper text-xs rounded px-2.5 py-1.5 focus:outline-none">
+            <option value="default">Featured</option>
+            <option value="name-asc">Name (A-Z)</option>
+            <option value="established">Established</option>
+            <option value="zone">Zone</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Dynamic Asymmetrical Directory Grid -->
+      <div id="pandals-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- JS injects asymmetrical editorial cards -->
+      </div>
+
+      <!-- No Results -->
+      <div id="no-pandals-found" class="hidden text-center py-16 px-4 editorial-card-dark rounded max-w-md mx-auto">
+        <i class="fa-solid fa-magnifying-glass text-3xl text-mustard mb-3"></i>
+        <h3 class="font-syne font-bold text-xl text-paper mb-1">No Pandals Found</h3>
+        <p class="text-xs text-paper/70 font-sans mb-4">Try adjusting your search criteria or resetting filters.</p>
+        <button id="reset-filter-btn" class="px-4 py-2 bg-vermilion text-paper text-xs font-mono font-bold rounded">
+          Reset Filters
+        </button>
+      </div>
+
+    </section>
+
+    <!-- SMART TRAVEL PLANNER SECTION -->
+    <section id="smart-planner" class="pt-8 space-y-8 scroll-mt-28">
+      
+      <div class="text-center max-w-3xl mx-auto space-y-2">
+        <span class="px-3 py-1 rounded bg-leaf text-paper text-xs font-mono font-bold uppercase tracking-widest">
+          ITINERARY GENERATOR
+        </span>
+        <h2 class="text-4xl sm:text-6xl font-syne font-extrabold text-paper uppercase">
+          Smart Route Planner
+        </h2>
+        <p class="text-sm font-sans text-paper/80 leading-relaxed">
+          Generate an algorithm-optimized time-stamped parikrama itinerary tailored to your starting locality, schedule, and hopping pace.
+        </p>
+      </div>
+
+      <!-- Planner Card (Paper Contrast Styling) -->
+      <div class="editorial-card-paper rounded-lg p-6 sm:p-8 shadow-2xl relative">
+        <form id="itinerary-generator-form" class="space-y-6">
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 font-space text-xs">
+            
+            <div>
+              <label class="block font-mono font-bold text-ink uppercase mb-1.5">Festive Day</label>
+              <select id="plan-day" class="w-full bg-paper-dark border border-ink/30 text-ink rounded px-3 py-2">
+                <option value="Maha Saptami">Maha Saptami</option>
+                <option value="Maha Ashtami" selected>Maha Ashtami (Peak)</option>
+                <option value="Maha Nabami">Maha Nabami</option>
+                <option value="Bijoya Dashami">Bijoya Dashami</option>
+                <option value="Maha Sasthi">Maha Sasthi</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="block font-mono font-bold text-ink uppercase mb-1.5">Target Zone</label>
+              <select id="plan-zone" class="w-full bg-paper-dark border border-ink/30 text-ink rounded px-3 py-2">
+                <option value="All">All Kolkata Grand Tour</option>
+                <option value="North Kolkata">North Kolkata Heritage</option>
+                <option value="South Kolkata" selected>South Kolkata Showcase</option>
+                <option value="Central">Central Kolkata Palace</option>
+                <option value="Salt Lake/East">Salt Lake / East</option>
+                <option value="Howrah">Howrah Riverside</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="block font-mono font-bold text-ink uppercase mb-1.5">Departure</label>
+              <input type="time" id="plan-start-time" value="16:00" class="w-full bg-paper-dark border border-ink/30 text-ink rounded px-3 py-2">
+            </div>
+
+            <div>
+              <label class="block font-mono font-bold text-ink uppercase mb-1.5">Return</label>
+              <input type="time" id="plan-end-time" value="23:30" class="w-full bg-paper-dark border border-ink/30 text-ink rounded px-3 py-2">
+            </div>
+
+            <div>
+              <label class="block font-mono font-bold text-ink uppercase mb-1.5">Pace</label>
+              <select id="plan-pace" class="w-full bg-paper-dark border border-ink/30 text-ink rounded px-3 py-2">
+                <option value="relaxed">Leisurely (70m/pandal)</option>
+                <option value="standard" selected>Standard (45m/pandal)</option>
+                <option value="express">Express (25m/pandal)</option>
+              </select>
+            </div>
+
+          </div>
+
+          <div class="flex flex-col sm:flex-row items-center justify-between gap-4 pt-4 border-t border-ink/15">
+            <span class="text-xs text-ink/70 font-mono">
+              <i class="fa-solid fa-circle-info text-vermilion mr-1"></i> Greedy Nearest-Neighbor Euclidean routing.
+            </span>
+            <button type="submit" class="w-full sm:w-auto px-8 py-3 rounded bg-vermilion hover:bg-vermilion-dark text-paper font-syne font-bold text-xs uppercase tracking-wider transition">
+              <i class="fa-solid fa-sparkles mr-1.5"></i> Generate Route
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <div id="itinerary-results-container" class="space-y-6"></div>
+
+    </section>
+
+    <!-- 6. CULTURAL STORYTELLING SECTION ("PUJA STORIES") -->
+    <section id="cultural-stories" class="space-y-12 pt-8 scroll-mt-28 border-t border-mustard/20">
+      
+      <div class="text-center max-w-3xl mx-auto space-y-2">
+        <span class="px-3 py-1 rounded bg-cobalt text-paper text-xs font-mono font-bold uppercase tracking-widest">
+          DIGITAL MAGAZINE
+        </span>
+        <h2 class="text-4xl sm:text-6xl font-syne font-extrabold text-paper uppercase">
+          Puja Tales & Scenes
+        </h2>
+        <p class="text-sm font-sans text-paper/80 leading-relaxed">
+          Explore narrated visual scenes highlighting clay sculptors, dhunuchi aarti rhythms, street food, and Dashami farewell.
+        </p>
+      </div>
+
+      <!-- 4 Asymmetric Magazine Scenes -->
+      <div class="space-y-16">
+        
+        <!-- Scene 01: Kumartuli -->
+        <article class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center editorial-card-dark p-6 lg:p-8 rounded group">
+          <div class="lg:col-span-7 h-72 lg:h-96 rounded overflow-hidden relative">
+            <img src="assets/art/kumartuli.jpg" alt="Kumartuli Sculptors Painting Goddess Durga Eyes" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+            <span class="absolute top-4 left-4 px-3 py-1 rounded bg-vermilion text-paper text-xs font-mono font-bold">SCENE 01</span>
+          </div>
+          <div class="lg:col-span-5 space-y-4">
+            <span class="text-xs font-mono text-mustard uppercase tracking-widest">ARTISAN QUARTER</span>
+            <h3 class="font-syne font-bold text-3xl lg:text-4xl text-paper group-hover:text-mustard transition">Kumartuli: Sculpting Clay & Soul</h3>
+            <p class="font-serif italic text-sm text-mustard">"Where straw and Ganges silt transform into the Mother of the Universe."</p>
+            <p class="font-sans text-sm text-paper/80 leading-relaxed">
+              In Kumartuli's rustic workshops, master sculptors invoke life into Maa Durga's third eye during <i>Chokhu Daan</i> on Mahalaya dawn — a moment of sacred reverence that initiates Kolkata's festive season.
+            </p>
+            <div class="pt-3 border-t border-mustard/20 text-xs font-mono text-paper/60 flex justify-between">
+              <span>Read Time: 4 mins</span>
+              <span class="text-mustard font-bold">North Kolkata</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Scene 02: Dhunuchi Naach -->
+        <article class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center editorial-card-dark p-6 lg:p-8 rounded group">
+          <div class="lg:col-span-5 space-y-4 order-2 lg:order-1">
+            <span class="text-xs font-mono text-vermilion uppercase tracking-widest">EVENING RITUALS</span>
+            <h3 class="font-syne font-bold text-3xl lg:text-4xl text-paper group-hover:text-mustard transition">Dhunuchi Naach & Rhythmic Frenzy</h3>
+            <p class="font-serif italic text-sm text-mustard">"Fragrant frankincense smoke and hypnotic dhak cadences."</p>
+            <p class="font-sans text-sm text-paper/80 leading-relaxed">
+              As Ashtami evening Aarti echoes across illuminated pandal arches, dancers balance smoking terracotta <i>dhunuchi</i> vessels filled with burning camphor, swaying to thunderous drum rhythms.
+            </p>
+            <div class="pt-3 border-t border-mustard/20 text-xs font-mono text-paper/60 flex justify-between">
+              <span>Read Time: 3 mins</span>
+              <span class="text-mustard font-bold">Ashtami Aarti</span>
+            </div>
+          </div>
+          <div class="lg:col-span-7 h-72 lg:h-96 rounded overflow-hidden relative order-1 lg:order-2">
+            <img src="assets/art/dhunuchi.jpg" alt="Dhunuchi Naach Evening Aarti Ritual" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+            <span class="absolute top-4 left-4 px-3 py-1 rounded bg-terracotta text-paper text-xs font-mono font-bold">SCENE 02</span>
+          </div>
+        </article>
+
+        <!-- Scene 03: Pujor Swad Food -->
+        <article class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center editorial-card-dark p-6 lg:p-8 rounded group">
+          <div class="lg:col-span-7 h-72 lg:h-96 rounded overflow-hidden relative">
+            <img src="assets/art/food.jpg" alt="Kolkata Street Food Stalls" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+            <span class="absolute top-4 left-4 px-3 py-1 rounded bg-leaf text-paper text-xs font-mono font-bold">SCENE 03</span>
+          </div>
+          <div class="lg:col-span-5 space-y-4">
+            <span class="text-xs font-mono text-leaf-light uppercase tracking-widest">HERITAGE FOOD</span>
+            <h3 class="font-syne font-bold text-3xl lg:text-4xl text-paper group-hover:text-mustard transition">Pujor Swad: The Midnight Feast</h3>
+            <p class="font-serif italic text-sm text-mustard">"From crisp Phuchkas to fragrant Ashtami Khichudi Bhog."</p>
+            <p class="font-sans text-sm text-paper/80 leading-relaxed">
+              Midnight pandal hopping is powered by street gastronomy — crisp tangy Phuchkas, hot Kathi rolls, spicy Fish Kabiraji, and kulhad chai under bright hanging festival lights.
+            </p>
+            <div class="pt-3 border-t border-mustard/20 text-xs font-mono text-paper/60 flex justify-between">
+              <span>Read Time: 5 mins</span>
+              <span class="text-mustard font-bold">Gastronomy</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Scene 04: Sindoor Khela -->
+        <article class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center editorial-card-dark p-6 lg:p-8 rounded group">
+          <div class="lg:col-span-5 space-y-4 order-2 lg:order-1">
+            <span class="text-xs font-mono text-blush uppercase tracking-widest">FAREWELL RITUAL</span>
+            <h3 class="font-syne font-bold text-3xl lg:text-4xl text-paper group-hover:text-mustard transition">Bijoya Dashami & Sindoor Khela</h3>
+            <p class="font-serif italic text-sm text-mustard">"A bittersweet celebration of vermilion powder and emotional farewell."</p>
+            <p class="font-sans text-sm text-paper/80 leading-relaxed">
+              On Dashami afternoon, women in white and red-bordered sarees smear scarlet vermilion powder on each other's cheeks before Maa Durga's immersion procession to the Ganges.
+            </p>
+            <div class="pt-3 border-t border-mustard/20 text-xs font-mono text-paper/60 flex justify-between">
+              <span>Read Time: 4 mins</span>
+              <span class="text-mustard font-bold">Bijoya Dashami</span>
+            </div>
+          </div>
+          <div class="lg:col-span-7 h-72 lg:h-96 rounded overflow-hidden relative order-1 lg:order-2">
+            <img src="assets/art/sindoor.jpg" alt="Sindoor Khela Bijoya Dashami" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+            <span class="absolute top-4 left-4 px-3 py-1 rounded bg-vermilion text-paper text-xs font-mono font-bold">SCENE 04</span>
+          </div>
+        </article>
+
+      </div>
+
+      <div id="puja-tales-grid" class="hidden"></div>
+    </section>
+
+    <!-- CITY MAP SECTION -->
+    <section id="city-map-section" class="space-y-6 pt-8 scroll-mt-28 border-t border-mustard/20">
+      <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+        <div>
+          <span class="text-xs font-mono uppercase font-bold text-emerald-400 tracking-widest">GEOGRAPHY</span>
+          <h2 class="text-4xl sm:text-5xl font-syne font-extrabold text-paper uppercase">City Pandal Map</h2>
+        </div>
+        
+        <div class="flex items-center gap-2 text-xs font-mono">
+          <span class="px-2.5 py-1 rounded bg-ink-light border border-mustard/30 text-mustard">● North</span>
+          <span class="px-2.5 py-1 rounded bg-ink-light border border-cobalt/30 text-cobalt">● South</span>
+          <span class="px-2.5 py-1 rounded bg-ink-light border border-vermilion/30 text-vermilion">● Central</span>
+          <span class="px-2.5 py-1 rounded bg-ink-light border border-emerald-500/30 text-emerald-400">● East</span>
+        </div>
+      </div>
+
+      <div class="editorial-card-dark rounded p-3 shadow-2xl overflow-hidden">
+        <div id="city-overview-map" class="w-full h-[450px] sm:h-[550px] rounded z-10"></div>
+      </div>
+    </section>
+
+    <!-- FOOD RADAR HIGHLIGHTS -->
+    <section id="food-radar-highlights" class="space-y-6 pt-8 scroll-mt-28 border-t border-mustard/20">
+      <div class="text-center max-w-3xl mx-auto space-y-2">
+        <span class="px-3 py-1 rounded bg-mustard text-ink text-xs font-mono font-bold uppercase tracking-widest">
+          GASTRONOMY
+        </span>
+        <h2 class="text-4xl sm:text-5xl font-syne font-extrabold text-paper uppercase">Pujor Food Radar</h2>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="editorial-card-dark p-5 rounded group">
+          <div class="flex items-center justify-between mb-3 text-xs font-mono">
+            <span class="px-2 py-0.5 rounded bg-ink text-mustard border border-mustard/30">North</span>
+            <span class="text-mustard font-bold">⭐ 4.9/5</span>
+          </div>
+          <h3 class="font-syne font-bold text-xl text-paper group-hover:text-mustard transition">Mitra Cafe</h3>
+          <p class="text-xs text-paper/70 mt-1 font-sans">Diamond Fish Fry, Brain Chop & Mutton Kabiraji with spicy Kashundi.</p>
+        </div>
+
+        <div class="editorial-card-dark p-5 rounded group">
+          <div class="flex items-center justify-between mb-3 text-xs font-mono">
+            <span class="px-2 py-0.5 rounded bg-ink text-cobalt border border-cobalt/30">Central</span>
+            <span class="text-mustard font-bold">⭐ 5.0/5</span>
+          </div>
+          <h3 class="font-syne font-bold text-xl text-paper group-hover:text-mustard transition">Paramount Sherbets</h3>
+          <p class="text-xs text-paper/70 mt-1 font-sans">Daab Sherbet, Passion Fruit & Malai Kesar beverage institution.</p>
+        </div>
+
+        <div class="editorial-card-dark p-5 rounded group">
+          <div class="flex items-center justify-between mb-3 text-xs font-mono">
+            <span class="px-2 py-0.5 rounded bg-ink text-vermilion border border-vermilion/30">South</span>
+            <span class="text-mustard font-bold">⭐ 5.0/5</span>
+          </div>
+          <h3 class="font-syne font-bold text-xl text-paper group-hover:text-mustard transition">Balaram Mullick</h3>
+          <p class="text-xs text-paper/70 mt-1 font-sans">Baked Rossogolla, Nolen Gur Souffle & Choco Lava Sandesh sweets.</p>
+        </div>
+
+        <div class="editorial-card-dark p-5 rounded group">
+          <div class="flex items-center justify-between mb-3 text-xs font-mono">
+            <span class="px-2 py-0.5 rounded bg-ink text-emerald-400 border border-emerald-500/30">East</span>
+            <span class="text-mustard font-bold">⭐ 4.8/5</span>
+          </div>
+          <h3 class="font-syne font-bold text-xl text-paper group-hover:text-mustard transition">Arsalan Biryani</h3>
+          <p class="text-xs text-paper/70 mt-1 font-sans">Quintessential Kolkata Mutton Dum Biryani cooked with saffron rice.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- PANDAL DETAILS MODAL -->
+  <div id="pandal-details-modal" class="fixed inset-0 z-50 hidden overflow-y-auto bg-ink/90 backdrop-blur-md p-4 sm:p-6 lg:p-10 flex items-center justify-center">
+    <div class="relative w-full max-w-4xl editorial-card-dark rounded border border-mustard/50 shadow-2xl overflow-hidden my-auto">
+      
+      <div class="relative h-56 sm:h-72 overflow-hidden bg-ink">
+        <img id="modal-banner-img" src="" alt="Pandal Banner" class="w-full h-full object-cover opacity-80">
+        <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/60 to-transparent"></div>
+        
+        <button id="close-modal-btn" class="absolute top-4 right-4 w-10 h-10 rounded-full bg-ink/80 hover:bg-vermilion text-mustard border border-mustard/40 flex items-center justify-center transition shadow-lg z-20">
+          <i class="fa-solid fa-xmark text-lg"></i>
+        </button>
+
+        <div class="absolute bottom-4 left-6 right-6 z-10 space-y-1">
+          <div class="flex flex-wrap items-center gap-2">
+            <span id="modal-zone-badge" class="px-3 py-0.5 rounded text-xs font-mono font-bold bg-vermilion text-paper">Zone</span>
+            <span id="modal-metro-pill" class="px-3 py-0.5 rounded text-xs font-mono bg-ink text-mustard border border-mustard/30">
+              <i class="fa-solid fa-train-subway mr-1"></i> Metro
+            </span>
+            <span id="modal-crowd-pill" class="px-3 py-0.5 rounded text-xs font-mono bg-leaf text-paper">Crowd</span>
+          </div>
+          <h2 id="modal-pandal-name" class="text-3xl sm:text-4xl font-syne font-bold text-paper">Pandal Name</h2>
+          <p id="modal-pandal-bengali" class="font-bengali text-sm text-mustard">বাংলা নাম</p>
+        </div>
+      </div>
+
+      <div id="modal-admin-toolbar" class="hidden admin-only-ui bg-ink-light border-b border-mustard/30 px-6 py-2.5 flex flex-wrap items-center justify-between gap-2">
+        <div class="flex items-center gap-2 text-xs font-mono font-bold text-mustard">
+          <i class="fa-solid fa-shield-halved"></i>
+          <span>ADMIN CONTROLS:</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <button id="modal-admin-edit-btn" class="px-3 py-1 rounded bg-ink text-paper text-xs font-bold border border-mustard/30 hover:bg-vermilion">
+            <i class="fa-solid fa-pen-to-square"></i> Edit
+          </button>
+          <button id="modal-admin-food-btn" class="px-3 py-1 rounded bg-ink text-paper text-xs font-bold border border-mustard/30 hover:bg-vermilion">
+            <i class="fa-solid fa-utensils"></i> Add Food
+          </button>
+          <button id="modal-admin-delete-btn" class="px-3 py-1 rounded bg-vermilion text-paper text-xs font-bold hover:bg-vermilion-dark">
+            <i class="fa-solid fa-trash-can"></i> Delete
+          </button>
+        </div>
+      </div>
+
+      <div class="flex items-center overflow-x-auto bg-ink border-b border-mustard/20 px-6 gap-2" id="modal-tabs-nav">
+        <button data-tab="tab-history" class="modal-tab-btn active px-4 py-3 text-xs font-mono font-bold border-b-2 border-mustard text-mustard uppercase">
+          History & Concept
+        </button>
+        <button data-tab="tab-map" class="modal-tab-btn px-4 py-3 text-xs font-mono font-bold border-b-2 border-transparent text-paper/70 hover:text-mustard uppercase">
+          Map & Route
+        </button>
+        <button data-tab="tab-nearby" class="modal-tab-btn px-4 py-3 text-xs font-mono font-bold border-b-2 border-transparent text-paper/70 hover:text-mustard uppercase">
+          Nearby Pandals
+        </button>
+        <button data-tab="tab-food" class="modal-tab-btn px-4 py-3 text-xs font-mono font-bold border-b-2 border-transparent text-paper/70 hover:text-mustard uppercase">
+          Food Radar
+        </button>
+      </div>
+
+      <div class="p-6 max-h-[55vh] overflow-y-auto space-y-6 font-sans" id="modal-tabs-content">
+        
+        <div id="tab-history" class="modal-tab-pane space-y-4">
+          <div>
+            <h4 class="text-xs font-mono font-bold uppercase text-mustard mb-1">Art & Theme Concept</h4>
+            <p id="modal-art-concept" class="text-sm text-paper/90 leading-relaxed"></p>
+          </div>
+
+          <div>
+            <h4 class="text-xs font-mono font-bold uppercase text-mustard mb-1">Heritage Narrative</h4>
+            <p id="modal-history" class="text-sm text-paper/90 leading-relaxed"></p>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2">
+            <div class="bg-ink p-3 rounded border border-mustard/20">
+              <div class="text-[10px] font-mono text-paper/60 uppercase">Idol Sculptor</div>
+              <div id="modal-sculptor" class="text-xs font-bold text-paper mt-0.5">Kumartuli Master</div>
+            </div>
+            <div class="bg-ink p-3 rounded border border-mustard/20">
+              <div class="text-[10px] font-mono text-paper/60 uppercase">Lighting</div>
+              <div id="modal-lighting" class="text-xs font-bold text-paper mt-0.5">Chandannagar Special</div>
+            </div>
+            <div class="bg-ink p-3 rounded border border-mustard/20">
+              <div class="text-[10px] font-mono text-paper/60 uppercase">Established</div>
+              <div id="modal-established" class="text-xs font-bold text-mustard mt-0.5 font-mono">1950</div>
+            </div>
+          </div>
+
+          <div>
+            <h4 class="text-xs font-mono font-bold uppercase text-mustard mb-2">Highlights</h4>
+            <div id="modal-highlights-container" class="flex flex-wrap gap-2"></div>
+          </div>
+        </div>
+
+        <div id="tab-map" class="modal-tab-pane hidden space-y-4">
+          <div class="flex items-center justify-between text-xs text-paper/80">
+            <div id="modal-address" class="flex items-center gap-1.5">
+              <i class="fa-solid fa-location-dot text-vermilion"></i> Address
+            </div>
+            <a id="modal-gmaps-link" href="#" target="_blank" rel="noopener noreferrer" class="text-mustard font-bold hover:underline">
+              Open Google Maps <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+            </a>
+          </div>
+
+          <div class="h-64 rounded overflow-hidden border border-mustard/30 relative">
+            <div id="modal-leaflet-map" class="w-full h-full z-10"></div>
+          </div>
+
+          <div class="p-3 bg-ink rounded border border-mustard/20 text-xs text-paper/80 font-mono">
+            <div class="font-bold text-mustard">Transit Advisory:</div>
+            <div id="modal-transit-advisory">Nearest Metro station connects with shared autos and walking lanes.</div>
+          </div>
+        </div>
+
+        <div id="tab-nearby" class="modal-tab-pane hidden space-y-4">
+          <div id="modal-nearby-list" class="grid grid-cols-1 sm:grid-cols-3 gap-3"></div>
+        </div>
+
+        <div id="tab-food" class="modal-tab-pane hidden space-y-4">
+          <div id="modal-food-list" class="grid grid-cols-1 sm:grid-cols-3 gap-3"></div>
+        </div>
+
+      </div>
+
+      <div class="px-6 py-4 bg-ink border-t border-mustard/20 flex flex-wrap items-center justify-between gap-3">
+        <div class="flex items-center gap-2 text-xs text-paper/70 font-mono">
+          <i class="fa-solid fa-ticket text-mustard"></i>
+          <span id="modal-entry-fee">Free Community Access</span>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <button id="modal-bookmark-btn" class="px-4 py-2 rounded bg-ink-light hover:bg-ink text-mustard font-bold text-xs border border-mustard/30 transition flex items-center gap-1.5">
+            <i class="fa-regular fa-bookmark"></i>
+            <span>Add to Route</span>
+          </button>
+          <button id="modal-close-footer-btn" class="px-4 py-2 rounded bg-vermilion hover:bg-vermilion-dark text-paper font-bold text-xs transition">
+            Close
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- AUTH MODAL -->
+  <div id="auth-modal" class="fixed inset-0 z-50 hidden overflow-y-auto bg-ink/90 backdrop-blur-md p-4 flex items-center justify-center">
+    <div class="relative w-full max-w-md editorial-card-dark rounded border border-mustard/40 shadow-2xl p-6 space-y-5">
+      <div class="flex items-center justify-between border-b border-mustard/20 pb-3">
+        <h3 id="auth-modal-title" class="text-xl font-syne font-bold text-paper flex items-center gap-2">
+          <i class="fa-solid fa-user-shield text-mustard"></i> Sign In to Account
+        </h3>
+        <button id="close-auth-modal-btn" class="w-8 h-8 rounded-full bg-ink-light text-mustard flex items-center justify-center hover:bg-vermilion transition">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <form id="email-auth-form" class="space-y-4">
+        <div>
+          <label class="block text-xs font-mono font-semibold text-paper/80 mb-1" for="auth-email">Email</label>
+          <input id="auth-email" type="email" class="w-full bg-ink border border-mustard/30 text-paper rounded px-3 py-2 text-sm" placeholder="name@example.com" required />
+        </div>
+        <div>
+          <label class="block text-xs font-mono font-semibold text-paper/80 mb-1" for="auth-password">Password</label>
+          <input id="auth-password" type="password" class="w-full bg-ink border border-mustard/30 text-paper rounded px-3 py-2 text-sm" required />
+        </div>
+        <button type="submit" class="w-full px-4 py-2.5 rounded bg-vermilion text-paper font-syne font-bold text-xs uppercase tracking-wider">Sign In</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ========================================== -->
+  <!-- 7. DISTINCTIVE FOOTER DESIGN -->
+  <!-- ========================================== -->
+  <footer class="relative z-10 bg-ink border-t border-mustard/30 text-paper/80 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+      
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        
+        <div class="space-y-4 md:col-span-2">
+          <div class="flex items-center gap-3">
+            <div class="w-9 h-9 rounded bg-vermilion flex items-center justify-center">
+              <svg class="w-5 h-5 text-paper" viewBox="0 0 100 100" fill="currentColor">
+                <circle cx="50" cy="50" r="14" fill="#E5B344"/>
+                <circle cx="50" cy="50" r="6" fill="#D84430"/>
+              </svg>
+            </div>
+            <span class="font-syne font-extrabold text-2xl text-paper">PUJA PARIKRAMA 2026</span>
+          </div>
+          <p class="text-xs text-paper/70 font-sans leading-relaxed max-w-md">
+            An independent digital celebration of Kolkata's Durga Puja — UNESCO Intangible Cultural Heritage of Humanity.
+          </p>
+        </div>
+
+        <div class="space-y-3 font-space text-xs">
+          <h4 class="font-mono font-bold uppercase text-mustard">Navigation</h4>
+          <ul class="space-y-2">
+            <li><a href="#pandals-directory" class="hover:text-mustard">Directory</a></li>
+            <li><a href="#smart-planner" class="hover:text-mustard">Route Planner</a></li>
+            <li><a href="#cultural-stories" class="hover:text-mustard">Tales & Scenes</a></li>
+            <li><a href="#food-radar-highlights" class="hover:text-mustard">Food Radar</a></li>
+            <li><a href="#city-map-section" class="hover:text-mustard">City Map</a></li>
+          </ul>
+        </div>
+
+        <div class="space-y-3 font-space text-xs">
+          <h4 class="font-mono font-bold uppercase text-mustard">Heritage Zones</h4>
+          <ul class="space-y-2">
+            <li><span>North Kolkata (Sovabazar, Bagbazar)</span></li>
+            <li><span>South Kolkata (Chetla, Suruchi, Maddox)</span></li>
+            <li><span>Central Kolkata (College Sq, Md Ali Park)</span></li>
+            <li><span>Salt Lake / East (Sree Bhumi, FD Block)</span></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="pt-8 border-t border-mustard/20 text-center space-y-2">
+        <p class="font-serif italic text-xl text-mustard">
+          "Every street has a story. Every pandal has a soul."
+        </p>
+        <p class="text-[11px] font-mono text-paper/50">
+          Kolkata Durga Puja 2026 Guide • Digital Creative Studio Edition.
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- App Main Scripts -->
+  <script type="module" src="js/app.js"></script>
+
+</body>
+</html>
